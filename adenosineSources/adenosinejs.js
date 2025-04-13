@@ -23,14 +23,14 @@ $(document).ready(function () {
     } else if (unit === "lbs") {
       console.log("Weight in lbs:", weightInput);
       weightInput = weightInput / 2.20462;
-      weightInput = parseFloat(weightInput.toFixed(1));
+      weightInput = parseFloat(weightInput.toFixed(2));
       console.log("Converted weight to kg:", weightInput);
     }
 
     const dosagePerKg = 0.1;
     let dosage = weightInput * dosagePerKg;
     console.log("Calculated dosage:", dosage);
-    console.log(`Recommended dosage: ${dosage.toFixed(1)} mg`);
+    console.log(`Recommended dosage: ${dosage.toFixed(2)} mg`);
 
     if (dosage > 6) {
       console.log("Warning: Dosage exceeds recommended maximum of 6 mg.");
@@ -58,7 +58,7 @@ $(document).ready(function () {
     $("#result")
       .html(
         `
-      <strong>Recommended Initial Dose:</strong><br> ${dosage.toFixed(1)} mg<br>
+      <strong>Recommended Initial Dose:</strong><br> ${dosage.toFixed(2)} mg<br>
       <small>(Weight in kg: ${weightInput.toFixed(
         2
       )} × 0.1 mg/kg)<br>Maximum Pediatric Initial Dose 6 mg</small>
@@ -67,7 +67,7 @@ $(document).ready(function () {
           2
         )} mg<br>
         <small>(Weight in kg: ${weightInput.toFixed(
-          1
+          2
         )} × 0.2 mg/kg)<br>Maximum Pediatric Repeat Dose 12 mg</small>
         <br><br>
         <strong>Volume to Administer:</strong><br>For a solution of 3 mg per 1 ml<br> Initial Dose: ${volumeML.toFixed(
