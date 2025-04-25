@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-size: 15%;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: none;
+}
+
+.header,
+.facts-container,
+.dosage-container {
+  background-image: linear-gradient(to right, skyblue, cornflowerblue);
+  border-radius: 15px;
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.8s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.header:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: slategray;
+  margin: 0.5em 0;
+  text-align: center;
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+h2 {
+  color: slategray;
+  text-align: center;
+  margin: 20px 0;
+  cursor: default;
+}
+h3 {
+  color: darkslategray;
+  text-align: center;
+  margin: 10px 0;
+  cursor: default;
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+p {
+  color: slategray;
+  text-align: center;
+  margin: 10px 0;
+  cursor: default;
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+/* ========== Responsive Layout ========== */
+
+@media (min-width: 768px) {
+  .header,
+  .facts-container,
+  .dosage-container {
+    width: 75%;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-image: linear-gradient(to right, skyblue, cornflowerblue);
+  color: white;
+  border-radius: 5px;
+  margin: 20px auto;
+}
