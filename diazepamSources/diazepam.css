@@ -98,3 +98,11 @@ footer {
   border-radius: 5px;
   margin: 20px auto;
 }
+
+.pediatric-only {
+  display: none;
+}
+
+.agerange-only {
+  display: none;
+}

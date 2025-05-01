@@ -45,7 +45,33 @@
         </label>
         <br />
         <br />
+        <label class="pediatric-only">
+          <input type="radio" name="individualProtocol" value="pediEnvironment" checked />
+          Shivering (Hyperthermia)
+        </label><br>
+        <label class="pediatric-only">
+          <input type="radio" name="individualProtocol" value="seizureRectal" />
+          Rectal Valium (Seizures)
+        </label><br>
+        <label class="pediatric-only">
+          <input type="radio" name="individualProtocol" value="seizureIV" />
+          IV Valium (Seizures)
+        </label>
+
+<br><br>
+        <label class="agerange-only">
+          <input type="radio" name="age" value="lessThanFive" checked />
+          Less than 5 years old
+        </label><br>
+        <label class="agerange-only">
+          <input type="radio" name="age" value="GreaterThanFive" />
+          Greater or equal to 5 years old
+        </label>
+
+        <br><br>
+
         <button id="calculateDosage">Calculate Dosage</button>
+
       </p>
 
       <p id="result" class="result" style="display: none">
