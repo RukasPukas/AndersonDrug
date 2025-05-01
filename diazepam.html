@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diazepam Dosaging</title>
+    <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="diazepamSources/diazepam.css" />
+  </head>
+  <body>
+    <a href="index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Drug Dosages</h1>
+      </div>
+    </a>
+
+    <h2>Diazepam</h2>
+
+    <div class="dosage-container">
+      <h3>Dosage:</h3>
+
+      <p>
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="Adult" checked />
+          Adult
+        </label>
+        <label>
+          <input type="radio" name="protocol" value="Child" />
+          Pediatric
+        </label>
+        <br />
+        <br />
+        <button id="calculateDosage">Calculate Dosage</button>
+      </p>
+
+      <p id="result" class="result" style="display: none">
+        <!-- Result will be displayed here -->
+      </p>
+    </div>
+
+    <div class="facts-container">
+      <h3>Indications:</h3>
+      <p>
+        For use in agitated or violent patients, as well as for the management
+        of seizures
+      </p>
+
+      <h3>Protocols:</h3>
+      <p>
+        Seizure/Status Epilepticus;<br />
+        Chest Pain/Acute Coronary Syndrome/STEMI;<br />
+        Environmental Hyperthermia<br />Pediatric Environmental Hyperthermia;
+        <br />Pediatric Seizures
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="diazepamSources/diazepam.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
