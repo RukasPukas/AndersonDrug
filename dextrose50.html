@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dextrose 50% Dosaging</title>
+    <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="dextrose50Sources/dextrose50.css" />
+  </head>
+  <body>
+    <a href="index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Drug Dosages</h1>
+      </div>
+    </a>
+
+    <h2>Dextrose 50%</h2>
+
+    <div class="dosage-container">
+      <h3>Adult Dosage:</h3>
+      <p>
+        <strong>25 grams IV</strong><br /><br />
+        <i
+          ><small
+            >If uncertainty arises, consult Anderson Protocols or contact
+            Medical Control. Always check dosages and concentrations prior to
+            administration.</small
+          ></i
+        >
+      </p>
+      <h3>Pediatric Dosage:</h3>
+      <p>
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <br />
+        <br />
+        <button id="calculateDosage">Calculate Dosage</button>
+      </p>
+
+      <p id="result" class="result" style="display: none">
+        <!-- Result will be displayed here -->
+      </p>
+    </div>
+
+    <div class="facts-container">
+      <h3>Indications:</h3>
+      <p>
+        Hypoglycemia, altered level of consciousness, coma of unknown origin,
+        seizure of unknown origin, status epilepticus
+      </p>
+
+      <h3>Protocols:</h3>
+      <p>
+        Altered Mental Status; Diabetic Emergencies-Hypoglycemia;Pediatric
+        Seizures
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="dextrose50Sources/dextrose50.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
