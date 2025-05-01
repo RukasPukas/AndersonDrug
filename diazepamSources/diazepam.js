@@ -27,59 +27,53 @@ $(document).ready(function () {
       console.log("Converted weight to kg:", weightInput);
     }
 
-    const dosagePerKg = 0.1;
-    let dosage = weightInput * dosagePerKg;
-    console.log("Calculated dosage:", dosage);
-    console.log(`Recommended dosage: ${dosage.toFixed(2)} mg`);
+    //END OF WEIGHT GATHERING INFORMATION
 
-    if (dosage > 6) {
-      console.log("Warning: Dosage exceeds recommended maximum of 6 mg.");
-      dosage = 6;
-      console.log("Adjusted dosage to maximum:", dosage);
-    }
+    const adultorped = $('input[name="protocol"]:checked').val();
 
-    const volumeML = dosage / 3;
-    console.log(`Recommended volume: ${volumeML.toFixed(2)} mL`);
+    //ADULT SECTION
 
-    const repeatDosagePerKg = 0.2;
-    let repeatDosage = weightInput * repeatDosagePerKg;
-    console.log("Calculated repeat dosage:", repeatDosage);
-    if (repeatDosage > 12) {
-      console.log(
-        "Warning: Repeat dosage exceeds recommended maximum of 12 mg."
-      );
-      repeatDosage = 12;
-      console.log("Adjusted repeat dosage to maximum:", repeatDosage);
-    }
+    if (adultorped === "Adult") {
+      console.log("Adult Protocols selected.");
+      const adultDosage = 0.1; // mg/kg, max 5mg, may repeat once in 5 minutes
 
-    const repeatVolumeML = repeatDosage / 3;
-    console.log(`Recommended repeat volume: ${repeatVolumeML.toFixed(2)} mL`);
+      let adultDosageFinal = weightInput * adultDosage;
+      console.log("Adult dosage before max check:", adultDosageFinal);
+      if (adultDosageFinal > 5) {
+        adultDosageFinal = 5;
+        console.log("Adult dosage after max check:", adultDosageFinal);
+      }
 
-    $("#result")
-      .html(
-        `
-        <strong>Recommended Initial Dose:</strong><br> ${dosage.toFixed(
+      $("#result")
+        .html(
+          `
+          <h2><u>Adult Dosage:</u></h2>
+          <h3>Seizure/Status Epilepticus;<br>ChestPain<br>Acute Coronary Syndrome<br>Stemi;<br>Environmental Hyperthermia;</h3>
+        <strong>Recommended Initial Dose:<br><br> ${adultDosageFinal.toFixed(
           2
-        )} mg<br>
-        <small>(Weight in kg: ${weightInput.toFixed(
+        )} mg</strong><br><br>
+        <small>(METHOD: Weight in kg: ${weightInput.toFixed(
           2
-        )} × 0.1 mg/kg)<br>Maximum Pediatric Initial Dose 6 mg</small>
+        )} × 0.1 mg/kg)<br>Maximum Single Dose of 5 mg</small>
           <br><br>
-          <strong>Recommended Repeat Dose:</strong><br> ${repeatDosage.toFixed(
+          <strong>Recommended Repeat Dose:<br> <i><u>(If needed)</i></u></strong><br><br><strong> ${adultDosageFinal.toFixed(
             2
-          )} mg<br>
-          <small>(Weight in kg: ${weightInput.toFixed(
-            2
-          )} × 0.2 mg/kg)<br>Maximum Pediatric Repeat Dose 12 mg</small>
-          <br><br>
-          <strong>Volume to Administer:</strong><br>For a solution of 3 mg per 1 ml<br> Initial Dose: ${volumeML.toFixed(
-            2
-          )} mL<br>
-          Repeat Dose: ${repeatVolumeML.toFixed(2)} mL
-          <br><br>
-          <small>Note: Always ensure amounts are accurate prior to administration, consult Anderson Protocols or medical control prior to administration if uncertainty exists.</small>
+          )} mg<br><br><small>After </strong>5 minutes from initial administration.</small>
+           <p>        <i
+            ><small
+              >If uncertainty arises, consult Anderson Protocols or contact
+              Medical Control. Always check dosages and concentrations prior to
+              administration.</small
+            ></i
+          >
+        </p>
+
       `
-      )
-      .fadeIn(200);
+        )
+        .fadeIn(200);
+    }
+
+    //END OF ADULT SECTION
+    //PEDIATRIC SECTION
   });
 });
