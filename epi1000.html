@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epi 1:1000 Dosaging</title>
+    <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="epi1000Sources/epi1000.css" />
+  </head>
+  <body>
+    <a href="index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Drug Dosages</h1>
+      </div>
+    </a>
+
+    <h2>Epinephrine 1:1,000</h2>
+
+    <div class="dosage-container">
+      <h3>Adult Dosage:</h3>
+      <p><strong><u>Allergic Reaction / Anaphylaxis: </u></strong><br><br>0.3-0.5mg Epinephrine (1:1,000) <strong>IM</strong> every 5-15 minutes <br><strong>(Max 3 doses)</strong><br><br><strong><u>Bronchospasm / Asthma / COPD:</strong>
+      </u> <br><br>0.3-0.5mg (1:1,000) <strong>IM</strong> <br><small>(Contact medical control for repeat dosaging instructions)</small><br><br>
+        
+        <i
+        ><small
+          >If uncertainty arises, consult Anderson Protocols or contact
+          Medical Control. Always check dosages and concentrations prior to
+          administration.</small
+        ></i
+      ></p>
+      <h3>Pediatric Dosage:</h3>
+      <p>
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <br />
+        <br />
+        <button id="calculateDosage">Calculate Dosage</button>
+        <br>
+        <p id="result" class="result" style="display: none">
+            <!-- Result will be displayed here -->
+        </p>
+        
+        
+
+    </div>
+
+    <div class="facts-container">
+      <h3>Indications:</h3>
+      <p>Allergic Reaction / Anaphylaxis / Bronchospasm / Asthma / COPD / Pediatric Respiratory Distress</p>
+      <h3>Protocols:</h3>
+      <p><strong>
+        Allergic Reaction / Anaphylaxis;<br>
+        Bronchospasm / Asthma / COPD;<br>
+        Pediatric Respiratory Distress;
+    </strong>
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="epi1000Sources/epi1000.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
