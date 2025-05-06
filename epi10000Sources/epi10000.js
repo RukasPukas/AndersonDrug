@@ -26,19 +26,25 @@ $(document).ready(function () {
       let dosage = weightInput * epidosekg;
       console.log("Calculated dosage (mg):", dosage);
   
-      if (dosage > 0.3) {
-        dosage = 0.3;
-        console.log("Capped dosage at 0.3 mg:", dosage);
+      if (dosage > 1) {
+        dosage = 1;
+        console.log("Capped dosage at 1 mg:", dosage);
       }
+
+      let volume = dosage / 0.1;
+      console.log("Calculated volume (ml):", volume);
   
       $("#result")
         .html(
           `
-        <strong>Allergic Reaction / Anaphylaxis</strong><br><u><i><small>ALS PROVIDERS ONLY</small></u></i><br><br>
-        Recommended Dose: <br><strong>${dosage.toFixed(2)}mg IM (1:1,000)</strong><br><br>Recommended Volume: <br><strong>${dosage.toFixed(2)}ml IM (1:1,000)12</strong>
-        <br><br><small>Every 5-15 minutes as needed (max 3 doses)</small><br><br>
+        <strong>Cardiac Arrest-(Asystole/PEA); Bradycardia; Neonatal
+        Resuscitation; Cardiac Arrest-(V-Fib/Pulseless V-Tach)</strong>
+        <br><br>
+        Recommended Dose: <br><br><strong>${dosage.toFixed(2)}mg IV/IO (1:10,000)</strong><br><br>Recommended Volume: <br><small>(If concentration is 0.1mg/ml)</small><br><br>
+        <strong>${volume.toFixed(2)}ml IV/IO (1:10,000)</strong>
+        <br><br><strong>Every 3-5 minutes as long as patient remains pulseless</strong><br><br>
         <small>Weight in kg: ${weightInput.toFixed(2)} × 0.01 mg/kg<br>
-        Max Single Dose: 0.3 mg IM</small><br><br>
+        Max Single Dose: 1mg IV/IO</small><br><br> 
         <small>Note: Always ensure amounts are accurate prior to administration. 
         Consult Anderson Protocols or Medical Control if uncertainty exists.</small>
       `
