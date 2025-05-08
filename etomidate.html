@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epi 1:10,000 Dosaging</title>
+    <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="etomidateSources/etomidate.css" />
+  </head>
+  <body>
+    <a href="index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Drug Dosages</h1>
+      </div>
+    </a>
+
+    <h2>Etomidate</h2>
+
+    <div class="dosage-container">
+      <h3>Adult Dosage:</h3>
+
+      <p>
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="intubation" checked />
+          Assisted Intubation
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="cardioversion" />
+          Synchronized Cardioversion
+        </label>
+        <br />
+        <br />
+        <button id="calculateDosage">Calculate Dosage</button>
+      </p>
+
+      <br />
+      <p id="result" class="result" style="display: none">
+        <!-- Result will be displayed here -->
+      </p>
+
+      <h3>Pediatric Dosage:</h3>
+      <p>
+        <strong>Not indicated for pediatric patients.</strong>
+      </p>
+    </div>
+
+    <div class="facts-container">
+      <h3>Indications:</h3>
+      <p>
+        Anesthesia for orotracheal intubation; procedural sedation (e.g.
+        synchronized cardioversion).
+      </p>
+      <h3>Protocols:</h3>
+      <p>
+        <strong>
+          Assisted (Medication) Intubation;<br />
+          Tachycardia (synchronized cardioversion);
+        </strong>
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="etomidateSources/etomidate.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
