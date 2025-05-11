@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Etomidate Dosaging</title>
+    <title>Fentanyl</title>
     <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
-    <link rel="stylesheet" href="etomidateSources/etomidate.css" />
+    <link rel="stylesheet" href="fentanylSources/fentanyl.css" />
   </head>
   <body>
     <a href="index.html" class="header-link">
@@ -14,7 +14,7 @@
       </div>
     </a>
 
-    <h2>Etomidate</h2>
+    <h2>Fentanyl</h2>
 
     <div class="dosage-container">
       <h3>Adult Dosage:</h3>
@@ -35,21 +35,52 @@
         </label>
         <br />
         <br />
+
+        <!-- End weight gathering-->
+        <!-- BEGIN AGE Gathering-->
+        <strong><u>Age</u></strong>
+        <br />
+        <br />
         <label>
-          <input type="radio" name="protocol" value="intubation" checked />
-          Assisted Intubation
+          <input type="radio" name="Age" value="G75" checked />
+          Greater Than 75
         </label>
         <br />
+        <br />
         <label>
-          <input type="radio" name="protocol" value="cardioversion" />
-          Synchronized Cardioversion
+          <input type="radio" name="Age" value="L75" />
+          75 or Less
+        </label>
+        <br /><br />
+
+        <!-- END AGE Gathering-->
+        <!-- BEGIN Protocol Gathering-->
+        <strong><u>Protocol</u></strong>
+        <br /><br />
+
+        <label>
+          <input type="radio" name="protocol" value="PainManagement" checked />
+          Pain Management
         </label>
         <br />
         <br />
+        <label>
+          <input type="radio" name="protocol" value="PostIntubation" />
+          Post Intubation
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="ChestPain" />
+          Chest Pain
+        </label>
+        <br /><br />
+
         <button id="calculateDosage">Calculate Dosage</button>
       </p>
 
       <br />
+
       <p id="result" class="result" style="display: none">
         <!-- Result will be displayed here -->
       </p>
@@ -62,21 +93,20 @@
 
     <div class="facts-container">
       <h3>Indications:</h3>
-      <p>
-        Anesthesia for orotracheal intubation; procedural sedation (e.g.
-        synchronized cardioversion).
-      </p>
+      <p>Pain management, anesthesia adjunct</p>
       <h3>Protocols:</h3>
       <p>
         <strong>
-          Assisted (Medication) Intubation;<br />
-          Tachycardia (synchronized cardioversion);
+          Pain Management;<br />
+          Assisted (Medication) Intubation-post intubation;<br />
+          Chest Pain;<br />
+          Pediatric Pain Management (Contact Medical Control);
         </strong>
       </p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="etomidateSources/etomidate.js"></script>
+    <script src="fentanylSources/fentanyl.js"></script>
   </body>
   <footer>
     <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
