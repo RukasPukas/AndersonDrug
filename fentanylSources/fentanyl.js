@@ -125,5 +125,169 @@ $(document).ready(function () {
         )
         .fadeIn(200);
     }
+    // Less than 75 Pain management END
+
+    // More than 75 Pain management Begin
+    if (agerange === "G75" && protocol === "PainManagement") {
+      console.log("Selected protocol: Pain Management for age range G75");
+      dosagePerKg = 0.5 * weightInput;
+      console.log("Dosage per kg:", dosagePerKg);
+
+      if (dosagePerKg > 50) {
+        dosagePerKg = 50;
+        console.log("Dosage per kg capped at 50mcg");
+      }
+      volume = dosagePerKg / 50;
+
+      console.log("Initial Volume to administer:", volume);
+
+      repeatDose = 0.5 * weightInput;
+      console.log("Repeat dose:", repeatDose);
+
+      if (repeatDose > 25) {
+        repeatDose = 25;
+        console.log("Repeat dose capped at 25mcg");
+      }
+      repeatVolume = repeatDose / 50;
+      console.log("Repeat volume:", repeatVolume);
+
+      $("#result")
+        .html(
+          `
+          <h2>Fentanyl <br><br> Pain Management <br><br><i> Greater than 75 YOA</i></h2>
+          <p>
+            <strong><u>Initial Dose:</u></strong>
+            <br>
+            <br>
+            <strong> ${dosagePerKg.toFixed(2)}mcg </strong>
+             <br>
+             <small>Slow IV Push 
+             <br>
+             (Over 2-3 Minutes)</small>
+             <br>
+             <br>
+            <small>Method: 0.5mcg x ${weightInput}kg<br>(Max 50mcg)</small>
+            <br>
+            <br>
+            <strong><u>Initial Volume To Administer: </u></strong>
+            <br>
+            <br>
+            <strong> ${volume.toFixed(2)}mL </strong>
+            <br>
+            <small>(For concentrations of 50mcg/mL)</small>
+            <br>
+            <br>
+            <strong><u>Repeat Dose:</u></strong>
+            <br>
+            <br>
+            <strong> ${repeatDose.toFixed(2)}mcg </strong>
+                      <br><small> Slow IV Push 
+            <br>
+            (Over 2-3 Minutes)
+            <br>
+            (10-15 Minutes After Initial Dose)</small>
+            <br>
+            <br>
+            <small>Method: 0.5mcg x ${weightInput}kg<br>(Max 25mcg)</small>
+            <br>
+            <br>
+            <strong><u>Repeat Volume To Administer:</u></strong>
+            <br>
+            <br>
+             <strong> ${repeatVolume.toFixed(2)}mL </strong>
+            <br>
+            <small>(For concentrations of 50mcg/mL)</small>
+            <br>
+            <br>
+            <i><small>
+              If uncertainty arises, consult Anderson Protocols or contact
+              Medical Control. Always check dosages and concentrations prior to
+              administration.
+            </small></i>
+            </p>
+          `
+        )
+        .fadeIn(200);
+    }
+    // More than 75 Pain management END
+
+    //Assisted Medication post intubation begin
+    if (protocol === "PostIntubation") {
+      console.log("Selected protocol: Post Intubation");
+      dosagePerKg = 1 * weightInput;
+      console.log("Dosage per kg:", dosagePerKg);
+
+      if (dosagePerKg > 100) {
+        dosagePerKg = 100;
+        console.log("Dosage per kg capped at 100mcg");
+      }
+      volume = dosagePerKg / 50;
+
+      console.log("Initial Volume to administer:", volume);
+
+      repeatDose = 0.5 * weightInput;
+      console.log("Repeat dose:", repeatDose);
+
+      if (repeatDose > 50) {
+        repeatDose = 50;
+        console.log("Repeat dose capped at 50mcg");
+      }
+      repeatVolume = repeatDose / 50;
+      console.log("Repeat volume:", repeatVolume);
+
+      $("#result")
+        .html(
+          `
+          <h2>Fentanyl <br><br> Post Intubation <br><br><i> Assisted Medication</i></h2>
+          <p>
+            <strong><u>Initial Dose:</u></strong>
+            <br>
+            <br>
+            <strong> ${dosagePerKg.toFixed(2)}mcg </strong>
+             <br>
+             <br>
+            <small>Method: 1mcg x ${weightInput}kg<br>(Max 100mcg)</small>
+            <br>
+            <br>
+            <strong><u>Initial Volume To Administer: </u></strong>
+            <br>
+            <br>
+            <strong> ${volume.toFixed(2)}mL </strong>
+            <br>
+            <small>(For concentrations of 50mcg/mL)</small>
+            <br>
+            <br>
+            <strong><u>Repeat Dose:</u></strong>
+            <br>
+            <br>
+            <strong> ${repeatDose.toFixed(2)}mcg </strong>
+            <br>
+            <small>
+            (Every 3-5 Minutes As Needed)
+            <br>
+            (Maximum Aloquets of 50mcg)</small>
+            <br>
+            <br>
+            <small>Method: 0.5mcg x ${weightInput}kg<br>(Max 50mcg)</small>
+            <br>
+            <br>
+             <strong><u>Repeat Volume:</u>
+             <br>
+             <br>
+             ${repeatVolume.toFixed(2)}mL </strong>
+            <br>
+            <small>(For concentrations of 50mcg/mL)</small>
+            <br>
+            <br>
+            <i><small>
+              If uncertainty arises, consult Anderson Protocols or contact
+              Medical Control. Always check dosages and concentrations prior to
+              administration.
+            </small></i>
+            </p>
+          `
+        )
+        .fadeIn(200);
+    }
   });
 });
