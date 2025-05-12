@@ -238,7 +238,7 @@ $(document).ready(function () {
       $("#result")
         .html(
           `
-          <h2>Fentanyl <br><br> Post Intubation <br><br><i> Assisted Medication</i></h2>
+          <h1>Fentanyl</h1><h2><u>Assisted Intubation</u></h2>
           <p>
             <strong><u>Initial Dose:</u></strong>
             <br>
@@ -249,7 +249,7 @@ $(document).ready(function () {
             <small>Method: 1mcg x ${weightInput}kg<br>(Max 100mcg)</small>
             <br>
             <br>
-            <strong><u>Initial Volume To Administer: </u></strong>
+            <strong><u>Volume To Administer: </u></strong>
             <br>
             <br>
             <strong> ${volume.toFixed(2)}mL </strong>
@@ -257,7 +257,10 @@ $(document).ready(function () {
             <small>(For concentrations of 50mcg/mL)</small>
             <br>
             <br>
-            <strong><u>Repeat Dose:</u></strong>
+            </p>
+            <h2><u>Post Intubation</u></h2>
+            <p>
+            <strong><u>Dose:</u></strong>
             <br>
             <br>
             <strong> ${repeatDose.toFixed(2)}mcg </strong>
@@ -286,6 +289,120 @@ $(document).ready(function () {
             </small></i>
             </p>
           `
+        )
+        .fadeIn(200);
+    }
+    // Assisted Medication post intubation end
+    //Chest Pain Management begin <75
+
+    if (protocol === "ChestPain" && agerange === "L75") {
+      console.log("Selected protocol: Chest Pain Management for age range L75");
+      dosagePerKg = 1 * weightInput;
+      console.log("Dosage per kg:", dosagePerKg);
+
+      if (dosagePerKg > 100) {
+        dosagePerKg = 100;
+        console.log("Dosage per kg capped at 100mcg");
+      }
+      volume = dosagePerKg / 50;
+
+      console.log("Initial Volume to administer:", volume);
+
+      $("#result")
+        .html(
+          `
+          <h2>Fentanyl <br><br> Chest Pain Management <br><br><i> 75 YOA and Less</i></h2>
+          <p>
+            <strong><u>Initial Dose:</u></strong>
+            <br>
+            <br>
+            <strong> ${dosagePerKg.toFixed(2)}mcg </strong>
+             <br>
+             <small>Slow IV Push 
+             <br>
+             (Over 2 Minutes)</small>
+             <br>
+             <br>
+            <small>Method: 1mcg x ${weightInput}kg<br>(Max 100mcg)</small>
+            <br>
+            <br>
+            <strong><u>Initial Volume To Administer: </u></strong>
+            <br>
+            <br>
+            <strong> ${volume.toFixed(2)}mL </strong>
+            <br>
+            <small>(For concentrations of 50mcg/mL)</small>
+            <br>
+            <br>
+            <strong><u>Repeat Dose:</u></strong>
+            <br>
+            <br>
+            <strong> CONTACT MEDICAL CONTROL FOR ADDITIONAL DOSAGE</strong>
+            <br>
+            <br>
+            <i><small>
+              If uncertainty arises, consult Anderson Protocols or contact
+              Medical Control. Always check dosages and concentrations prior to
+              administration.
+            </small></i>
+            </p>
+            `
+        )
+        .fadeIn(200);
+    }
+    //Chest Pain Management END <75
+    //Chest Pain Management begin >75
+    if (protocol === "ChestPain" && agerange === "G75") {
+      console.log("Selected protocol: Chest Pain Management for age range G75");
+      dosagePerKg = 0.5 * weightInput;
+      console.log("Dosage per kg:", dosagePerKg);
+
+      if (dosagePerKg > 50) {
+        dosagePerKg = 50;
+        console.log("Dosage per kg capped at 50mcg");
+      }
+      volume = dosagePerKg / 50;
+
+      console.log("Initial Volume to administer:", volume);
+
+      $("#result")
+        .html(
+          `
+          <h2>Fentanyl <br><br> Chest Pain Management <br><br><i> Greater than 75 YOA</i></h2>
+          <p>
+            <strong><u>Initial Dose:</u></strong>
+            <br>
+            <br>
+            <strong> ${dosagePerKg.toFixed(2)}mcg </strong>
+             <br>
+             <small>Slow IV Push 
+             <br>
+             (Over 2 Minutes)</small>
+             <br>
+             <br>
+            <small>Method: 0.5mcg x ${weightInput}kg<br>(Max 50mcg)</small>
+            <br>
+            <br>
+            <strong><u>Initial Volume To Administer: </u></strong>
+            <br>
+            <br>
+            <strong> ${volume.toFixed(2)}mL </strong>
+            <br>
+            <small>(For concentrations of 50mcg/mL)</small>
+            <br>
+            <br>
+            <strong><u>Repeat Dose:</u></strong>
+            <br>
+            <br>
+            <strong> CONTACT MEDICAL CONTROL FOR ADDITIONAL DOSAGE</strong>
+            <br>
+            <br>
+            <i><small>
+              If uncertainty arises, consult Anderson Protocols or contact
+              Medical Control. Always check dosages and concentrations prior to
+              administration.
+            </small></i>
+            </p>`
         )
         .fadeIn(200);
     }
