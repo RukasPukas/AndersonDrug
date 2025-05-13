@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glucagon Dosaging</title>
+    <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="glucagonSources/glucagon.css" />
+  </head>
+  <body>
+    <a href="index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Drug Dosages</h1>
+      </div>
+    </a>
+
+    <h2>Glucagon</h2>
+
+    <div class="dosage-container">
+      <h3>Adult Dosage:</h3>
+
+      <p>
+        <strong>Altered Mental Status; Diabetic Emergencies;</strong>
+        <br />
+        <br />
+        1 mg IM/IN<br />
+        <br />
+        <strong>
+          Poisoning and Overdose (Beta Blocker and Calcium Channel
+          Blocker)</strong
+        ><br /><br />
+        2mg IV/IM
+      </p>
+
+      <br />
+
+      <h3>Pediatric Dosage:</h3>
+      <p>
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <br />
+        <br />
+        <button id="calculateDosage">Calculate Dosage</button>
+      </p>
+      <p id="result" class="result" style="display: none">
+        <!-- Result will be displayed here -->
+      </p>
+    </div>
+
+    <div class="facts-container">
+      <h3>Indications:</h3>
+      <p>
+        For the management of hypoglycemic patients as well as patients
+        suffering symptomatic bradycardia after beta blocker or calcium channel
+        blocker overdose.
+      </p>
+      <h3>Protocols:</h3>
+      <p>
+        <strong>
+          <u>Adult</u><br />
+          <br />
+          Altered Mental Status;<br />
+          Diabetic Emergencies;<br />
+          Poisoning and Overdose (Beta Blocker and Calcium Channel Blocker)
+          <br />
+          <br />
+
+          <u>Pediatric</u><br />
+          <br />
+          Altered Mental Status;<br />
+          Diabetic Emergencies
+        </strong>
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="glucagonSources/glucagon.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
