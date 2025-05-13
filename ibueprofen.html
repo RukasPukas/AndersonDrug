@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibueprofen Dosaging</title>
+    <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="ibueprofenSources/ibueprofen.css" />
+  </head>
+  <body>
+    <a href="index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Drug Dosages</h1>
+      </div>
+    </a>
+
+    <h2>Ibueprofen</h2>
+
+    <div class="dosage-container">
+      <h3>Adult Dosage:</h3>
+
+      <p>
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <br />
+        <br />
+        <button id="calculateDosage">Calculate Dosage</button>
+      </p>
+
+      <p id="result" class="result" style="display: none">
+        <!-- Result will be displayed here -->
+      </p>
+
+      <h3>Pediatric Dosage:</h3>
+      <p>
+        <strong>Not Indicated In Pediatric Patients.</strong>
+      </p>
+    </div>
+
+    <div class="facts-container">
+      <h3>Indications:</h3>
+      <p>For the acute management of pain or as an antipyretic.</p>
+      <h3>Protocols:</h3>
+      <p>
+        <strong>
+          <u>Adult</u><br />
+          Altitude Illness;<br />
+          Pain Management
+        </strong>
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="ibueprofenSources/ibueprofen.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
