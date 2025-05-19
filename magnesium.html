@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magnesium Sulfate Dosaging</title>
+    <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="magnesiumSources/magnesium.css" />
+  </head>
+  <body>
+    <a href="index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Drug Dosages</h1>
+      </div>
+    </a>
+
+    <h2>Magnesium Sulfate</h2>
+
+    <div class="dosage-container">
+      <h3>Adult Dosage:</h3>
+
+      <p>
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <!--END WEIGHT GATHERING-->
+
+        <br />
+        <br />
+        <strong><u>Protocol</u></strong>
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="Tachycardia" checked />
+          Tachycardia (with a Pulse) - Wide Complex; <br />
+          Cardiac Arrest - (Vfib / Pulseless V-Tach);
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="Pain" />
+          Intraosseous Access-Responsive to pain
+        </label>
+        <br />
+        <br />
+        <button id="calculateDosage">Calculate Dosage</button>
+      </p>
+      <p id="result" class="result" style="display: none">
+        <!-- Result will be displayed here -->
+      </p>
+
+      <br />
+      <!-- END ADULT -->
+
+      <h3>Pediatric Dosage:</h3>
+      <p>
+        Weight:
+        <input type="number" id="weightInputPedi" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unitp" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unitp" value="lbs" />
+          lbs
+        </label>
+        <!--END WEIGHT GATHERING-->
+
+        <br />
+        <br />
+        <strong><u>Protocol</u></strong>
+        <br />
+        <label>
+          <input type="radio" name="Pediprotocol" value="Tachycardia" checked />
+          Tachycardia (with a Pulse) - Wide Complex; <br />
+          Cardiac Arrest - (Vfib / Pulseless V-Tach);
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="Pediprotocol" value="Pain" />
+          Intraosseous Access-Responsive to pain
+        </label>
+        <br />
+        <br />
+        <button id="calculateDosagePedi">Calculate Dosage</button>
+      </p>
+      <p id="resultPedi" class="resultPedi" style="display: none">
+        <!-- Result will be displayed here -->
+      </p>
+    </div>
+
+    <div class="facts-container">
+      <h3>Indications:</h3>
+      <p>
+        Alternate to amiodarone in cardiac arrest from VT, VF, Stable
+        wide-complex tachycardia (poly-or monomorphic) with normal baseline QT
+        interval. Also used as a local anesthetic for various procedures,
+        including intubation and IO infusion.
+      </p>
+      <h3>Protocols:</h3>
+      <p>
+        <strong>
+          <u>Adult</u><br />
+          <br />
+          Tachycardia (with a Pulse) - Wide Complex; <br />
+          Cardiac Arrest - (VFib / Pulseless V-Tach);<br />
+          Intraosseous Access-Responsive to pain
+          <br />
+          <br />
+          <u>Pediatric</u>
+          <br />
+          <br />
+          Tachycardia (with a Pulse) - Wide Complex; <br />
+          Cardiac Arrest - (Vfib / Pulseless V-Tach); <br />
+          Intraosseous Access-Responsive to pain
+        </strong>
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="magnesiumSources/magnesium.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
