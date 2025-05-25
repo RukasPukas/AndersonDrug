@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sodium Bicarbonate Dosaging</title>
+    <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="sodiumBicarbonateSources/sodiumBicarbonate.css"
+    />
+  </head>
+  <body>
+    <a href="index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Drug Dosages</h1>
+      </div>
+    </a>
+
+    <h2>Sodium Bicarbonate</h2>
+
+    <div class="dosage-container">
+      <h3>Adult Dosage:</h3>
+
+      <p>
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <!--END WEIGHT GATHERING-->
+
+        <br />
+        <br />
+
+        <!-- BEGIN PROTOCOL SELECTION ADULT-->
+        <strong><u>Protocol</u></strong>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="CA" checked />
+          Cardiac Arrest-(Asystole / PEA);
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="Poisoning" />
+          Poisoning and Overdose (Tricyclic Antidepressants);
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="DKA" />
+          Diabetic Emergencies Hyperglycemia (Hyperkalemia);
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="Crush" />
+          Crush Injuries;
+        </label>
+        <br />
+        <br />
+
+        <button id="calculateDosage">Calculate Dosage</button>
+      </p>
+      <p id="result" class="result" style="display: none">
+        <!-- Result will be displayed here -->
+      </p>
+
+      <br />
+      <!-- END ADULT -->
+
+      <h3>Pediatric Dosage:</h3>
+      <p>
+        Weight:
+        <input type="number" id="weightInputPedi" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unitp" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unitp" value="lbs" />
+          lbs
+        </label>
+        <!--END WEIGHT GATHERING-->
+
+        <br />
+        <br />
+        <strong><u>Protocol</u></strong>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="Pediprotocol" value="pCrush" checked />
+          Pediatric Crush Injuries;
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="Pediprotocol" value="pPoison" />
+          Poisoning and Overdose;
+        </label>
+        <br />
+        <br />
+
+        <button id="calculateDosagePedi">Calculate Dosage</button>
+      </p>
+      <p id="resultPedi" class="resultPedi" style="display: none">
+        <!-- Result will be displayed here -->
+      </p>
+    </div>
+
+    <div class="facts-container">
+      <h3>Indications:</h3>
+      <p>
+        Metabolic acidosis during cardiac arrest, tricyclic antidepressant,
+        aspirin and phenobarbital overdose, hyperkalemia, crush injuries.
+      </p>
+      <h3>Protocols:</h3>
+      <p>
+        <strong>
+          <u>Adult</u><br />
+          <br />
+          Cardiac Arrest-(Asystole / PEA);<br />
+          Poisoning and Overdose (Tricyclic Antidepressants); <br />
+          Diabetic Emergencies Hyperglycemia (Hyperkalemia);<br />
+          Crush Injuries;
+          <br />
+          <br />
+          <u>Pediatric</u>
+          <br />
+          <br />
+          Crush Injuries;<br />
+          Poisoning and Overdose;
+        </strong>
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="sodiumBicarbonateSources/sodiumBicarbonate.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
