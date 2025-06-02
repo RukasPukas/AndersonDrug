@@ -103,3 +103,27 @@ footer {
   border-radius: 5px;
   margin: 20px auto;
 }
+button {
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: dodgerblue;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px deepskyblue;
+}

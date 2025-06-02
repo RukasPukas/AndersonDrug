@@ -8,6 +8,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   width: 100%;
+  background-image: url("Images\AndersonHospitalLogo.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -79,8 +80,12 @@ p {
   padding: 25px;
   border-radius: 5px;
 }
-
 /* ========== Responsive Layout ========== */
+@media (max-width: 500px) {
+  .facts-container button {
+    width: 90%;
+  }
+}
 
 @media (min-width: 768px) {
   .header,
@@ -98,11 +103,27 @@ footer {
   border-radius: 5px;
   margin: 20px auto;
 }
-
-.pediatric-only {
-  display: none;
+button {
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
-.agerange-only {
-  display: none;
+button:hover {
+  background-color: deepskyblue;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: dodgerblue;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px deepskyblue;
 }
