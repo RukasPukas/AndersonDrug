@@ -5,6 +5,6 @@ $(document).ready(function () {
     $("#drugList").slideToggle("slow");
 
     const isOpen = $(this).text().includes("▲");
-    $(this).text(isOpen ? "▼ View Drug List" : "▲ Hide Drug List");
+    $(this).text(isOpen ? "▼ View Medication List" : "▲ Hide Medication List");
   });
 });
