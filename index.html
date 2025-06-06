@@ -100,10 +100,56 @@
         </button>
         <button onclick="location.href='txa.html'">Tranexamic Acid</button>
       </div>
-      
+
       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
       <script src="indexSources/indexjs.js"></script>
     </main>
+    <div id="disclaimer-modal" class="modal">
+      <div class="modal-content">
+        <h2>Disclaimer</h2>
+
+        <p>
+          <strong
+            >This website is intended solely for demonstration and testing
+            purposes.</strong
+          >
+        </p>
+
+        <p>
+          The information contained on this site is not intended to be used for
+          the diagnosis, treatment, or management of any medical conditions. It
+          must not be used in any clinical decision-making, emergency care, or
+          real-world patient application.
+        </p>
+
+        <p>
+          This project is not affiliated with, endorsed by, or representative of
+          Anderson Hospital, IDPH Region IV, or any of their staff, providers,
+          or affiliates. Any mention of organizations or protocols is strictly
+          fictional or educational.
+        </p>
+
+        <p>
+          The website and its developers assume no liability or responsibility
+          for any consequences arising from misuse or misinterpretation of the
+          content herein. Use of this website is entirely at the user's own
+          risk.
+        </p>
+
+        <p>
+          By proceeding, you acknowledge and agree to the terms above and
+          understand that this is not a functional medical resource.
+        </p>
+
+        <label>
+          <input type="checkbox" id="agree-checkbox" />
+          I understand and agree to the disclaimer.
+        </label>
+
+        <br /><br />
+        <button id="accept-button" disabled>Accept</button>
+      </div>
+    </div>
   </body>
   <footer class="footer">
     <p>&copy; 2025 LukiWebSolutions. All rights reserved.</p>
