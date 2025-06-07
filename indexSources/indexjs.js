@@ -8,7 +8,7 @@ $(document).ready(function () {
     $("#disclaimer-modal").hide();
     $("body").fadeIn(750);
   } else {
-    // post 24 hour acceptance
+    // post 24 hour refusal
     $("#disclaimer-modal").show();
     $("#mainContent, footer, .header").css({
       "pointer-events": "none",
