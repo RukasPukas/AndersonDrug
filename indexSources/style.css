@@ -70,16 +70,20 @@ body {
 }
 
 .spinner-toggle button {
-  padding: 15px 30px;
-  font-size: 1.1rem;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 1rem;
   font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  background-color: cornflowerblue;
-  color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  transition: transform 0.8s ease;
+  color: slategray;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.9s ease;
+  text-align: center;
 }
 
 .spinner-toggle button:hover {
