@@ -74,8 +74,13 @@ $(document).ready(function () {
           2
         )} mL<br>
         Repeat Dose: ${repeatVolumeML.toFixed(2)} mL
-        <br><br>
-        <small>Note: Always ensure amounts are accurate prior to administration, consult Anderson Protocols or medical control prior to administration if uncertainty exists.</small>
+                <br /><br /><i
+          ><small
+            >If uncertainty arises, consult Anderson Protocols or contact
+            Medical Control. Always check dosages and concentrations prior to
+            administration.</small
+          ></i
+        >
     `
       )
       .fadeIn(200);

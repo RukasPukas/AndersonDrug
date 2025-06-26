@@ -94,6 +94,10 @@ body {
   display: none;
 }
 
+#procedureList {
+  display: none;
+}
+
 .header {
   background-image: linear-gradient(to right, skyblue, cornflowerblue);
   border-radius: 15px;

@@ -111,8 +111,13 @@ $(document).ready(function () {
      
 
   
-        <small><strong>DO NOT</strong> exceed 300 mg per dose or a combined 15 mg/kg total dose given. Doses may be repeated up to 2 additional times after initial dose, every 5 minutes if needed.<br>If uncertainty
-        arises, consult Anderson Protocols or contact Medical Control.</small>
+        <strong>DO NOT</strong> exceed 300 mg per dose or a combined 15 mg/kg total dose given. Doses may be repeated up to 2 additional times after initial dose, every 5 minutes if needed.<br>        <br /><br /><i
+          ><small
+            >If uncertainty arises, consult Anderson Protocols or contact
+            Medical Control. Always check dosages and concentrations prior to
+            administration.</small
+          ></i
+        >
       `)
       .fadeIn(200);
   }
