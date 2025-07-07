@@ -39,10 +39,12 @@ $(document).ready(function () {
     $(this).text(isOpen ? "▼ View Medication List" : "▲ Hide Medication List");
   });
 
-    $("#toggleProcedures").on("click", function () {
+  $("#toggleProcedures").on("click", function () {
     $("#procedureList").slideToggle("slow");
 
     const isOpen = $(this).text().includes("▲");
-    $(this).text(isOpen ? "▼ View Procedure List" : "▲ Hide Procedure List");
+    $(this).text(
+      isOpen ? "▼ View Reference Material" : "▲ Hide Reference Material"
+    );
   });
 });
