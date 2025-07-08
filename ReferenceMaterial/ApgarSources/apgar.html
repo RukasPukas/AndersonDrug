@@ -31,36 +31,43 @@
 
         <tr>
           <th>Appearance</th>
-          <td>Blue, Pale</td>
-          <td>Body pink, Extremities blue</td>
-          <td>Completely pink</td>
+          <td class="score-cell" data-point="0">Blue, Pale</td>
+          <td class="score-cell" data-point="1">Body pink, Extremities blue</td>
+          <td class="score-cell" data-point="2">Completely pink</td>
         </tr>
         <tr>
           <th>Pulse</th>
-          <td>Absent</td>
-          <td>Below 100 bpm</td>
-          <td>Above 100 bpm</td>
+          <td class="score-cell" data-point="0">Absent</td>
+          <td class="score-cell" data-point="1">Below 100 bpm</td>
+          <td class="score-cell" data-point="2">Above 100 bpm</td>
         </tr>
         <tr>
           <th>Grimace</th>
-          <td>No Response</td>
-          <td>Grimace on stimulation</td>
-          <td>Grimace and cough or sneeze</td>
+
+          <td class="score-cell" data-point="0">No Response</td>
+          <td class="score-cell" data-point="1">Grimace on stimulation</td>
+          <td class="score-cell" data-point="2">Grimace and cough or sneeze</td>
         </tr>
         <tr>
           <th>Activity</th>
-          <td>Limp</td>
-          <td>Some flexion of extremities</td>
-          <td>Active motion</td>
+
+          <td class="score-cell" data-point="0">Limp</td>
+          <td class="score-cell" data-point="1">Some flexion of extremities</td>
+          <td class="score-cell" data-point="2">Active motion</td>
         </tr>
         <tr>
           <th>Respiration</th>
-          <td>Absent</td>
-          <td>Slow, Irregular</td>
-          <td>Good, Crying</td>
+          <td class="score-cell" data-point="0">Absent</td>
+          <td class="score-cell" data-point="1">Slow, Irregular</td>
+          <td class="score-cell" data-point="2">Good, Crying</td>
         </tr>
       </table>
     </div>
+    <button id="calculateAPGAR">Save APGAR Score</button>
+
+    <p id="apgarResult" class="apgar-result"></p>
+
+    <button id="resetAPGAR" style="display: none">Reset Scores</button>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="apgar.js"></script>
