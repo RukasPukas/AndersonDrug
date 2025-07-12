@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=yes"
+    />
+
+    <title>APGAR Scoring</title>
+    <link rel="icon" href="favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="pvs.css" />
+  </head>
+  <body>
+    <a href="/index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Quick Reference</h1>
+      </div>
+    </a>
+
+    <h1>Pediatric Normal Vitals Ranges</h1>
+
+    <h2>Select Age Group:</h2>
+
+    <div class="comboBox">
+      <select id="ageGroup">
+        <option value="one">(0 - &lt; 3 Months)</option>
+        <option value="two">(3 Months - &lt; 6 Months)</option>
+        <option value="three">(6 Months - &lt; 9 Months)</option>
+        <option value="four">(9 Months - &lt; 1 Year)</option>
+        <option value="five">(1 Year - &lt; 2 Years)</option>
+        <option value="six">(2 Years - &lt; 4 Years)</option>
+        <option value="seven">(4 Years - &lt; 6 Years)</option>
+        <option value="eight">(6 Years - &lt; 8 Years)</option>
+        <option value="nine">(8 Years - &lt; 10 Years)</option>
+        <option value="ten">(10 Years - &lt; 12 Years)</option>
+        <option value="eleven">(12 Years - &lt; Puberty)</option>
+      </select>
+    </div>
+
+    <button id="showRanges">Show Normal Ranges</button>
+
+    <div id="outcome">
+      <h2>Normal Ranges</h2>
+
+      <div class="outcomeTableWrapper">
+        <table id="outcomeTable">
+          <thead>
+            <tr>
+              <th id="ageSelected" colspan="3"></th>
+            </tr>
+
+            <tr>
+              <th>Pulse</th>
+              <th>Systolic Blood Pressure</th>
+              <th>Respiratory Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="pulseCell"></td>
+              <td id="SBPCell"></td>
+              <td id="respiratoryCell"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        <small
+          >Source:<br />Illinois Emergency Medical Services for Children<br />
+          Pediatric Prehospital Protocols, 2021 Edition.<br />
+          VITAL SIGNS AND CARDIOPULMONARY COMPROMISE RESOURCE - Vital Sign/Age
+          Parameters pg.67</small
+        >
+      </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="pvs.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
