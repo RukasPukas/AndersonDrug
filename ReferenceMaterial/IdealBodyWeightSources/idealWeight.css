@@ -84,6 +84,10 @@ table {
   margin: 20px auto;
   border-collapse: collapse;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+  overflow: hidden; 
+  border-collapse: separate;
+  border-spacing: 0; 
 }
 
 .heightTable {
@@ -99,6 +103,7 @@ table {
 tbody {
   text-align: center;
   font-weight: bold;
+  color:dimgrey
   
 }
 
