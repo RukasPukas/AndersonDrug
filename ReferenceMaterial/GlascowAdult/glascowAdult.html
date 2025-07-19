@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=yes"
+    />
+
+    <title>Glascow Coma Score (Adult)</title>
+    <link rel="icon" href="favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="glascowAdult.css" />
+  </head>
+  <body>
+    <a href="/index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Quick Reference</h1>
+      </div>
+    </a>
+
+    <h1>Glascow Coma Score<br><small>(Adult)</small></h1>
+
+<div class="eyeTableWrapper">
+  <table class="eyeTable">
+    <tr>
+      <td rowspan="4" class="eyeOpening">Eye Opening</td>
+      <td class="score-cell" data-point="4">Spontaneous</td>
+    </tr>
+    <tr>
+      <td class="score-cell" data-point="3">To Verbal</td>
+    </tr>
+    <tr>
+      <td class="score-cell" data-point="2">To Pain</td>
+    </tr>
+    <tr>
+      <td class="score-cell" data-point="1">None</td>
+    </tr>
+
+  </table>
+</div>
+     
+
+<div class="verbalTableWrapper" col="2">
+  <table class="verbalTable">
+<tr>
+  <td rowspan="5" class="verbalResponse">Verbal Response</td>
+  <td class="score-cell" data-point="5">Oriented</td>
+</tr>
+<tr>
+  <td class="score-cell" data-point="4">Confused</td>
+</tr>
+<tr>
+  <td class="score-cell" data-point="3">Innapropriate Words</td>
+</tr>
+<tr>
+  <td class="score-cell" data-point="2">Incomprehensible Sounds</td>
+</tr>
+<tr>
+  <td class="score-cell" data-point="1">None</td>
+</tr>
+
+  </table>
+</div>
+
+<div class="motorTableWrapper">
+  <table class="motorTable">
+<tr>
+  <td rowspan="6" class="motorResponse">Best Motor Response</td>
+  <td class="score-cell" data-point="6">Obeys Commands</td>
+</tr>
+<tr>
+  <td class="score-cell" data-point="5">Localizes Pain</td>
+</tr>
+<tr>
+  <td class="score-cell" data-point="4">Withdraws From Pain</td>
+</tr>
+<tr>
+  <td class="score-cell" data-point="3">Flexion To Pain</td>
+</tr>
+<tr>
+  <td class="score-cell" data-point="2">Extension To Pain</td>
+</tr>
+<tr>
+  <td class="score-cell" data-point="1">None</td>
+</tr>
+
+  </table>
+  
+  </div>
+
+<div class="totalScoreWrapper">
+  <table class="totalScoreTable">
+    <thead>
+      <tr>
+        <th>GCS Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="totalScoreDisplay">0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="glascowAdult.js"></script>
+  </body>
+  <footer>
+    <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
+  </footer>
+</html>
