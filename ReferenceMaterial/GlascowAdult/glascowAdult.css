@@ -104,7 +104,7 @@ p {
 }
 
 .eyeTable td:hover:not(.eyeOpening) {
-  background-color: #f0f8ff;
+  background-color: #7df1bb; 
   cursor: pointer;
 }
 .score-cell.selected {
@@ -148,7 +148,7 @@ p {
 }
 
 .verbalTable td:hover:not(.verbalResponse) {
-  background-color: #f0f8ff;
+  background-color: #7df1bb; 
   cursor: pointer;
 }
 
@@ -184,7 +184,7 @@ p {
 }
 
 .motorTable td:hover:not(.motorResponse) {
-  background-color: #f0f8ff;
+  background-color: #7df1bb; 
   cursor: pointer;
 }
 
