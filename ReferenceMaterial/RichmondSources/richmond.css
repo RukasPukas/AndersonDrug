@@ -105,6 +105,8 @@ p {
     text-align: center;
     font-weight: bold;
     font-size:.8em;
+    word-break: keep-all;
+   white-space: normal;
 }
 
 .RichmondTable td {
