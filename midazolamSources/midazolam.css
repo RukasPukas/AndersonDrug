@@ -80,6 +80,22 @@ p {
   padding: 25px;
   border-radius: 5px;
 }
+
+a{
+  color: cornflowerblue;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease; 
+  
+}
+
+a:hover{
+  color: deepskyblue; 
+  transition: transform 0.2s ease, color 0.2s ease; 
+  transform: scale(1.1);
+  
+}
 /* ========== Responsive Layout ========== */
 @media (max-width: 500px) {
   .facts-container button {

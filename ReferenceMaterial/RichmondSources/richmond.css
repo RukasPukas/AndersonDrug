@@ -116,7 +116,7 @@ p {
 }
 
 table tbody tr.p4row {
-    background-color: #e74040;
+    background-color: #991515;
     text-align:center;
     font-weight:bold;
     font-size:.9em;
@@ -125,7 +125,7 @@ table tbody tr.p4row {
 }
 
 table tbody tr.orangeRows {
-    background-color: #f7880b;
+    background-color: #e9912c;
     text-align:center;
     font-weight:bold;
     font-size:.9em;
@@ -147,18 +147,17 @@ table tbody tr.whiteRows{
 }
 
 .RichmondTable a {
-  color: black;         
-  text-decoration: none;  
-  font-weight: bold;     
+  color: cornflowerblue;
+  text-decoration: none;
+  font-weight: bold;
   display: inline-block;
   transition: transform 0.2s ease, color 0.2s ease; 
 }
 
 .RichmondTable a:hover {
-  color: rgb(227, 232, 236);  
-  text-decoration: none;
+  color: deepskyblue; 
+  transition: transform 0.2s ease, color 0.2s ease; 
   transform: scale(1.1);
-
 }
 
 table tbody {
