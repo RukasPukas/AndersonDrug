@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  background-image: url("Images\AndersonHospitalLogo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-size: 15%;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: none;
+}
+
+.header {
+  background-image: linear-gradient(to right, skyblue, cornflowerblue);
+  border-radius: 15px;
+  width: 90%;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.8s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.header:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: slategray;
+  margin: 0.5em 0;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+}
+h2 {
+  color: slategray;
+  text-align: center;
+  margin: 20px 0;
+  cursor: default;
+}
+h3 {
+  color: darkslategray;
+  text-align: center;
+  margin: 10px 0;
+  cursor: default;
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+p {
+  color: slategray;
+  text-align: center;
+  margin: 10px 0;
+  cursor: default;
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+
+/* ========== Table Styles ========== */
+.TableDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  box-sizing: border-box;
+}
+
+.RichmondTable {
+  width: 80%;
+  max-width: 100%; 
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  table-layout: fixed; 
+}
+
+.RichmondTable th{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size:1.5em;
+}
+
+.RichmondTable td {
+  border: 1px solid black;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+table tbody tr.p4row {
+    background-color: #e74040;
+    text-align:center;
+    font-weight:bold;
+    font-size:.9em;
+    
+
+}
+
+table tbody tr.orangeRows {
+    background-color: #f7880b;
+    text-align:center;
+    font-weight:bold;
+    font-size:.9em;
+    
+
+}
+
+table tbody tr.grayRows{
+    background-color: #d3d3d3;
+    text-align:center;
+    font-weight:bold;
+    font-size:.9em;
+}
+
+table tbody tr.whiteRows{
+    text-align:center;
+    font-weight:bold;
+    font-size:.9em;
+}
+
+.RichmondTable a {
+  color: black;         
+  text-decoration: none;  
+  font-weight: bold;     
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease; 
+}
+
+.RichmondTable a:hover {
+  color: rgb(227, 232, 236);  
+  text-decoration: none;
+  transform: scale(1.1);
+
+}
+
+table tbody {
+    border: 2px solid #000000;
+}
+
+
+/* ========== Responsive Layout ========== */
+@media (max-width: 500px) {
+  .apgar-table th,
+  .apgar-table td {
+    padding: 10px 8px;
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: 768px) {
+  .RichmondTable th,
+  .RichmondTable td {
+    padding: 10px 6px;
+    font-size: 0.8em;
+    word-wrap: break-word;
+  }
+
+  .RichmondTable th {
+    font-size: 1.2em;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-image: linear-gradient(to right, skyblue, cornflowerblue);
+  color: white;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+button {
+  background-color: cornflowerblue;
+  margin: 40px auto;
+  display: block;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: dodgerblue;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px deepskyblue;
+}
