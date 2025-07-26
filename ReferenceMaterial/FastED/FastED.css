@@ -65,7 +65,7 @@ h3 {
   margin: 10px 0;
   cursor: default;
 
-  padding: 25px;
+  padding: 10px;
   border-radius: 5px;
 }
 p {
@@ -116,7 +116,8 @@ p {
 }
 
 .FacialTable th {
-  background-color: #93bce0;
+  background-image: linear-gradient(to right, cornflowerblue, skyblue);
+
   color: white;
   padding: 10px;
   text-align: center;
@@ -158,6 +159,12 @@ p {
 
 .ArmTable th {
   background-color: #55cf7a;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(90, 167, 83),
+    rgb(145, 217, 129)
+  );
   color: white;
   padding: 10px;
   text-align: center;
@@ -187,7 +194,14 @@ p {
 }
 
 .SpeechTable th {
-  background-color: #e74741;
+  background-color: #55cf7a;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(164, 61, 61),
+    rgb(236, 87, 87)
+  );
+
   color: white;
   padding: 10px;
   text-align: center;
@@ -218,7 +232,13 @@ p {
 }
 
 .FingerTable th {
-  background-color: #a577e2;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(129, 50, 117),
+    rgb(157, 102, 215)
+  );
+
   color: white;
   padding: 10px;
   text-align: center;
@@ -248,7 +268,12 @@ p {
 }
 
 .EyeTable th {
-  background-color: #a8cf6a;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(126, 155, 59),
+    rgb(137, 221, 88)
+  );
   color: white;
   padding: 10px;
   text-align: center;
@@ -278,7 +303,12 @@ p {
 }
 
 .DenialTable th {
-  background-color: #2ebdc2;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(50, 109, 114),
+    rgb(60, 198, 166)
+  );
   color: white;
   padding: 10px;
   text-align: center;
@@ -309,7 +339,12 @@ p {
 }
 
 .NeglectTable th {
-  background-color: #d6b934;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(179, 183, 67),
+    rgb(199, 206, 67)
+  );
   color: white;
   padding: 10px;
   text-align: center;
@@ -339,7 +374,12 @@ p {
 }
 
 .TimeTable th {
-  background-color: #df82d7;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(174, 66, 140),
+    rgb(228, 64, 209)
+  );
   color: white;
   padding: 10px;
   text-align: center;
@@ -354,7 +394,12 @@ p {
 }
 
 #subHeader {
-  background-color: #f1a3e0;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(217, 95, 199),
+    rgb(168, 52, 148)
+  );
   font-style: bold;
   text-align: center;
   color: white;
@@ -377,7 +422,12 @@ p {
 }
 
 .ThinnersTable th {
-  background-color: #5f6d58;
+  background-image: linear-gradient(
+    to right,
+
+    rgb(65, 66, 66),
+    rgb(96, 92, 96)
+  );
   color: white;
   padding: 10px;
   text-align: center;
@@ -404,6 +454,10 @@ p {
 #ThinnersID {
   display: none;
 }
+
+.ScoreWrapper {
+  display: none;
+}
 /*=============Scores Container ===========*/
 .ScoreWrapper {
   width: 90%;
@@ -412,9 +466,20 @@ p {
   padding: 20px;
   background-image: linear-gradient(
     to right,
-    rgb(197, 228, 235),
-    rgb(125, 196, 222) ;
+    rgb(217, 231, 234),
+    rgb(186, 222, 235)
   );
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Report {
+  display: none;
+  font-size: 1.2em;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
