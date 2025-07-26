@@ -21,7 +21,6 @@ body {
 
 body {
   display: none;
-  
 }
 
 .header {
@@ -65,7 +64,7 @@ h3 {
   text-align: center;
   margin: 10px 0;
   cursor: default;
-  
+
   padding: 25px;
   border-radius: 5px;
 }
@@ -74,7 +73,11 @@ p {
   text-align: center;
   margin: 10px 0;
   cursor: default;
-  background-color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(197, 228, 235),
+    rgb(125, 196, 222) ;
+  );
   padding: 25px;
   border-radius: 5px;
 }
@@ -83,279 +86,278 @@ p {
 .TablesWrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;   
+  align-items: center;
   gap: 20px;
   margin: 20px auto;
   width: 90%;
-
+  padding: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(187, 220, 232),
+    cornflowerblue
+  );
+  border-radius: 15px;
 }
-
 
 /*===========FACIAL TABLE===========*/
-.FacialTable{
-    width: 100%;
-    max-width: 600px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.8s ease;
+.FacialTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s ease;
 }
 
-.FacialTable:hover{
-    transform: scale(1.02);
+.FacialTable:hover {
+  transform: scale(1.02);
 }
 
-.FacialTable th{
-    background-color: #93bce0;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+.FacialTable th {
+  background-color: #93bce0;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 .FacialTable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b1aeae;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b1aeae;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-
 .score-cell.selected {
-  background-color: #36f0a2; 
-  font-weight:bold;
+  background-color: #36f0a2;
+  font-weight: bold;
 }
 
 .score-cell.dimmed {
-  background-color: #f0f0f0;  
-  color: #888;                
+  background-color: #f0f0f0;
+  color: #888;
 }
-
 
 /*===========ARM TABLE===========*/
-.ArmTable{
-    width: 100%;
-    max-width: 600px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.8s ease;
+.ArmTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s ease;
 }
 
-.ArmTable:hover{
-    transform: scale(1.02);
+.ArmTable:hover {
+  transform: scale(1.02);
 }
 
-.ArmTable th{
-    background-color: #55cf7a;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+.ArmTable th {
+  background-color: #55cf7a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 .ArmTable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b1aeae;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b1aeae;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-
 
 /*============Speech TABLE===========*/
-.SpeechTable{
-    width: 100%;
-    max-width: 600px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.8s ease;
+.SpeechTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s ease;
 }
-.SpeechTable:hover{
-    transform: scale(1.02);
+.SpeechTable:hover {
+  transform: scale(1.02);
 }
 
-.SpeechTable th{
-    background-color: #e74741;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+.SpeechTable th {
+  background-color: #e74741;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 .SpeechTable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b1aeae;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b1aeae;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-
 
 /*==============Finger Table===========*/
 
-.FingerTable{
-    width: 100%;
-    max-width: 600px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.8s ease;
+.FingerTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s ease;
 }
-.FingerTable:hover{
-    transform: scale(1.02);
+.FingerTable:hover {
+  transform: scale(1.02);
 }
 
-.FingerTable th{
-    background-color: #a577e2;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+.FingerTable th {
+  background-color: #a577e2;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 .FingerTable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b1aeae;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b1aeae;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 /*=============EyeTable===========*/
-.EyeTable{
-    width: 100%;
-    max-width: 600px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.8s ease;
+.EyeTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s ease;
 }
-.EyeTable:hover{
-    transform: scale(1.02);
+.EyeTable:hover {
+  transform: scale(1.02);
 }
 
-.EyeTable th{
-    background-color: #a8cf6a;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+.EyeTable th {
+  background-color: #a8cf6a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 .EyeTable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b1aeae;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b1aeae;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 /*==========Denial Table===========*/
-.DenialTable{
-    width: 100%;
-    max-width: 600px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.8s ease;
+.DenialTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s ease;
 }
-.DenialTable:hover{
-    transform: scale(1.02);
+.DenialTable:hover {
+  transform: scale(1.02);
 }
 
-.DenialTable th{
-    background-color: #2ebdc2;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+.DenialTable th {
+  background-color: #2ebdc2;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 .DenialTable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b1aeae;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b1aeae;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 /*============Neglect Table===========*/
 
-.NeglectTable{
-    width: 100%;
-    max-width: 600px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.8s ease;
+.NeglectTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s ease;
 }
-.NeglectTable:hover{
-    transform: scale(1.02);
+.NeglectTable:hover {
+  transform: scale(1.02);
 }
 
-.NeglectTable th{
-    background-color: #d6b934;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+.NeglectTable th {
+  background-color: #d6b934;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 .NeglectTable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b1aeae;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b1aeae;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 /*=============Time Table */
-.TimeTable{
-    width: 100%;
-    max-width: 600px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.8s ease;
+.TimeTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s ease;
 }
-.TimeTable:hover{
-    transform: scale(1.02);
+.TimeTable:hover {
+  transform: scale(1.02);
 }
 
-.TimeTable th{
-    background-color: #df82d7;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+.TimeTable th {
+  background-color: #df82d7;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 .TimeTable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b1aeae;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b1aeae;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #subHeader {
-
   background-color: #f1a3e0;
   font-style: bold;
   text-align: center;
-  color:white;
-
+  color: white;
 }
 #subHeader td {
   width: 50%;
@@ -364,30 +366,29 @@ p {
 }
 
 /*==========Thinners Table===========*/
-.ThinnersTable{
-    width: 100%;
-    max-width: 600px;
-    border-collapse: collapse;
-    margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
+.ThinnersTable {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.ThinnersTable th{
-    background-color: #5f6d58;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px 10px 0 0;
+.ThinnersTable th {
+  background-color: #5f6d58;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
 .ThinnersTable td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b1aeae;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #b1aeae;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .ThinnersTable td label {
@@ -400,8 +401,25 @@ p {
   margin-right: 8px;
 }
 
-/* ========== Responsive Layout ========== */
+#ThinnersID {
+  display: none;
+}
+/*=============Scores Container ===========*/
+.ScoreWrapper {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(197, 228, 235),
+    rgb(125, 196, 222) ;
+  );
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+/* ========== Responsive Layout ========== */
 
 @media (min-width: 768px) {
   .header,
@@ -420,7 +438,7 @@ footer {
   margin: 20px auto;
 }
 button {
-  background-color: cornflowerblue;
+  background-color: rgb(60, 63, 223);
   margin: 40px auto;
   display: block;
   color: white;
@@ -433,12 +451,12 @@ button {
 }
 
 button:hover {
-  background-color: deepskyblue;
+  background-color: rgb(5, 51, 216);
   transform: scale(1.05);
 }
 
 button:active {
-  background-color: dodgerblue;
+  background-color: rgb(2, 0, 112);
 }
 
 button:focus {

@@ -9,7 +9,7 @@
 
     <title>FAST-ED</title>
     <link rel="icon" href="favicon.ico" type="image/png" />
-  <link rel="stylesheet" href="./FastED.css" />
+    <link rel="stylesheet" href="./FastED.css" />
   </head>
   <body>
     <a href="/index.html" class="header-link">
@@ -18,197 +18,265 @@
       </div>
     </a>
 
-    <h1>FAST-ED</h1>
-
-    <p>
-        Use this tool to assess stroke risk in patients. <br><br>
-        <small><i>Instructions:</i><br>
-        All tables must be completed in full to calculate a score.<br></small>
-    </p>
+    <h1 class="FastEDHeader">FAST-ED</h1>
 
     <div class="TablesWrapper">
-
-        <table class="TimeTable">
+      <table class="TimeTable">
         <thead>
-            <tr>
+          <tr>
             <th colspan="2"><strong>T</strong>ime</th>
-            </tr>
+          </tr>
         </thead>
         <tbody>
-            <tr id="subHeader">
+          <tr id="subHeader">
             <td>Symptom Start Time:</td>
             <td>Last Known Well Time:</td>
-            </tr>
-            <tr>
-                <td><input type="time" id="SST" placeholder="HH:MM (24h)" /></td>
-                <td><input type="time" id="LKWT" placeholder="HH:MM (24h)" /></td>
-            </tr>
-            <tr>
-                <td><input type ="date" id="SOD"/></td>
-                <td><input type ="date" id="LKWD"/></td>
-            </tr>
+          </tr>
+          <tr>
+            <td><input type="time" id="SST" placeholder="HH:MM (24h)" /></td>
+            <td><input type="time" id="LKWT" placeholder="HH:MM (24h)" /></td>
+          </tr>
+          <tr>
+            <td><input type="date" id="SOD" /></td>
+            <td><input type="date" id="LKWD" /></td>
+          </tr>
         </tbody>
-        </table>
+      </table>
 
-        <table class ="FacialTable">
-            <thead>
-                <tr>
-                    <th colspan="2"><strong>F</strong>acial Palsy<br>
-                    <small>Ask the patient to show their teeth or smile</small></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="score-cell" data-point="0">Both sides of the face move equally or not at all</td>
-                    <td class="score-cell" data-point="1">One side of the face droops or is clear asymmetric</td>
-                </tr>
-            </tbody>
-        </table>
+      <table class="FacialTable">
+        <thead>
+          <tr>
+            <th colspan="2">
+              <strong>F</strong>acial Palsy<br />
+              <small>Ask the patient to show their teeth or smile</small>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell" data-point="0">
+              Both sides of the face move equally or not at all
+            </td>
+            <td class="score-cell" data-point="1">
+              One side of the face droops or is clear asymmetric
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-            <table class ="ArmTable">
-            <thead>
-                <tr>
-                    <th colspan="3"><strong>A</strong>rm Weakness<br>
-                    <small>With the patient's eyes closed, ask the patient to hold arms out with their palms up and hold them there for 10 seconds</small></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="score-cell" data-point="0">Both arms remain up for > 10 seconds or slowly move down equally</td>
-                    <td class="score-cell" data-point="1">Patient can raise arms but one arm drifts down in &lt; 10 seconds</td>
-                    <td class="score-cell" data-point="2">One or both arms fall rapidly, cant be lifted, or no movement occurs at all</td>
-                </tr>
-            </tbody>
-        </table>
+      <table class="ArmTable">
+        <thead>
+          <tr>
+            <th colspan="3">
+              <strong>A</strong>rm Weakness<br />
+              <small
+                >With the patient's eyes closed, ask the patient to hold arms
+                out with their palms up and hold them there for 10
+                seconds</small
+              >
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell" data-point="0">
+              Both arms remain up for > 10 seconds or slowly move down equally
+            </td>
+            <td class="score-cell" data-point="1">
+              Patient can raise arms but one arm drifts down in &lt; 10 seconds
+            </td>
+            <td class="score-cell" data-point="2">
+              One or both arms fall rapidly, cant be lifted, or no movement
+              occurs at all
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-        <table class ="SpeechTable">
-            <thead>
-                <tr>
-                    <th colspan="2"><strong>S</strong>peech Changes<br>
-                    <small><i>Expressive Aphasia</i><br>Ask the patient to name 3 common items</small></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="score-cell" data-point="0">Names 2 to 3 items correctly</td>
-                    <td class="score-cell" data-point="1">Names 0 to 1 item correctly</td>
-                    
-                </tr>
-            </tbody>
-        </table>
+      <table class="SpeechTable">
+        <thead>
+          <tr>
+            <th colspan="2">
+              <strong>S</strong>peech Changes<br />
+              <small
+                ><i>Expressive Aphasia</i><br />Ask the patient to name 3 common
+                items</small
+              >
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell" data-point="0">
+              Names 2 to 3 items correctly
+            </td>
+            <td class="score-cell" data-point="1">
+              Names 0 to 1 item correctly
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-        <table class ="FingerTable">
-            <thead>
-                <tr>
-                    <th colspan="2"><strong>S</strong>peech Changes<br>
-                    <small><i>Receptive Aphasia</i><br>Ask the patient to perform a simple command<br><small>Example: Show two fingers</small></small></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="score-cell" data-point="0">Normal - patient can follow the simple command</td>
-                    <td class="score-cell" data-point="1">Unable to follow the simple command</td>
-                    
-                </tr>
-            </tbody>
-        </table>
+      <table class="FingerTable">
+        <thead>
+          <tr>
+            <th colspan="2">
+              <strong>S</strong>peech Changes<br />
+              <small
+                ><i>Receptive Aphasia</i><br />Ask the patient to perform a
+                simple command<br /><small
+                  >Example: Show two fingers</small
+                ></small
+              >
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell" data-point="0">
+              Normal - patient can follow the simple command
+            </td>
+            <td class="score-cell" data-point="1">
+              Unable to follow the simple command
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-        <table class ="EyeTable">
-            <thead>
-                <tr>
-                    <th colspan="3"><strong>E</strong>ye Deviation</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="score-cell" data-point="0">No deviation; eyes move equally to both sides</td>
-                    <td class="score-cell" data-point="1">Patient has clear difficulty when looking to one side (left or right)</td>
-                    <td class="score-cell" data-point="2">Eyes are deviated to one side and do not move to the other side</td>
-                </tr>
-            </tbody>
-        </table>
+      <table class="EyeTable">
+        <thead>
+          <tr>
+            <th colspan="3"><strong>E</strong>ye Deviation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell" data-point="0">
+              No deviation; eyes move equally to both sides
+            </td>
+            <td class="score-cell" data-point="1">
+              Patient has clear difficulty when looking to one side (left or
+              right)
+            </td>
+            <td class="score-cell" data-point="2">
+              Eyes are deviated to one side and do not move to the other side
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-        <table class ="DenialTable">
-            <thead>
-                <tr>
-                    <th colspan="2"><strong>D</strong>enial<br><small>Show the patient their affected arm and ask,<br><i>"Do you feel weakness in this arm?"</i></small></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="score-cell" data-point="0">Patient recognizes the weakness in their weak arm</td>
-                    <td class="score-cell" data-point="1">Patient does NOT recognize the weakness in their weak arm</td>
-                </tr>
-            </tbody>
-        </table>
+      <table class="DenialTable">
+        <thead>
+          <tr>
+            <th colspan="2">
+              <strong>D</strong>enial<br /><small
+                >Show the patient their affected arm and ask,<br /><i
+                  >"Do you feel weakness in this arm?"</i
+                ></small
+              >
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell" data-point="0">
+              Patient recognizes the weakness in their weak arm
+            </td>
+            <td class="score-cell" data-point="1">
+              Patient does NOT recognize the weakness in their weak arm
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-        <table class ="NeglectTable">
-            <thead>
-                <tr>
-                    <th colspan="2"><strong>N</strong>eglect<br><small>Show the patient their affected arm and ask, <i>"Whose arm is this?"</i></small></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="score-cell" data-point="0">Patient recognizes the weakness in their weak arm</td>
-                    <td class="score-cell" data-point="1">Patient does NOT recognize the weakness in their weak arm</td>
-                </tr>
-            </tbody>
-        </table>
+      <table class="NeglectTable">
+        <thead>
+          <tr>
+            <th colspan="2">
+              <strong>N</strong>eglect<br /><small
+                >Show the patient their affected arm and ask,
+                <i>"Whose arm is this?"</i></small
+              >
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell" data-point="0">
+              Patient recognizes the weakness in their weak arm
+            </td>
+            <td class="score-cell" data-point="1">
+              Patient does NOT recognize the weakness in their weak arm
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-        <table class ="ThinnersTable">
-            <thead>
-                <tr>
-                    <th colspan="3">Blood Thinner Usage<br> <small>Ask patient/family of anticoagulant usage of patient:</small></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="Yes">Yes</td>
-                    <td class="No" >No</td>
-                    <td class="Unknown">Unknown</td>
-                </tr>
-                <tr>
-                    <td colspan ="3"> 
-                        
-                        <label>
-                             <input type="checkbox" name="Thinner" value="Coumadin"> Coumadin/Warfarin
-                         </label>
-                         <br>
-                        <label>
-                             <input type="checkbox" name="Thinner" value="Pradaxa"> Pradaxa/Dabigatran
-                         </label>
-                         <br>
-                        <label>
-                             <input type="checkbox" name="Thinner" value="Eliquis"> Eliquis/Apixaban
-                         </label>
-                         <br>
-                        <label>
-                             <input type="checkbox" name="Thinner" value="Xarelto"> Xarelto/Rivaroxaban
-                         </label>
-                         <br>
-                        <label>
-                             <input type="checkbox" name="Thinner" value="Savaysa"> Savaysa/Edoxaban
-                         </label>
-                            <br>
-                        <label>
-                             <input type="checkbox" name="Thinner" value="Heparin"> Heparin/Enoxaparin
-                         </label>
+      <table class="ThinnersTable">
+        <thead>
+          <tr>
+            <th colspan="3">
+              Blood Thinner Usage<br />
+              <small
+                >Ask patient/family of anticoagulant usage of patient:</small
+              >
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="score-cell" id="YesCell" data-point="0">Yes</td>
+            <td class="score-cell" data-point="0">No</td>
+            <td class="score-cell" data-point="0">Unknown</td>
+          </tr>
+          <tr class="ThinnersRow" id="ThinnersID">
+            <td colspan="3">
+              <label>
+                <input type="checkbox" name="Thinner" value="Coumadin" />
+                Coumadin/Warfarin
+              </label>
+              <br />
+              <label>
+                <input type="checkbox" name="Thinner" value="Pradaxa" />
+                Pradaxa/Dabigatran
+              </label>
+              <br />
+              <label>
+                <input type="checkbox" name="Thinner" value="Eliquis" />
+                Eliquis/Apixaban
+              </label>
+              <br />
+              <label>
+                <input type="checkbox" name="Thinner" value="Xarelto" />
+                Xarelto/Rivaroxaban
+              </label>
+              <br />
+              <label>
+                <input type="checkbox" name="Thinner" value="Savaysa" />
+                Savaysa/Edoxaban
+              </label>
+              <br />
+              <label>
+                <input type="checkbox" name="Thinner" value="Heparin" />
+                Heparin/Enoxaparin
+              </label>
 
-                            <br>
-                        <label>
-                             <input type="checkbox" name="Thinner" value="Other"> Other Blood Thinner
-                         </label>
+              <br />
+              <label>
+                <input type="checkbox" name="Thinner" value="Other" /> Other
+                Blood Thinner
+              </label>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-        
+      <button id="calculateScore">Calculate Score</button>
     </div>
 
+    <div class="ScoreWrapper">
+      <p id="Report" class="Report" style="display: none"></p>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="FastED.js"></script>
