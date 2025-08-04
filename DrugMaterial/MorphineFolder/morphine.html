@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Naloxone Dosaging</title>
+    <title>Morphine Dosaging</title>
     <link rel="icon" href="favicon.ico" type="image/png" />
-    <link rel="stylesheet" href="naloxoneSources/naloxone.css" />
+    <link rel="stylesheet" href="morphine.css" />
   </head>
   <body>
     <a href="../../index.html" class="header-link">
@@ -14,30 +14,53 @@
       </div>
     </a>
 
-    <h2>Naloxone</h2>
+    <h2>Morphine Sulfate</h2>
 
     <div class="dosage-container">
       <h3>Adult Dosage:</h3>
 
       <p>
-        <strong
-          ><u>Adult<br />Poisoning and Overdose</u></strong
-        ><br /><br />
-        <strong>IV or IM – 0.4-2.0 mg;</strong><br /><br />
-        May repeat every 3-5 minutes until respiratory depression is
-        reversed.<br /><br />
-        <strong>IN – 0.4 - 2 mg (1ml MAX) per nostril</strong><br /><br />
-        Via atomizer, may repeat every 3-5 minutes until respiratory depression
-        is reversed.
-        <br /><br />
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
 
-        <small
-          ><i
-            >Note: Always ensure amounts are accurate prior to administration.
-            Consult Anderson Protocols or Medical Control if uncertainty
-            exists.</i
-          >
-        </small>
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <!--END WEIGHT GATHERING-->
+
+        <br />
+        <br />
+
+        <!-- BEGIN PROTOCOL SELECTION ADULT-->
+        <strong><u>Protocol</u></strong>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="protocol" value="pain" checked />
+
+          Pain Management (Severe); <br />
+        </label>
+        <br />
+        <br />
+
+        <label>
+          <input type="radio" name="protocol" value="acs" />
+          Chest Pain/ACS/STEMI; <br />
+        </label>
+        <br />
+        <br />
+
+        <button id="calculateDosage">Calculate Dosage</button>
+      </p>
+      <p id="result" class="result" style="display: none">
+        <!-- Result will be displayed here -->
       </p>
 
       <br />
@@ -62,6 +85,15 @@
 
         <br />
         <br />
+        <strong><u>Protocol</u></strong>
+        <br />
+        <br />
+        <label>
+          <input type="radio" name="Pediprotocol" value="pPain" checked />
+          Pain Management;
+        </label>
+        <br />
+        <br />
         <button id="calculateDosagePedi">Calculate Dosage</button>
       </p>
       <p id="resultPedi" class="resultPedi" style="display: none">
@@ -71,31 +103,26 @@
 
     <div class="facts-container">
       <h3>Indications:</h3>
-      <p>
-        Opiate overdose, complete or partial reversal of CNS and respiratory
-        depression induced by opioids, decreased level of consciousness, coma of
-        unknown origin.
-      </p>
+      <p>Management of acute pain.</p>
       <h3>Protocols:</h3>
       <p>
         <strong>
           <u>Adult</u><br />
-
-          Poisoning and Overdose;
+          <br />
+          Chest Pain / Acute Coronary Syndrome / STEMI;<br />
+          Pain Management (Severe);
           <br />
           <br />
           <u>Pediatric</u>
-
           <br />
-          Pediatric Toxic Exposures/Ingestions;
           <br />
-          Pediatric Altered Mental Status;
+          Pain Management;
         </strong>
       </p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="naloxoneSources/naloxone.js"></script>
+    <script src="morphine.js"></script>
   </body>
   <footer>
     <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
