@@ -3,52 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Magnesium Sulfate Dosaging</title>
+    <title>Lidocaine Dosaging</title>
     <link rel="icon" href="favicon.ico" type="image/png" />
-    <link rel="stylesheet" href="magnesiumSources/magnesium.css" />
+    <link rel="stylesheet" href="lidocaine.css" />
   </head>
   <body>
     <a href="../../index.html" class="header-link">
       <div class="header">
-        <
         <h1>Anderson EMS Pocket Medic</h1>
       </div>
     </a>
 
-    <h2>Magnesium Sulfate</h2>
+    <h2>Lidocaine</h2>
 
     <div class="dosage-container">
       <h3>Adult Dosage:</h3>
 
       <p>
+        Weight:
+        <input type="number" id="weightInput" placeholder="Enter weight" />
+        <br />
+
+        <label>
+          <input type="radio" name="unit" value="kg" checked />
+          kg
+        </label>
+
+        <label>
+          <input type="radio" name="unit" value="lbs" />
+          lbs
+        </label>
+        <!--END WEIGHT GATHERING-->
+
+        <br />
+        <br />
         <strong><u>Protocol</u></strong>
         <br />
-        <br />
         <label>
-          <input type="radio" name="protocol" value="respiratory" checked />
-          Bronchospasm / Asthma / COPD;
+          <input type="radio" name="protocol" value="Tachycardia" checked />
+          Tachycardia (with a Pulse) - Wide Complex; <br />
+          Cardiac Arrest - (Vfib / Pulseless V-Tach);
         </label>
         <br />
         <br />
         <label>
-          <input type="radio" name="protocol" value="eclampsia" />
-          Eclampsia / Pre-Eclapmsia;<br />
+          <input type="radio" name="protocol" value="Pain" />
+          Intraosseous Access-Responsive to pain
         </label>
         <br />
         <br />
-        <label>
-          <input type="radio" name="protocol" value="torsadespulse" />
-          Tachycardia (with a Pulse)-Wide Complex (Torsades);<br />
-        </label>
-        <br />
-        <br />
-        <label>
-          <input type="radio" name="protocol" value="torsadespulseless" />
-          Cardiac Arrest-(V-Fib/Pulseless V-Tach)(Torsades);<br />
-        </label>
-        <br />
-        <br />
-        <button id="calculateDosage">Get Dosage</button>
+        <button id="calculateDosage">Calculate Dosage</button>
       </p>
       <p id="result" class="result" style="display: none">
         <!-- Result will be displayed here -->
@@ -79,24 +83,15 @@
         <strong><u>Protocol</u></strong>
         <br />
         <label>
-          <input type="radio" name="Pediprotocol" value="Respiratory" checked />
-          Respiratory Distress-Lower Airway;
+          <input type="radio" name="Pediprotocol" value="Tachycardia" checked />
+          Tachycardia (with a Pulse) - Wide Complex; <br />
+          Cardiac Arrest - (Vfib / Pulseless V-Tach);
         </label>
         <br />
         <br />
         <label>
-          <input type="radio" name="Pediprotocol" value="PediPulseTorsades" />
-          Tachycardia (with a Pulse)-Wide Complex (Torsades)
-        </label>
-        <br />
-        <br />
-        <label>
-          <input
-            type="radio"
-            name="Pediprotocol"
-            value="PediPulselessTorsades"
-          />
-          Cardiac Arrest-(V-Fib/Pulseless V-Tach) (Torsades)
+          <input type="radio" name="Pediprotocol" value="Pain" />
+          Intraosseous Access-Responsive to pain
         </label>
         <br />
         <br />
@@ -110,35 +105,33 @@
     <div class="facts-container">
       <h3>Indications:</h3>
       <p>
-        For the management of torsades de pointes or for severe
-        bronchoconstriction with impending respiratory failure, seizure during
-        the third trimester of pregnancy or in the postpartum patient.
+        Alternate to amiodarone in cardiac arrest from VT, VF, Stable
+        wide-complex tachycardia (poly-or monomorphic) with normal baseline QT
+        interval. Also used as a local anesthetic for various procedures,
+        including intubation and IO infusion.
       </p>
       <h3>Protocols:</h3>
       <p>
         <strong>
           <u>Adult</u><br />
           <br />
-          Bronchospasm / Asthma / COPD; <br />
-          Eclampsia / Pre-Eclapmsia;<br />
-          Tachycardia (with a Pulse)-Wide Complex (Torsades);<br />
-          Cardiac Arrest-(V-Fib/Pulseless V-Tach)(Torsades);
-
+          Tachycardia (with a Pulse) - Wide Complex; <br />
+          Cardiac Arrest - (VFib / Pulseless V-Tach);<br />
+          Intraosseous Access-Responsive to pain
           <br />
           <br />
           <u>Pediatric</u>
           <br />
           <br />
-          Respiratory Distress-Lower Airway;<br />
-          Tachycardia (with a Pulse)-Wide Complex (Torsades)
-          <br />
-          Cardiac Arrest-(V-Fib/Pulseless V-Tach) (Torsades)
+          Tachycardia (with a Pulse) - Wide Complex; <br />
+          Cardiac Arrest - (Vfib / Pulseless V-Tach); <br />
+          Intraosseous Access-Responsive to pain
         </strong>
       </p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="magnesiumSources/magnesium.js"></script>
+    <script src="lidocaine.js"></script>
   </body>
   <footer>
     <div class="footer">&copy; 2025 LukiWebSolutions. All rights reserved.</div>
