@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=yes"
+    />
+
+    <title>Rule of 9's/Parkland Formula</title>
+    <link rel="icon" href="favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="ruleOfNine.css" />
+  </head>
+  <body>
+    <a href="/index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Pocket Medic</h1>
+      </div>
+    </a>
+    <h1>Rule of 9's<br />Parkland Formula</h1>
+    <h1>STILL IN PRODUCTION</h1>
+
+    <div class="AdultorInfantToggle">
+      <table col-span="2" class="AdultorInfantTable">
+        <tr>
+          <td>Adult</td>
+          <td>Infant</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="ADULTSECTION">
+      <div class="tbsa-layout">
+        <!-- Left column: ANTERIOR -->
+        <table class="select-table anterior" aria-label="Anterior (Adult)">
+          <thead>
+            <tr>
+              <th>Anterior</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-side="anterior" data-part="head">Head</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="chest">Chest</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="left-arm">Left Arm</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="right-arm">Right Arm</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="abdomen">Abdomen</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="groin">Groin</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="left-leg">Left Leg</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="right-leg">Right Leg</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Center: IMAGE -->
+        <div class="AdultImageDiv">
+          <img
+            src="RuleOfNines.png"
+            alt="Rule of Nines (Adult)"
+            class="Adultresponsive-image"
+          />
+        </div>
+
+        <!-- Right column: POSTERIOR -->
+        <table class="select-table posterior" aria-label="Posterior (Adult)">
+          <thead>
+            <tr>
+              <th>Posterior</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-side="posterior" data-part="head">Head</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="upper-back">Upper Back</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="left-arm">Left Arm</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="right-arm">Right Arm</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="lower-back">
+                Lower Back/Buttocks
+              </td>
+            </tr>
+
+            <tr>
+              <td data-side="posterior" data-part="left-leg">Left Leg</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="right-leg">Right Leg</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="INFANTSECTION" style="display: none">
+      <div class="tbsa-layout">
+        <table class="select-table anterior" aria-label="Anterior (Infant)">
+          <thead>
+            <tr>
+              <th>Anterior</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-side="anterior" data-part="head">Head</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="chest">Torso</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="left-arm">Left Arm</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="right-arm">Right Arm</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="groin">Groin</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="left-leg">Left Leg</td>
+            </tr>
+            <tr>
+              <td data-side="anterior" data-part="right-leg">Right Leg</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="InfantImageDiv">
+          <img
+            src="infantBurn.jpg"
+            alt="Rule of Nines (Infant)"
+            class="Infantresponsive-image"
+          />
+        </div>
+
+        <table class="select-table posterior" aria-label="Posterior (Infant)">
+          <thead>
+            <tr>
+              <th>Posterior</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-side="posterior" data-part="head">Head</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="upper-back">Upper Back</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="left-arm">Left Arm</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="right-arm">Right Arm</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="left-buttocks">
+                Left Buttocks
+              </td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="right-buttocks">
+                Right Buttocks
+              </td>
+            </tr>
+
+            <tr>
+              <td data-side="posterior" data-part="left-leg">Left Leg</td>
+            </tr>
+            <tr>
+              <td data-side="posterior" data-part="right-leg">Right Leg</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="ruleOfNine.js"></script>
+    <footer>
+      <div class="footer">
+        &copy; 2025 LukiWebSolutions. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
