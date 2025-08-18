@@ -158,8 +158,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-
-/ .AdultImageDiv,
+.AdultImageDiv,
 .InfantImageDiv {
   display: flex;
   justify-content: center;
