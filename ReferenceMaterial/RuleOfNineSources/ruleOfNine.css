@@ -216,3 +216,31 @@ footer {
   border-color: #7aa873;
   box-shadow: inset 0 0 0 2px rgba(16, 50, 14, 0.08);
 }
+
+/* Name the grid items */
+.tbsa-layout .anterior  { grid-area: anterior; }
+.tbsa-layout .posterior { grid-area: posterior; }
+.tbsa-layout .AdultImageDiv,
+.tbsa-layout .InfantImageDiv { grid-area: image; }
+
+/* DESKTOP / default: 3 columns */
+.tbsa-layout {
+  width: min(1100px, 95vw);
+  margin: 0 auto 16px auto;
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 600px) 1fr;
+  grid-template-areas: "anterior image posterior";
+  gap: 16px;
+  align-items: start;
+}
+
+/* MOBILE: stack as Image → Anterior → Posterior */
+@media (max-width: 900px) {
+  .tbsa-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "anterior"
+      "posterior";
+  }
+}
