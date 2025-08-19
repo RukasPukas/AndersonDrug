@@ -243,4 +243,51 @@ footer {
       "anterior"
       "posterior";
   }
+}.weightInputDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    gap: 15px;
+}
+
+.weightInput{
+  border: 1px solid #ccc;  
+  border-radius: 10px;    
+  padding: 8px 12px;        
+  outline: none;     
+  height:2.5em;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.weightInputDiv button:hover {
+  background-color: deepskyblue;
+  transform: scale(1.05);
+}
+
+.weightInputDiv button:active {
+  background-color: dodgerblue;
+}
+
+.weightInputDiv button:focus {
+  outline: none;
+  box-shadow: 0 0 5px deepskyblue;
+}
+
+.parklandResultDiv{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    gap: 15px;
 }

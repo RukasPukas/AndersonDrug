@@ -6,10 +6,10 @@ $(document).ready(function () {
   const $adult = $(".ADULTSECTION");
   const $infant = $(".INFANTSECTION");
 
-  // Init total display
+ 
   $("#TBA").text("0.0%");
 
-  // Reset all selected cells
+
   function resetSelections() {
     $(".select-table tbody td").removeClass("selected");
   }
@@ -74,4 +74,39 @@ $(document).ready(function () {
       $(this).trigger("click");
     }
   });
+
+$(".CalculateButton").on("click", function () {
+  // 1) weight
+  let weight = parseFloat($(".weightInput").val());
+  const unit = $("input[name='unit']:checked").val();
+
+  if (isNaN(weight) || weight <= 0 || weight > 1000) {
+    alert("Please enter a valid weight in " + (unit || "kg/lbs"));
+    return;
+  }
+
+  if (unit === "lbs") {
+    weight = weight / 2.20462;
+  }
+
+
+  const tbsaPct = parseFloat($("#TBA").text().replace("%", "")) || 0;
+
+
+  const total24 = 4 * weight * tbsaPct;  
+  const first8  = total24 / 2;            
+  const next16  = total24 / 2;          
+  const rate8   = first8 / 8;            
+  const rate16  = next16 / 16;            
+
+
+  $("#ParklandResult").html(
+    `
+     First 8h: <strong>${Math.round(first8)} mL</strong> (${Math.round(rate8)} mL/hr)<br>
+     Next 16h: <strong>${Math.round(next16)} mL</strong> (${Math.round(rate16)} mL/hr)<br>
+     Total 24h: <strong>${Math.round(total24)} mL</strong><br>`
+  );
+});
+
+
 });
