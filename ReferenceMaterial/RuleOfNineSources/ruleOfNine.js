@@ -102,9 +102,9 @@ $(".CalculateButton").on("click", function () {
 
   $("#ParklandResult").html(
     `
-     First 8h: <strong>${Math.round(first8)} mL</strong> (${Math.round(rate8)} mL/hr)<br>
-     Next 16h: <strong>${Math.round(next16)} mL</strong> (${Math.round(rate16)} mL/hr)<br>
-     Total 24h: <strong>${Math.round(total24)} mL</strong><br>`
+     Over the first 8 hours: <strong>${Math.round(first8)} mL</strong> (${Math.round(rate8)} mL/hr)<br><br>
+     Over the next 16 hours: <strong>${Math.round(next16)} mL</strong> (${Math.round(rate16)} mL/hr)<br><br>
+     Over total 24 hours: <strong>${Math.round(total24)} mL</strong><br>`
   );
 });
 
