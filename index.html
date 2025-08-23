@@ -15,7 +15,23 @@
       </div>
     </a>
 
+
     <main>
+<div class="searchbar" role="search">
+  <input
+    id="searchInput"
+    class="search-input"
+    type="text"
+    placeholder="Search…"
+    autocomplete="off"
+  />
+  <button id="searchButton" class="search-btn" type="button" aria-label="Search">
+    🔍
+  </button>
+</div>
+
+<div id="searchResults" class="search-results" style="display:none;"></div>
+
       <div class="spinner-toggle">
         <button id="toggleDrugs">Medication List</button>
       </div>
