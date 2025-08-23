@@ -21,10 +21,15 @@ $(document).ready(function () {
   });
 
   function normalize(s) {
-    return s
-      .toLowerCase()
-      .normalize("NFKD")
-      .replace(/[\u0300-\u036f]/g, "");
+    const lower = (s || "").toLowerCase();
+
+    let nfd = lower;
+    try {
+      if (typeof lower.normalize === "function") {
+        nfd = lower.normalize("NFKD");
+      }
+    } catch (_) {}
+    return nfd.replace(/[\u0300-\u036f]/g, "");
   }
 
   function search(q) {
