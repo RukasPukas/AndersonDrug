@@ -7,7 +7,7 @@ $(document).ready(function () {
   $(".drugContainer button, .drugContainer2 button").each(function () {
     const $btn = $(this);
     const label = $btn.text().replace(/\s+/g, " ").trim();
-
+    const alias = $btn.data("alias") || "";
     let url = null;
     const onclick = $btn.attr("onclick");
     if (onclick) {
@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     if ($btn.data("url")) url = $btn.data("url");
 
-    if (label) ITEMS.push({ label, url, $src: $btn });
+    if (label) ITEMS.push({ label, alias, url, $src: $btn });
   });
 
   function normalize(s) {
@@ -35,10 +35,11 @@ $(document).ready(function () {
   function search(q) {
     const query = normalize(q.trim());
     if (!query) return [];
-    return ITEMS.filter((it) => normalize(it.label).includes(query)).slice(
-      0,
-      20
-    );
+
+    return ITEMS.filter((it) => {
+      const haystack = normalize((it.label || "") + " " + (it.alias || ""));
+      return haystack.includes(query);
+    }).slice(0, 20);
   }
 
   function renderResults(list) {

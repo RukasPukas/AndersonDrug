@@ -15,300 +15,326 @@
       </div>
     </a>
 
-
     <main>
-<div class="searchbar" role="search">
-<input
-  id="searchInput"
-  class="search-input"
-  type="text"
-  placeholder="Search…"
-  autocomplete="off"
-  autocapitalize="off"
-  autocorrect="off"
-  spellcheck="false"
-/>
-  <button id="searchButton" class="search-btn" type="button" aria-label="Search">
-    🔍
-  </button>
-</div>
+      <div class="searchbar" role="search">
+        <input
+          id="searchInput"
+          class="search-input"
+          type="text"
+          placeholder="Search…"
+          autocomplete="off"
+          autocapitalize="off"
+          autocorrect="off"
+          spellcheck="false"
+        />
+        <button
+          id="searchButton"
+          class="search-btn"
+          type="button"
+          aria-label="Search"
+        >
+          🔍
+        </button>
+      </div>
 
-<div id="searchResults" class="search-results" style="display:none;"></div>
+      <div
+        id="searchResults"
+        class="search-results"
+        style="display: none"
+      ></div>
 
       <div class="spinner-toggle">
         <button id="toggleDrugs">Medication List</button>
       </div>
 
       <div class="drugContainer" id="drugList" style="display: none">
-          <button
+        <button
           onclick="location.href='/DrugMaterial/AcetaminophenFolder/Acetaminophen.html'"
+          data-alias="Tylenol pain reliever"
         >
           Acetaminophen
         </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/AdenosineFolder/adenosine.html'"
+          data-alias="Adenocard cardiac arrhythmia"
         >
           Adenosine
         </button>
 
         <button
           onclick="location.href='/DrugMaterial/AlbuterolFolder/albuterol.html'"
+          data-alias="Ventolin Proventil bronchodilator"
         >
           Albuterol
         </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/AmiodaroneFolder/amiodarone.html'"
+          data-alias=" Cordarone Pacerone arrhythmia"
         >
           Amiodarone
         </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/AspirinFolder/aspirin.html'"
+          data-alias="Bayer ASA pain reliever anti coagulant"
         >
           Aspirin
         </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/AtropineFolder/Atropine.html'"
+          data-alias="Atropen bradycardia antidote"
         >
           Atropine Sulfate
         </button>
 
         <button
           onclick="location.href='/DrugMaterial/CalciumChlorideFolder/calciumchloride.html'"
+          data-alias="CaCl2 electrolyte hypocalcemia"
         >
           Calcium Chloride
         </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/CalciumGluconateFolder/calciumGluconate.html'"
+          data-alias="CaGluconate electrolyte hypocalcemia"
         >
           Calcium Gluconate
         </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/DexamethasoneFolder/dexamethasone.html'"
+          data-alias="Decadron steroid anti inflammatory"
         >
           Dexamethasone
         </button>
 
         <button
           onclick="location.href='/DrugMaterial/Dextrose10Folder/dextrose10.html'"
+          data-alias="D10"
         >
           Dextrose 10%
         </button>
-        
+
         <button
           onclick="location.href='/DrugMaterial/Dextrose50Folder/dextrose50.html'"
+          data-alias="D50"
         >
           Dextrose 50%
         </button>
-        
+
         <button
           onclick="location.href='/DrugMaterial/DiazepamFolder/diazepam.html'"
+          data-alias="Valium anxiety seizures"
         >
-         Diazepam
+          Diazepam
         </button>
-    
+
         <button
           onclick="location.href='/DrugMaterial/DiltiazemFolder/diltiazem.html'"
+          data-alias="Cardizem calcium channel blocker arrhythmia"
         >
-         Diltiazem
-        </button>     
-        
-        
+          Diltiazem
+        </button>
+
         <button
           onclick="location.href='/DrugMaterial/DiphenhydramineFolder/diphenhydramine.html'"
+          data-alias="Benadryl antihistamine allergy"
         >
-         Diphenhydramine
-        </button> 
- 
+          Diphenhydramine
+        </button>
+
         <button
           onclick="location.href='/DrugMaterial/DopamineFolder/dopamine.html'"
+          data-alias="Intropin vasopressor inotrope"
         >
-         Dopamine
-        </button> 
+          Dopamine
+        </button>
 
         <button
           onclick="location.href='/DrugMaterial/DuoNebFolder/duoneb.html'"
+          data-alias="Ipratropium Albuterol bronchodilator"
         >
-         DuoNeb
-        </button> 
+          DuoNeb
+        </button>
 
-        
-
-          <button
+        <button
           onclick="location.href='/DrugMaterial/Epi1000Folder/epi1000.html'"
         >
-         Epinephrine 1:1,000
-        </button> 
+          Epinephrine 1:1,000
+        </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/Epi10000Folder/epi10000.html'"
         >
-         Epinephrine 1:10,000
-        </button> 
+          Epinephrine 1:10,000
+        </button>
 
         <button
           onclick="location.href='/DrugMaterial/Epi100000Folder/epi100000.html'"
         >
-         Epinephrine 1:100,000
-        </button> 
+          Epinephrine 1:100,000
+        </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/EpiRacemicFolder/epiRacemic.html'"
         >
-         Epinephrine Racemic
-        </button> 
+          Epinephrine Racemic
+        </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/EtomidateFolder/etomidate.html'"
+          data-alias="Amidate sedative induction"
         >
-         Etomidate
-        </button> 
+          Etomidate
+        </button>
 
-                        <button
+        <button
           onclick="location.href='/DrugMaterial/FentanylFolder/fentanyl.html'"
+          data-alias="Sublimaze pain reliever opioid"
         >
-         Fentanyl
-        </button> 
+          Fentanyl
+        </button>
 
-                        <button
+        <button
           onclick="location.href='/DrugMaterial/GlucagonFolder/glucagon.html'"
         >
-         Glucagon
-        </button> 
+          Glucagon
+        </button>
 
-                        <button
+        <button
           onclick="location.href='/DrugMaterial/HaloperidolFolder/haloperidol.html'"
+          data-alias="Haldol antipsychotic schizophrenia agitation"
         >
-         Haloperidol
-        </button> 
+          Haloperidol
+        </button>
 
-                        <button
+        <button
           onclick="location.href='/DrugMaterial/HydralazineFolder/hydralazine.html'"
         >
-         Hydralazine
-        </button> 
+          Hydralazine
+        </button>
 
-                        <button
+        <button
           onclick="location.href='/DrugMaterial/IbueprofenFolder/ibueprofen.html'"
         >
-         Ibueprofen
-        </button> 
+          Ibueprofen
+        </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/KetamineFolder/ketamine.html'"
         >
-         Ketamine
-        </button>    
-        
-          <button
+          Ketamine
+        </button>
+
+        <button
           onclick="location.href='/DrugMaterial/KetorolacFolder/ketorolac.html'"
+          data-alias="Toradol pain reliever"
         >
-         Ketorolac
-        </button>   
-        
-          <button
+          Ketorolac
+        </button>
+
+        <button
           onclick="location.href='/DrugMaterial/LabetalolFolder/labetalol.html'"
         >
-         Labetalol
-        </button>            
-          
+          Labetalol
+        </button>
+
         <button
           onclick="location.href='/DrugMaterial/LidocaineFolder/lidocaine.html'"
         >
-         Lidocaine
-        </button>  
-       
+          Lidocaine
+        </button>
+
         <button
           onclick="location.href='/DrugMaterial/LorazepamFolder/lorazepam.html'"
+          data-alias="Ativan"
         >
-         Lorazepam
-        </button>       
-        
+          Lorazepam
+        </button>
+
         <button
           onclick="location.href='/DrugMaterial/MagnesiumFolder/magnesium.html'"
         >
-         Magnesium Sulfate
-        </button>         
-        
+          Magnesium Sulfate
+        </button>
+
         <button
           onclick="location.href='/DrugMaterial/MethylprednisoloneFolder/Methylprednisolone.html'"
         >
-         Methylprednisolone
-        </button>   
+          Methylprednisolone
+        </button>
 
         <button
           onclick="location.href='/DrugMaterial/MetoprololFolder/Metoprolol.html'"
         >
-         Metropolol
-        </button>          
+          Metropolol
+        </button>
 
         <button
           onclick="location.href='/DrugMaterial/MidazolamFolder/midazolam.html'"
+          data-alias="Versed"
         >
-         Midazolam
-        </button>          
-        
+          Midazolam
+        </button>
+
         <button
           onclick="location.href='/DrugMaterial/MorphineFolder/morphine.html'"
         >
           Morphine Sulfate
-                </button>    
-    
-                <button
+        </button>
+
+        <button
           onclick="location.href='/DrugMaterial/NaloxoneFolder/naloxone.html'"
+          data-alias="Narcan"
         >
           Naloxone
-                </button>   
-                
-          <button
+        </button>
+
+        <button
           onclick="location.href='/DrugMaterial/NitroglycerinFolder/nitroglycerin.html'"
         >
           Nitroglycerin
-          </button>                  
-         
-          <button
+        </button>
+
+        <button
           onclick="location.href='/DrugMaterial/NorepinephrineFolder/norepinephrine.html'"
         >
           Norepinephrine
-          </button> 
-          
-          <button
+        </button>
+
+        <button
           onclick="location.href='/DrugMaterial/OndansetronFolder/ondansetron.html'"
+          data-alias="Zofran"
         >
           Ondansetron
-          </button>            
+        </button>
 
-          <button
+        <button
           onclick="location.href='/DrugMaterial/OralGlucoseFolder/oralGlucose.html'"
         >
           Oral Glucose
-          </button> 
-         
-          <button
+        </button>
+
+        <button
           onclick="location.href='/DrugMaterial/SodiumBicarbonateFolder/sodiumBicarbonate.html'"
         >
           Sodium Bicarbonate
-          </button>  
-          
-          <button
+        </button>
+
+        <button
           onclick="location.href='/DrugMaterial/ThaiamineFolder/Thiamine.html'"
         >
           Thiamine / Vitamin B1
-          </button>  
-           <button
+        </button>
+        <button
           onclick="location.href='/DrugMaterial/TXAFolder/txa.html'"
+          data-alias="TXA"
         >
           Tranexamic Acid
-          </button>  
-           
-
-
-    
+        </button>
       </div>
 
       <!--Begin Procedures Section-->
@@ -324,32 +350,28 @@
           APGAR Scoring
         </button>
 
-                <button
-          onclick="location.href='/ReferenceMaterial/FastED/FastED.html'"
-        >
+        <button onclick="location.href='/ReferenceMaterial/FastED/FastED.html'">
           FAST-ED
         </button>
 
-                <button
+        <button
           onclick="location.href='/ReferenceMaterial/FireRehab/FireRehab.html'"
         >
           Firefighter Rehabilitation
-        </button>        
-        
+        </button>
+
         <button
           onclick="location.href='/ReferenceMaterial/GlascowAdult/glascowAdult.html'"
         >
-          Glascow Coma Score<br>
+          Glascow Coma Score<br />
           <small>(Adult)</small>
-       
         </button>
 
         <button
           onclick="location.href='/ReferenceMaterial/GlascowPedi/glascowPedi.html'"
         >
-          Glascow Coma Score<br>
+          Glascow Coma Score<br />
           <small>(Pediatric)</small>
-       
         </button>
 
         <button
@@ -358,25 +380,24 @@
           Ideal Body Weight
         </button>
 
-
         <button
           onclick="location.href='/ReferenceMaterial/PediatricVitalsSources/pvs.html'"
         >
           Pediatric Normal Vitals Ranges
         </button>
 
-                <button
+        <button
           onclick="location.href='/ReferenceMaterial/RichmondSources/richmond.html'"
         >
           Richmond Agitation-Sedation Scale
         </button>
-               
+
         <button
           onclick="location.href='/ReferenceMaterial/RuleOfNineSources/ruleOfNine.html'"
         >
           Rule of 9's / Parkland Formula
         </button>
-
+      </div>
       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
       <script src="indexSources/indexjs.js"></script>
     </main>
