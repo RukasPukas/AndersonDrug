@@ -6,6 +6,7 @@
     <title>Anderson EMS Pocket Medic</title>
     <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="indexSources/style.css" />
+    <link rel="stylesheet" href="indexSources/sog.css" />
   </head>
   <body>
     <a href="index.html" class="header-link">
@@ -41,6 +42,22 @@
         class="search-results"
         style="display: none"
       ></div>
+
+      <!--Begin SOG  Section-->
+      <div class="spinner-toggle">
+        <button id="toggleSOG">SOG Materials</button>
+      </div>
+
+      <div class="drugContainer" id="sogList" style="display: none">
+        <h2 id="AdultGeneral">Adult General Protocols</h2>
+        <h2 id="GenMed">General Medical</h2>
+        <h2 id="Cardiac">Cardiac Emergencies</h2>
+        <h2 id="OB">Obstetric Emergencies</h2>
+        <h2 id="Trauma">Adult Trauma</h2>
+        <h2 id="Toxin">Adult Toxin-Environmental</h2>
+      </div>
+
+      <!--Begin Drugs Section-->
 
       <div class="spinner-toggle">
         <button id="toggleDrugs">Medication List</button>
@@ -349,7 +366,7 @@
           APGAR Scoring
         </button>
 
-          <button
+        <button
           onclick="location.href='/ReferenceMaterial/EKGSources/ekg.html'"
         >
           EKG Placement

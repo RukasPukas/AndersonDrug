@@ -124,6 +124,13 @@ $(document).ready(function () {
     $(this).text(isOpen ? "▼ View Medication List" : "▲ Hide Medication List");
   });
 
+  $("#toggleSOG").on("click", function () {
+    $("#sogList").slideToggle("slow");
+
+    const isOpen = $(this).text().includes("▲");
+    $(this).text(isOpen ? "▼ View SOG List" : "▲ Hide SOG List");
+  });
+
   $("#toggleProcedures").on("click", function () {
     $("#procedureList").slideToggle("slow");
 
