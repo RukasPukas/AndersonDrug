@@ -96,7 +96,7 @@ footer {
   font-size: 50px;
 }
 
-.MainBody h3 {
+.BLS {
   color: rgb(0, 0, 0);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
@@ -125,7 +125,14 @@ footer {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 
 /* END Main Body Styling */
+
+.placeholder-link {
+  color: rgb(240, 133, 26);
+  text-decoration: underline;
+  cursor: not-allowed;
+  pointer-events: none;
+}
