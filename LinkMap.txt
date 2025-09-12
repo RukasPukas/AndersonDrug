@@ -1,1 +1,120 @@
-➶
+Index-------------------------------------------------
+    Anderson Pocket Medic ➶
+    SOG's
+        Adult General Protocols ➶
+        Airway Management ➶
+    
+    Medications
+        Acetaminophen ➶
+        Adenosine ➶
+        Albuterol ➶
+        Amiodarone ➶
+        Aspirin ➶
+        Atropine Sulfate ➶
+        Calcium Chloride ➶
+        Calcium Gluconate ➶
+        Dexamethasone ➶
+        Dextrose 10% ➶
+        Dextrose 50% ➶
+        Diazepam ➶
+        Diltiazem ➶
+        Diphenhydramine ➶
+        Dopamine ➶
+        DuoNeb ➶
+        Epinephrine 1:1,000 ➶
+        Epinephrine 1:10,000 ➶
+        Epinephrine 1:100,000 ➶
+        Epinephrine Racemic ➶
+        Etomidate ➶
+        Fentanyl ➶
+        Glucagon ➶
+        Haloperidol ➶
+        Hydralazine ➶
+        Ibueprofen ➶
+        Ketamine ➶
+        Ketorolac ➶
+        Labetalol ➶
+        Lidocaine ➶
+        Lorazepam ➶
+        Magnesium Sulfate ➶
+        Methylprednisolone ➶
+        Metropolol ➶
+        Midazolam ➶ 
+        Morphine Sulfate ➶
+        Naloxone ➶
+        Nitroglycerin ➶
+        Norepinephrine ➶
+        Ondansetron ➶
+        Oral Glucose ➶
+        Sodium Bicarbonate ➶
+        Thiamine / Vitamin B1 ➶
+        Tranexamic Acid ➶
+    
+    Reference Material
+        APGAR Scoring ➶
+        EKG Placement ➶
+        FAST-ED ➶
+        Firefighter Rehabilitation ➶
+        Glascow Coma Score (Adult) ➶
+        Glascow Coma Score (Pediatric) ➶
+        Ideal Body Weight ➶
+        Pediatric Normal Vitals Ranges ➶
+        Richmond Agitation-Sedation Scale ➶
+        Rule of 9's / Parkland Formula ➶
+
+Reference Materials-----------------------------------
+    Apgar Sources
+        Anderson Pocket Medic ➶
+
+    EKG Sources
+        Anderson Pocket Medic ➶
+
+    Fast ED
+        Anderson Pocket Medic ➶
+
+    Fire Rehab
+        Anderson Pocket Medic ➶
+
+    Glascow Adult
+        Anderson Pocket Medic ➶
+
+    Glascow Pedi
+        Anderson Pocket Medic ➶
+
+    Ideal Body Weight
+        Anderson Pocket Medic ➶
+
+    Pediatric Vitals
+        Anderson Pocket Medic ➶
+
+    Richmond Agitation
+        Anderson Pocket Medic ➶
+        Midazolam ➶
+        Haloperidol ➶
+        Ketamine ➶
+        Midazolam ➶
+        Haloperidol ➶
+        Midazolam ➶
+        Haloperidol ➶
+
+    RuleOfNines
+        Anderson Pocket Medic ➶
+
+
+SOGs--------------------------------------------------
+    Universal Patient Care
+        Anderson Pocket Medic ➶
+        Airway Management
+        Spinal Motion Restriction
+        ACS
+        Cardiac Arrest
+        Airway Management
+        Extremity Trauma / External Hemorrhage Management
+        Cardiac Arrest
+        Altered Mental Status
+        Stroke
+        Intercept Criteria
+        Spinal Motion Restriction
+        waveform capnography
+        Altered Mental Status
+        waveform capnography
