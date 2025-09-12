@@ -108,7 +108,7 @@ SOGs--------------------------------------------------
         Spinal Motion Restriction
         ACS
         Cardiac Arrest
-        Airway Management
+        Airway Management ➶
         Extremity Trauma / External Hemorrhage Management
         Cardiac Arrest
         Altered Mental Status

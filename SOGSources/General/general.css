@@ -135,6 +135,8 @@ footer {
 
 /* END Main Body Styling */
 
+/* Link Styling */
+
 .placeholder-link {
   color: rgb(240, 133, 26);
   text-decoration: underline;
@@ -148,7 +150,14 @@ footer {
   cursor: pointer;
   pointer-events: auto;
   font-weight:bold;
-  visited {
-    color: rgb(72, 129, 235);
-  }
+
 }
+
+.working-link visited {
+  color: rgb(72, 129, 235);
+}
+.working-link:hover {
+  color: rgb(26, 84, 245);
+  font-weight: bolder;
+}
+/* END Link Styling */
