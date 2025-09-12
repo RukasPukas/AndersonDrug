@@ -147,4 +147,8 @@ footer {
   text-decoration: underline;
   cursor: pointer;
   pointer-events: auto;
+  font-weight:bold;
+  visited {
+    color: rgb(72, 129, 235);
+  }
 }
