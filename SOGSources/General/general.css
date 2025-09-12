@@ -141,3 +141,10 @@ footer {
   cursor: not-allowed;
   pointer-events: none;
 }
+
+.working-link {
+  color: rgb(72, 129, 235);
+  text-decoration: underline;
+  cursor: pointer;
+  pointer-events: auto;
+}
