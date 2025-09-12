@@ -104,7 +104,7 @@ Reference Materials-----------------------------------
 SOGs--------------------------------------------------
     Universal Patient Care
         Anderson Pocket Medic ➶
-        Airway Management
+        Airway Management ➶
         Spinal Motion Restriction
         ACS
         Cardiac Arrest
