@@ -172,8 +172,8 @@ footer {
 }
 
 .MainBody image {
-  display: inline;
-  width: 100%;
+  display: block;
+  max-width: 90%;
   height: auto;
 }
 
