@@ -172,9 +172,10 @@ footer {
 }
 
 .image {
-  display: inline-block;
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
   padding: 20px;
 }
 
