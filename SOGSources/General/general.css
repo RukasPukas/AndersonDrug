@@ -171,9 +171,9 @@ footer {
   padding-left: 2em;
 }
 
-.MainBody p img {
+.MainBody image {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
