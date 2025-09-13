@@ -5,3 +5,45 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 10px;
 }
+
+.EndTable {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #cbeefd;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.EndTable th {
+  background-color: rgb(173, 181, 177);
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.EndTable td {
+  background-color: #cbeefd;
+  padding: 8px 10px;
+  font-size: 1.2em;
+}
+
+.QMTable{
+    width: 90%;
+  margin: 10px auto;
+  background-color: #f4e195;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+}
