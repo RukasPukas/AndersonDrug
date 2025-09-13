@@ -171,12 +171,20 @@ footer {
   padding-left: 2em;
 }
 
+.img-wrap {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  padding: 20px;             /* moved from the img */
+}
+
+/* the image stays responsive and won’t overflow */
 .image {
-  max-width: 100%;
+  display: block;            /* avoid inline baseline quirks */
+  max-width: 100%;           /* scale down on small screens */
   height: auto;
-  display: inline-block;
-  margin: 0 auto;
-  padding: 20px;
+  box-sizing: border-box;    /* be safe if you ever add padding later */
+  margin: 0;                 /* flex wrapper handles centering */
+  float: none;               /* neutralize any global floats */
 }
 
 /* END Main Body Styling */

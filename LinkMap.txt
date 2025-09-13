@@ -120,7 +120,7 @@ SOGs--------------------------------------------------
         waveform capnography
     Airway Management
         Anderson Pocket Medic ➶
-        Universal Patient Care 
+        Universal Patient Care ➶
         Spinal Motion Restriction
         Foreign Body Airway Obstruction
         Tracheostomy Tube Complications
