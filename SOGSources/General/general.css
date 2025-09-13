@@ -171,15 +171,6 @@ footer {
   padding-left: 2em;
 }
 
-.image {
-  display: block;
-  width: fit-content;
-  max-width: 100%;
-  height: auto;
-  margin: 20px auto;
-  padding: 20px;
-}
-
 .MainBody p img {
   display: block;
   max-width: 100%;
