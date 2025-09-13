@@ -118,3 +118,6 @@ SOGs--------------------------------------------------
         waveform capnography
         Altered Mental Status
         waveform capnography
+    Airway Management
+        Anderson Pocket Medic ➶
+        Universal Patient Care 

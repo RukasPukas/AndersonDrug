@@ -17,6 +17,10 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+body {
+  display: none;
+}
+
 .header:hover {
   transform: scale(1.05);
 }
@@ -113,6 +117,40 @@ footer {
   margin: 0 auto;
 }
 
+.EMT {
+  color: rgb(0, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(213, 240, 36),
+    rgb(208, 255, 127)
+  );
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  justify: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.PARAMEDIC {
+  color: rgb(0, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(252, 16, 16),
+    rgb(237, 151, 151)
+  );
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  justify: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
 .MainBody p {
   font-size: 15px;
   width: 90%;
@@ -133,6 +171,14 @@ footer {
   padding-left: 2em;
 }
 
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 /* END Main Body Styling */
 
 /* Link Styling */
@@ -149,8 +195,7 @@ footer {
   text-decoration: underline;
   cursor: pointer;
   pointer-events: auto;
-  font-weight:bold;
-
+  font-weight: bold;
 }
 
 .working-link visited {
