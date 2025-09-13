@@ -179,6 +179,14 @@ footer {
   padding: 20px;
 }
 
+.MainBody p img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto; /* centers even inside text-align:left */
+  float: none; /* in case something floated it */
+}
+
 /* END Main Body Styling */
 
 /* Link Styling */
