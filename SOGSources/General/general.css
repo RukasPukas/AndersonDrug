@@ -171,10 +171,11 @@ footer {
   padding-left: 2em;
 }
 
-.MainBody image {
-  display: block;
-  max-width: 90%;
+.image {
+  display: inline-block;
+  max-width: 100%;
   height: auto;
+  padding: 20px;
 }
 
 /* END Main Body Styling */
