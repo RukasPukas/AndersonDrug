@@ -130,25 +130,25 @@ SOGs--------------------------------------------------
         BIAD
         Orotracheal Intubation
         waveform capnography
-        Assisted (medication) Intubation
+        Assisted (medication) Intubation ➶
         capnography
         capnography
         cricothyroidotomy
 
     Assisted (Medication)Intubation
         Anderson Pocket Medic ➶
-        AIRWAY Management
+        AIRWAY Management ➶
         BIAD
-        Airway Management
+        Airway Management ➶
         OROTRACHEAL Intubation
-        Etomidate
-        Ketamine
-        Aireway Management
-        Fentanyl
-        Midazolam
-        Fentanyl
-        Midazolam
-        Ketamine
+        Etomidate ➶
+        Ketamine ➶
+        Airway Management ➶
+        Fentanyl ➶
+        Midazolam ➶
+        Fentanyl ➶
+        Midazolam ➶
+        Ketamine ➶
         capnography
 
 
