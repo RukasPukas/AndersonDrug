@@ -6,12 +6,12 @@
     <title>Anderson EMS Pocket Medic</title>
     <link rel="icon" href="../favicon.ico" type="image/png" />
     <link rel="stylesheet" href="../general.css" />
-    <link rel="stylesheet" href="UniversalSpecific.css" />
+    <link rel="stylesheet" href=".css" />
   </head>
   <body>
     <a href="../../../index.html" class="header-link">
       <div class="header">
-        <h1>Anderson EMS Pocket Medic</h1>
+        <h1></h1>
       </div>
     </a>
     <div class="MainBody">
@@ -22,6 +22,8 @@
 
       </div>
     </div>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src=".js"></script>
   </body>
   <footer class="footer">
     <p>&copy; 2025 LukiWebSolutions. All rights reserved.</p>

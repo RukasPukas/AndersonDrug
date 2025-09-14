@@ -135,3 +135,20 @@ SOGs--------------------------------------------------
         capnography
         cricothyroidotomy
 
+    Assisted (Medication)Intubation
+        Anderson Pocket Medic ➶
+        AIRWAY Management
+        BIAD
+        Airway Management
+        OROTRACHEAL Intubation
+        Etomidate
+        Ketamine
+        Aireway Management
+        Fentanyl
+        Midazolam
+        Fentanyl
+        Midazolam
+        Ketamine
+        capnography
+
+
