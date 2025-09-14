@@ -15,7 +15,13 @@
       </div>
     </a>
     <div class="MainBody">
-      <h2>Universal Patient Care</h2>
+      <h2>Place Holder</h2>
+      <div class="InitialBody">
+<div class="comboBox">Select patient weight before proceeding:
+  <select id="weightSelect">
+
+  </select>
+</div>
       <div class="InitialBody">
         <h3 class="BLS"></h3>
         <p></p>

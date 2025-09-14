@@ -226,7 +226,21 @@ footer {
   border-collapse: separate;
   border-spacing: 10px;
 }
+#weightSelect {
+  width: 200px;            
+  padding: 8px 12px;        
+  font-size: 16px;           
+  border: 2px solid #4a90e2;  
+  border-radius: 8px;         
+  background-color: #f9f9f9;  
+  color: #333;               
+  cursor: pointer;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;          
+}
 
+.comboBox{
+color: white;
+}
 
 /* END Main Body Styling */
 

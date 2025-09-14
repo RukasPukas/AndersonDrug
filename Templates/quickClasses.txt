@@ -3,3 +3,5 @@
 <a href="#" class="placeholder-link" title="Page coming soon">PlaceHolder</a>
 
 <a href="PlaceHolder" class="working-link" title="PlaceHolder" >PlaceHolder</a>
+
+<span class="PlaceHolder" style="color: green;"></span>
