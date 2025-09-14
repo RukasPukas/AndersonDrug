@@ -16,7 +16,7 @@ weightSelect.addEventListener("change", function () {
   const weightKg = weightLbs * 0.453592;
   const dose = (weightKg * 0.3).toFixed(1);
   const volume = (dose / 2).toFixed(2);
-  outputSpan.textContent = `≈ ${dose} mg dose at ${weightKg.toFixed(1)} kg (${volume} mL at 2 mg/mL)`;
+  outputSpan.textContent = `≈ ${dose} mg (${volume} mL at 2 mg/mL)`;
 });
 //Ketamine
 const ketamineSpan = document.querySelector(".KetamineDose");
@@ -27,7 +27,7 @@ weightSelect.addEventListener("change", function () {
   if (dose > 200) dose = 200;
   const concentration = 50; 
   const volume = dose / concentration;
-  ketamineSpan.textContent = `≈ ${dose.toFixed(1)} mg (at ${weightKg.toFixed(1)} kg) (${volume.toFixed(1)} mL at 50mg/mL)`;
+  ketamineSpan.textContent = `≈ ${dose.toFixed(1)} mg (${volume.toFixed(1)} mL at 50mg/mL)`;
 });
 
 //Fentanyl
