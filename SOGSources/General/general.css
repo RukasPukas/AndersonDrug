@@ -66,7 +66,9 @@ footer {
 @media (max-width: 500px) {
   .facts-container button {
     width: 90%;
+    
   }
+  
 }
 
 @media (min-width: 768px) {
@@ -92,6 +94,8 @@ footer {
   display: block;
   text-align: center;
 }
+
+
 
 .MainBody h2 {
   color: white;
@@ -186,42 +190,40 @@ footer {
   margin: 0;                
   float: none;               
 }
-/* makes width math sane everywhere */
-*, *::before, *::after { box-sizing: border-box; }
-
-/* the table fills its parent (.MainBody) and stays centered with it */
 .EndTable {
-  width: 100%;
   max-width: 100%;
-  margin: 16px 0;             /* vertical spacing only */
-  border-collapse: collapse;  /* no external spacing */
-  border-spacing: 0;
-  background: transparent;    /* move background to a wrapper if you want rounded card */
-}
-
-/* do spacing inside cells instead of using border-spacing */
-.EndTable th,
-.EndTable td {
-  padding: 12px;
-  word-break: break-word;
-  overflow-wrap: anywhere;
-}
-
-/* optional: a wrapper to keep your blue card look & rounded corners */
-.endtable-card {
-  background: #cbeefd;
+ justify-content: center;
+  margin: 10px auto;
+  background-color: #cbeefd;
   border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  border-collapse: separate;
+  border-spacing: 10px;
+  table-layout:fixed;
+
+   
+}
+
+.EndTable th {
+  background-color: rgb(173, 181, 177);
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2;
   padding: 10px;
-  width: 100%;
-  margin: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: collapse;
+  width: 50%;
 }
 
-/* make the main content a bit looser on phones so everything breathes */
-@media (max-width: 600px) {
-  .MainBody { width: 95%; }
-  .EndTable th, .EndTable td { padding: 10px; }
+.EndTable td {
+  background-color: #cbeefd;
+  padding: 8px 10px;
+  font-size: 1em;
+  width: 50%;
 }
-
 
 .QMTable{
     width: 90%;
