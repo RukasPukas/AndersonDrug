@@ -1,76 +1,95 @@
-$(document).ready(function () {
-  $("body").fadeIn(750);
-});
+$(function () {
+  $("body").hide().fadeIn(750);
 
-const weightSelect = document.getElementById("weightSelect");
-for (let i = 0; i <= 500; i++) {
-  const opt = document.createElement("option");
-  opt.value = i;
-  opt.textContent = i + " lbs";
-  weightSelect.appendChild(opt);
-}
-//Etomidate
-const outputSpan = document.querySelector(".EtomidateDose");
-weightSelect.addEventListener("change", function () {
-  const weightLbs = parseInt(this.value, 10);
-  const weightKg = weightLbs * 0.453592;
-  const dose = (weightKg * 0.3).toFixed(1);
-  const volume = (dose / 2).toFixed(2);
-  outputSpan.textContent = `≈ ${dose} mg (${volume} mL at 2 mg/mL)`;
-});
-//Ketamine
-const ketamineSpan = document.querySelector(".KetamineDose");
-weightSelect.addEventListener("change", function () {
-  const weightLbs = parseInt(this.value, 10);
-  const weightKg = weightLbs * 0.453592;
-  let dose = weightKg * 2;
-  if (dose > 200) dose = 200;
-  const concentration = 50; 
-  const volume = dose / concentration;
-  ketamineSpan.textContent = `≈ ${dose.toFixed(1)} mg (${volume.toFixed(1)} mL at 50mg/mL)`;
-});
+  const weightInput = document.getElementById("weightSelect");
+  const etomidateSpan = document.querySelector(".EtomidateDose");
+  const ketamineSpan = document.querySelector(".KetamineDose");
+  const fentanylSpan = document.querySelector(".FentanylDose");
+  const midazolamSpan = document.querySelector(".MidazolamDose");
+  const postKetSpan = document.querySelector(".PostKetamineDose");
+  const weightSelectedSpan = document.getElementById("weightSelected");
 
-//Fentanyl
-const fentanylSpan = document.querySelector(".FentanylDose");
-weightSelect.addEventListener("change", function () {
-  const weightLbs = parseInt(this.value, 10);
-  const weightKg = weightLbs * 0.453592;
-  let initialDose = weightKg * 1; 
-  if (initialDose > 100) initialDose = 100; 
-  let repeatDose = weightKg * 0.5; 
-  if (repeatDose > 50) repeatDose = 50; 
-  intVolume = initialDose / 50; 
-  repVolume = repeatDose / 50;
-  fentanylSpan.textContent = 
-    `≈ ${initialDose.toFixed(1)} mcg (${intVolume.toFixed(1)} ml at 50mcg/mL) initial, repeat ≈ ${repeatDose.toFixed(2)} mcg (${repVolume.toFixed(2)} ml at 50mcg/mL)`;
-});
+  function updateAll(weightLbs) {
+    if (!weightLbs || isNaN(weightLbs)) {
+      etomidateSpan.textContent = "";
+      ketamineSpan.textContent = "";
+      fentanylSpan.textContent = "";
+      midazolamSpan.textContent = "";
+      postKetSpan.textContent = "";
+      weightSelectedSpan.textContent = "";
+      return;
+    }
 
-//Midazolam
-const midazolamSpan = document.querySelector(".MidazolamDose");
-weightSelect.addEventListener("change", function () {
-  const weightLbs = parseInt(this.value, 10);
-  const weightKg = weightLbs * 0.453592;
-  let dose = weightKg * 0.05; 
-  if (dose > 10) dose = 10;  
-  midazolamSpan.textContent = `≈ ${dose.toFixed(2)} mg per dose (max 10 mg total) (${dose.toFixed(2)} mL at 1 mg/mL)`;
-});
+    const kg = weightLbs * 0.45359237;
 
-//postIntubationKetamine 
-const postKetamineSpan = document.querySelector(".PostKetamineDose");
-weightSelect.addEventListener("change", function () {
-  const weightLbs = parseInt(this.value, 10);
-  if (isNaN(weightLbs)) return; // guard
-  const weightKg = weightLbs * 0.453592;
-  let initialDose = weightKg * 1;
-  if (initialDose > 200) initialDose = 200;
-  let repeatDose = weightKg * 1;
-  if (repeatDose > 200 - initialDose) repeatDose = 200 - initialDose;
-  const concentration = 50;
-  const initialVolume = initialDose / concentration;
-  const repeatVolume  = repeatDose  / concentration;
-  postKetamineSpan.textContent =
-    `≈ ${initialDose.toFixed(1)} mg (${initialVolume.toFixed(2)} mL) initial, ` +
-    `may repeat ≈ ${repeatDose.toFixed(1)} mg (${repeatVolume.toFixed(2)} mL at 50mg / ml) ` +
-    `(max combined 200 mg)`;
+    weightSelectedSpan.textContent = `Selected Weight: ${weightLbs} lbs (${kg.toFixed(
+      1
+    )} kgs)`;
+
+    // Etomidate: 0.3 mg/kg @ 2 mg/mL
+    const etomidateDose = +(kg * 0.3).toFixed(1);
+    const etomidateVol = +(etomidateDose / 2).toFixed(2);
+    etomidateSpan.textContent = `≈ ${etomidateDose} mg (${etomidateVol} mL at 2 mg/mL)`;
+
+    // Ketamine 2 mg/kg (max 200 mg) @ 50 mg/mL
+    let ketDose = kg * 2;
+    if (ketDose > 200) ketDose = 200;
+    const ketVol = ketDose / 50;
+    ketamineSpan.textContent = `≈ ${ketDose.toFixed(1)} mg (${ketVol.toFixed(
+      1
+    )} mL at 50 mg/mL)`;
+
+    // Fentanyl: initial 1 mcg/kg (max 100), repeat 0.5 mcg/kg (max 50) @ 50 mcg/mL
+    let fentInit = kg * 1;
+    if (fentInit > 100) fentInit = 100;
+    let fentRep = kg * 0.5;
+    if (fentRep > 50) fentRep = 50;
+    const fentInitVol = fentInit / 50;
+    const fentRepVol = fentRep / 50;
+    fentanylSpan.textContent =
+      `≈ ${fentInit.toFixed(1)} mcg (${fentInitVol.toFixed(
+        1
+      )} mL at 50 mcg/mL) initial, ` +
+      `repeat ≈ ${fentRep.toFixed(1)} mcg (${fentRepVol.toFixed(
+        1
+      )} mL at 50 mcg/mL)`;
+
+    // Midazolam: 0.05 mg/kg per dose (max 10 mg total) @ 1 mg/mL
+    let midazDose = kg * 0.05;
+    if (midazDose > 10) midazDose = 10;
+    midazolamSpan.textContent =
+      `≈ ${midazDose.toFixed(2)} mg per dose (max 10 mg total) ` +
+      `(${midazDose.toFixed(2)} mL at 1 mg/mL)`;
+
+    // Post-intubation Ketamine: 1 mg/kg; may repeat x1; max combined 200 mg @ 50 mg/mL
+    let postInit = kg * 1;
+    if (postInit > 200) postInit = 200;
+    let postRep = kg * 1;
+    if (postRep > 200 - postInit) postRep = 200 - postInit;
+    const postInitVol = postInit / 50;
+    const postRepVol = postRep / 50;
+    postKetSpan.textContent =
+      `≈ ${postInit.toFixed(1)} mg (${postInitVol.toFixed(2)} mL) initial, ` +
+      `may repeat ≈ ${postRep.toFixed(1)} mg (${postRepVol.toFixed(
+        2
+      )} mL at 50 mg/mL) ` +
+      `(max combined 200 mg)`;
+  }
+
+  // enforce digits-only + max 3 chars, then update
+  weightInput.addEventListener("input", function () {
+    // keep only digits
+    this.value = this.value.replace(/\D/g, "");
+    // limit to 3 chars
+    if (this.value.length > 3) this.value = this.value.slice(0, 3);
+    // update outputs
+    const lbs = this.value ? parseInt(this.value, 10) : NaN;
+    updateAll(lbs);
+  });
+
+  // initialize if there’s a prefilled value
+  const init = weightInput.value
+    ? parseInt(weightInput.value.replace(/\D/g, ""), 10)
+    : NaN;
+  if (!isNaN(init)) updateAll(init);
 });
-weightSelect.dispatchEvent(new Event('change'));

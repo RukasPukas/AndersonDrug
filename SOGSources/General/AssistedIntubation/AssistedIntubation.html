@@ -19,10 +19,18 @@
       <h2>Assisted (Medication) Intubation</h2>
 
       <div class="InitialBody">
-<div class="comboBox">Select patient weight before proceeding:
-  <select id="weightSelect">
-
-  </select>
+<div class="inputBox">Enter patient weight in pounds before proceeding:
+<input 
+  type="text" 
+  id="weightSelect" 
+  maxlength="3" 
+  inputmode="numeric" 
+  pattern="\d{1,3}" 
+  placeholder="Enter weight 1 - 999lbs" 
+/><br><br>
+  <button id="weightButton">Submit Weight</button>
+  <br><br>
+  <p class = "weightDisplayP" style="background-color: rgba(51, 48, 48, 0.8); text-align:center;"><span id="weightSelected" style="color: whitesmoke; font-size: 1.4em; ;"></span><br><br></p>
 </div>
         <h3 class="BLS"></h3>
         <p> Imminent respiratory arrest<br><br>
