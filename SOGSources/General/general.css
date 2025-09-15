@@ -97,7 +97,7 @@ footer {
   border-radius: 10px;
   text-align: center;
   width: 90%;
-  justify: center;
+
   padding: 10px;
   margin: 0 auto;
 }
@@ -114,7 +114,7 @@ footer {
   border-radius: 10px;
   text-align: center;
   width: 90%;
-  justify: center;
+
   padding: 10px;
   margin: 0 auto;
 }
@@ -131,7 +131,7 @@ footer {
   border-radius: 10px;
   text-align: center;
   width: 90%;
-  justify: center;
+
   padding: 10px;
   margin: 0 auto;
 }
@@ -140,7 +140,7 @@ footer {
   font-size: 15px;
   width: 90%;
   margin: 0 auto;
-  justify: center;
+
   text-align: left;
   border-radius: 10px;
   background-color: white;
