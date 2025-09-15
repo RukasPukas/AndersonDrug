@@ -4,7 +4,8 @@ Index-------------------------------------------------
         Adult General Protocols ➶
         Airway Management ➶
         Assisted (medication) Intubation ➶
-        Human Trafficking
+        Human Trafficking ➶
+        Intercept Criteria
     
     Medications
         Acetaminophen ➶
@@ -155,6 +156,8 @@ SOGs--------------------------------------------------
 
     Human Trafficking
         Anderson Pocket Medic ➶
-        Universal Patient Care 
-
+        Universal Patient Care ➶
+    
+    Intercept Criteria
+        Anderson Pocket Medic ➶
 
