@@ -3,6 +3,8 @@ Index-------------------------------------------------
     SOG's
         Adult General Protocols ➶
         Airway Management ➶
+        Assisted (medication) Intubation ➶
+        Human Trafficking
     
     Medications
         Acetaminophen ➶
@@ -150,5 +152,9 @@ SOGs--------------------------------------------------
         Midazolam ➶
         Ketamine ➶
         capnography
+
+    Human Trafficking
+        Anderson Pocket Medic ➶
+        Universal Patient Care 
 
 
