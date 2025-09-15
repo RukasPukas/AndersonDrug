@@ -10,6 +10,7 @@ Index-------------------------------------------------
         Pain Management ➶
         Patient Refusal ➶
         Radio Report ➶
+        Termination of Resuscitation ➶
     
     Medications
         Acetaminophen ➶
@@ -187,6 +188,9 @@ SOGs--------------------------------------------------
         Anderson Pocket Medic ➶
     Special Needs Populations
         Anderson Pocket Medic ➶   
+    Termination fo Resuscitation
+        Anderson Pocket Medic ➶  
+        Cardiac Arrest
         
 
 
