@@ -6,7 +6,8 @@ Index-------------------------------------------------
         Assisted (medication) Intubation ➶
         Human Trafficking ➶
         Intercept Criteria ➶
-        Maltreatment/Abuse
+        Maltreatment/Abuse ➶
+        Pain Management
     
     Medications
         Acetaminophen ➶
@@ -164,5 +165,19 @@ SOGs--------------------------------------------------
 
     Maltreatment/Abuse
         Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+
+    Pain Management
+        Anderson Pocket Medic ➶ 
         Universal Patient Care
+        Acetaminophen
+        Ibuprofen
+        Ketorolac
+        Morphine Sulfate
+        Fentanyl
+        Ketamine
+        capnography
+        capnography
+        
+
 

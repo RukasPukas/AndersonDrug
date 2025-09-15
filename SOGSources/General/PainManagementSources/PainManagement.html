@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anderson EMS Pocket Medic</title>
+    <link rel="icon" href="../favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="../general.css" />
+    <link rel="stylesheet" href="PainManagement.css" />
+  </head>
+  <body>
+    <a href="../../../index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Pocket Medic</h1>
+      </div>
+    </a>
+    
+    <div class="MainBody">
+      <h2>Pain Management</h2>
+      <div class="InitialBody">
+            <div class="inputBox">Enter patient weight in pounds before proceeding:
+            <input 
+            type="text" 
+            id="weightSelect" 
+            maxlength="3" 
+            inputmode="numeric" 
+            pattern="\d{1,3}" 
+            placeholder="Enter weight 1 - 999lbs" 
+            /><br>
+
+            <p class = "weightDisplayP" style="background-color: rgba(51, 48, 48, 0.8); text-align:center;"><span id="weightSelected" style="color: whitesmoke; font-size: 1.4em; ;"></span><br><br></p>
+            </div>
+
+            <table class="StartTable">
+                <thead>
+                    <tr>
+                    <th><strong>History</strong></th>
+                    <th><strong>Signs And Symptoms</strong></th>
+                    <th><strong>Differential</strong></th>
+                    </tr>
+                    <tr>
+                        <td>
+                             Age<br>
+                             Location<br>
+                             Duration<br>
+                             Severity (1-10)<br>
+                             Past medical history<br>
+                             Medications<br>
+                             Drug allergies<br>
+                        </td>
+                        <td>
+                         Severity (pain scale)<br>
+                         Quality (sharp, dull, etc.)<br>
+                         Radiation<br>
+                         Relation to movement / respiration<br>
+                         Increased with palpation to area
+                        </td>
+                        <td>
+                             Per the specified protocol<br>
+                             Musculoskeletal<br>
+                             Visceral (abdominal)<br>
+                             Cardiac<br>
+                             Pleural / Respiratory<br>
+                             Neurogenic<br>
+                             Renal (colic)
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                </table>
+
+        <h3 class="AllLevels">EMR</h3>
+                <p>
+                    1. <a href="../UniversalSources/Universal.html" class="working-link" title="Universal Protocol" >Universal Patient Care</a><br><br>
+
+                    2. Determine pain score and continue to monitor / trend score.<br><br>
+
+                    3. Place patient in a position of comfort.<br><br> 
+
+                    4. Apply ice packs and/or splints for pain secondary to trauma.<br><br>
+
+                    5. Verbally reassure patient to control anxiety.<br><br>
+
+                    6. Relay information to incoming ambulance.
+                </p>
+        <h3 class="EMT">EMT</h3>
+        <p>
+            1. Continue <strong>EMR TREATMENT</strong>.<br><br>
+           
+            2. For <u><i>Mild</i></u> or <u><i>Moderate</i></u> pain consider: 
+            <a href="../../../DrugMaterial/AcetaminophenFolder/Acetaminophen.html" class="working-link" title="Acetaminophen Drug Page" >ACETAMINOPHEN</a> 
+            <strong>15 mg/kg PO (max 1000 mg)</strong> <span class="AcetaminophenDose" style="color: rgb(56, 201, 56);"></span> 
+            or <a href="../../../DrugMaterial/IbueprofenFolder/ibueprofen.html" class="working-link" title="Ibuprofen Drug Page" >IBUPROFEN</a> 
+            <strong>10mg/kg PO (max 800 mg)</strong> <span class="IbuprofenDose" style="color: rgb(56, 201, 56);"></span><br><br>
+
+            3. Relay information to incoming ambulance and/or call for intercept per 
+            <a href="../InterceptCriteriaSources/Intercept.html" class="working-link" title="Intercept SOG" >INTERCEPT CRITERIA</a>. 
+        </p>
+        <h3 class="PARAMEDIC">Paramedic/PHRN</h3>
+        <p> 1. Continue <strong>BLS TREATMENT</strong>.<br><br>
+
+            2. For <u><i>Moderate</i></u> or <u><i>Severe</i></u> pain consider: <a href="../../../DrugMaterial/KetorolacFolder/ketorolac.html" class="working-link" title="Ketorolac Drug Page" >KETOROLAC</a>
+             <strong>30 mg IM or 15 mg IV</strong> (no repeat dose)<br><br>
+
+            <span class="Indention">a. <span class="RedText" style="color: rgb(248, 78, 66); font-weight:bold;">Contraindicated</span> 
+            in patients with hypersensitivity to ketorolac or other NSAIDS, Aspirin-sensitive
+            asthma, acute heart failure, renal insufficiency, pregnancy, GI bleeding, known peptic ulcer disease
+            (or) for patients experiencing a source of pain that is suspect for requiring a surgical intervention.</span><br><br>
+
+            3. For <u><i>Severe</i></u> pain consider:<br><br>
+            <span class="Indention"><a href="../../../DrugMaterial/MorphineFolder/morphine.html" class="working-link" title="Morphine Drug Page" >MORPHINE SULFATE</a>
+             <strong>0.1 mg/kg slow IV/IO or IM/SQ</strong> <span class="MorphineAdultDose" style="color: rgb(56, 201, 56);"></span>. May repeat IV/IO dose x 1 after 10-15 minutes if
+            needed. <u>Elderly patients over 75 years</u> of age <strong>0.05 mg/kg slow IV/IO or IM/SQ</strong> <span class="MorphineGeriDose" style="color: rgb(56, 201, 56);"></span>; <strong>
+            (Max single dose of 8 mg)</strong>
+            <br><br>
+
+            <span class="Indention"> <span class="Indention"><strong>-OR-</strong></span></span><br><br>
+
+            <a href="../../../DrugMaterial/FentanylFolder/fentanyl.html" class="working-link" title="Fentanyl Drug Page" >FENTANYL</a>
+             <strong>1 mcg/kg IV/IO/IM/IN</strong> <span class="fentAdultInitialDose" style="color: rgb(56, 201, 56);"></span> (max initial dose 100 mcg).
+            May repeat x 1 after 10-15 minutes at 0.5
+            mcg/kg <span class="fentAdultRepeatDose" style="color: rgb(56, 201, 56);"></span> (maximum second dose 50 mcg). 
+            Elderly patients over 75 years of age, <strong>0.5 mcg/kg IV/IO/IM/IN</strong> <span class="fentGeriInitialDose" style="color: rgb(56, 201, 56);"></span> 
+            (max initial <strong>50 mcg</strong>, max repeat dose <strong>25 mcg</strong>). IV/IO <span class="fentGeriRepeatDose" style="color: rgb(56, 201, 56);"></span> is a slow push over 2-3 minutes.<br><br>
+
+            <span class="Indention"> <span class="Indention"><strong>-OR-</strong></span></span><br><br>
+            
+            4. <a href="../../../DrugMaterial/KetamineFolder/ketamine.html" class="working-link" title="Ketamine Drug Page" >KETAMINE</a> <strong>
+            0.2 mg/kg slow IV/IO/IM</strong> <span class="IVIOIMKetIntDose" style="color: rgb(56, 201, 56);"></span> <strong>or 
+            0.5 mg/kg IN</strong> <span class="INKetIntDose" style="color: rgb(56, 201, 56);"></span>, 
+            <strong>max single dose 20 mg</strong> If necessary, may repeat
+            dose every 10-15 minute x3 via either route for a maximum combined dose of <strong>50 mg</strong>. Continuous monitoring
+            of patient with cardiac monitor, continuous SpO2 and <a href="#" class="placeholder-link" title="Page coming soon">capnography</a> is <strong>required</strong>.
+            <br><br>
+
+            5. Continuous SpO2 and <a href="#" class="placeholder-link" title="Page coming soon">capnography</a> is required for patients who suffer from decreased level of
+            consciousness secondary to pain management.</span>
+        </p>
+        <p>
+           <strong>PEARLS</strong><br><br>
+                 All patients should have drug allergies identified prior to administration of pain medication.<br><br>
+                
+                 Pain severity (0 - 10) should be recorded before and after analgesic medication administration and upon
+                arrival at destination.<br><br>
+
+                 Opioids or dissociative medications are to be used with extreme caution in patients with GCS less than
+                14, hypotension, identified medication allergy, hypoxia (oxygen saturation less than 90%) after maximal
+                supplemental oxygen therapy, or signs of hypoventilation.
+                <br><br>
+                 Use of splinting techniques and application of ice should be done to reduce the total amount of
+                medication used to keep the patient comfortable.
+                <br><br>
+                 Patients with acute abdominal pain should receive analgesic interventions – Use of analgesics for acute
+                abdominal pain does not mask clinical findings or delay diagnosis.
+        </p>
+        <div class="img-wrap">
+            <img src="PainScale.PNG" alt="Pain Scale" class="image" />
+          </div>
+       
+      
+
+        <table class="EndTable">
+          <thead>
+            <tr>
+              <th><strong>KEY DOCUMENTATION ELEMENTS </strong></th>
+              <th><strong>PERTINENT ASSESSMENT FINDINGS </strong></th>
+            </tr>
+            <tr>
+                <td>
+                     Vitals signs<br><br>
+                     Drug allergies<br><br>
+                     Initial pain scale<br><br>
+                     Medication administered and dose<br><br>
+                     Reassessment with repeat vital signs and pain scale
+                </td>
+                <td>
+                     Mental status (GCS and pain level)<br><br>
+                     Respiratory system (chest rigidity)<br><br>
+                     Gastrointestinal (assess for tenderness, rebound,
+                    guarding and nausea)
+                </td>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+         <table class="QMTable">
+          <tr>
+            <td>
+              <strong>QUALITY METRICS</strong><br /><br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+                 Correct dose of pain medication<br><br>
+                 Pain assessment documented
+            </td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+          <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="PainManagement.js"></script>
+  </body>
+  <footer class="footer">
+    <p>&copy; 2025 LukiWebSolutions. All rights reserved.</p>
+  </footer>
+</html>
