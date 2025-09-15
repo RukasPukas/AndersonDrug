@@ -7,7 +7,8 @@ Index-------------------------------------------------
         Human Trafficking ➶
         Intercept Criteria ➶
         Maltreatment/Abuse ➶
-        Pain Management
+        Pain Management ➶
+        Patient Refusal
     
     Medications
         Acetaminophen ➶
@@ -169,15 +170,18 @@ SOGs--------------------------------------------------
 
     Pain Management
         Anderson Pocket Medic ➶ 
-        Universal Patient Care
-        Acetaminophen
-        Ibuprofen
-        Ketorolac
-        Morphine Sulfate
-        Fentanyl
-        Ketamine
+        Universal Patient Care ➶
+        Acetaminophen ➶
+        Ibuprofen ➶
+        Ketorolac ➶
+        Morphine Sulfate ➶
+        Fentanyl ➶
+        Ketamine ➶
         capnography
         capnography
+    
+    Patient Refusal
+        Anderson Pocket Medic ➶ 
         
 
 
