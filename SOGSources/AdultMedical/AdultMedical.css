@@ -322,11 +322,7 @@ footer {
 /* END Link Styling */
 
 /*  Dimension settings Boiler Plate*/
-@media (max-width: 500px) {
-  .facts-container button {
-    width: 90%;
-  }
-}
+
 
 @media (min-width: 768px) {
   .header,

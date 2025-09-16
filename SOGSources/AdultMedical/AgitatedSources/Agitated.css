@@ -1,16 +1,20 @@
 html, body { margin: 0; }
 .TableDiv {
-  width: 90%;
-  max-width: 1200px;   
-  margin: 0 auto;      
-  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;                   /* robust centering */
+  place-items: center;             /* centers child both axes */
+  overflow-x: auto;                /* if content truly can't shrink */
+  -webkit-overflow-scrolling: touch;
 }
 
 .RichmondTable {
-  width: 90%;
-  margin: 0 auto;    
+  width: 100%;                     /* fill the wrapper */
+  max-width: 100%;
   border-collapse: collapse;
-
+  table-layout: fixed;             /* KEY: prevents content from forcing width */
+  margin: 0;                       /* grid handles centering */
 }
 
 .RichmondTable th{
@@ -19,7 +23,7 @@ html, body { margin: 0; }
     padding: 30 10px;
     text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: .6em;
     word-break: keep-all;
    white-space: small;
 }
@@ -30,11 +34,20 @@ html, body { margin: 0; }
   text-align: center;
 }
 
+.RichmondTable th,
+.RichmondTable td {
+  padding: 12px 10px;
+  text-align: center;
+  white-space: normal;             /* allow wrapping */
+  overflow-wrap: anywhere;         /* break long tokens if needed */
+  word-break: break-word;
+}
+
 table tbody tr.p4row {
     background-color: #991515;
     text-align:center;
     font-weight:bold;
-    font-size:.8em;
+    font-size:.5em;
     
 
 }
@@ -43,7 +56,7 @@ table tbody tr.orangeRows {
     background-color: #e9912c;
     text-align:center;
     font-weight:bold;
-    font-size:.8em;
+    font-size:.5em;
     
 
 }
@@ -52,14 +65,14 @@ table tbody tr.grayRows{
     background-color: #d3d3d3;
     text-align:center;
     font-weight:bold;
-    font-size:.8em;
+    font-size:.5em;
 }
 
 table tbody tr.whiteRows{
-     background-color: white;
+    background-color: white;
     text-align:center;
     font-weight:bold;
-    font-size:.8em;
+    font-size:.5em;
 }
 
 .RichmondTable a {
@@ -84,4 +97,47 @@ table tbody {
   text-align: center;
   display: block;   
   font-weight:bold;
+}
+
+@media (min-width: 768px) {
+  .header,
+  .RichmondTable th th { font-size: 0.95em; }
+  .RichmondTable td { font-size: 0.85em; }
+  table tbody tr.p4row {
+    background-color: #991515;
+    text-align:center;
+    font-weight:bold;
+    font-size:1em;
+    
+
+}
+
+table tbody tr.orangeRows {
+    background-color: #e9912c;
+    text-align:center;
+    font-weight:bold;
+    font-size:1em;
+    
+
+}
+
+table tbody tr.grayRows{
+    background-color: #d3d3d3;
+    text-align:center;
+    font-weight:bold;
+    font-size:1em;
+}
+
+table tbody tr.whiteRows{
+    background-color: white;
+    text-align:center;
+    font-weight:bold;
+    font-size:1em;
+}
+
+  @media (min-width: 1024px) {
+  .RichmondTable th { font-size: 0.95em; }
+  .RichmondTable td { font-size: 0.85em; }
+  
+}
 }
