@@ -4,6 +4,8 @@
 
 <a href="PlaceHolder" class="working-link" title="PlaceHolder" >PlaceHolder</a>
 
+<span class="RedColor" style="color: rgb(218, 66, 46);">ALS</span>
+
 <span class="PlaceHolder" style="color: rgb(56, 201, 56);">
 
 $(function () {

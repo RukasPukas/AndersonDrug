@@ -29,7 +29,7 @@
   placeholder="Enter weight 1 - 999lbs" 
 /><br>
 
-  <p class = "weightDisplayP" style="background-color: rgba(3, 1, 114, 0.8); text-align:center;"><span id="weightSelected" style="color: whitesmoke; font-size: 1.4em; ;"></span><br><br></p>
+  <p class = "weightDisplayP" style="background-color: rgba(1, 0, 75, 0.8); text-align:center;"><span id="weightSelected" style="color: whitesmoke; font-size: 1.4em; ;"></span><br><br></p>
 </div>
         <h3 class="BLS"></h3>
         <p>

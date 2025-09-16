@@ -1,0 +1,87 @@
+html, body { margin: 0; }
+.TableDiv {
+  width: 90%;
+  max-width: 1200px;   
+  margin: 0 auto;      
+  box-sizing: border-box;
+}
+
+.RichmondTable {
+  width: 90%;
+  margin: 0 auto;    
+  border-collapse: collapse;
+
+}
+
+.RichmondTable th{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 30 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    word-break: keep-all;
+   white-space: small;
+}
+
+.RichmondTable td {
+  border: 1px solid black;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+table tbody tr.p4row {
+    background-color: #991515;
+    text-align:center;
+    font-weight:bold;
+    font-size:.8em;
+    
+
+}
+
+table tbody tr.orangeRows {
+    background-color: #e9912c;
+    text-align:center;
+    font-weight:bold;
+    font-size:.8em;
+    
+
+}
+
+table tbody tr.grayRows{
+    background-color: #d3d3d3;
+    text-align:center;
+    font-weight:bold;
+    font-size:.8em;
+}
+
+table tbody tr.whiteRows{
+     background-color: white;
+    text-align:center;
+    font-weight:bold;
+    font-size:.8em;
+}
+
+.RichmondTable a {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease; 
+}
+
+.RichmondTable a:hover {
+  color: deepskyblue; 
+  transition: transform 0.2s ease, color 0.2s ease; 
+  transform: scale(1.1);
+}
+
+table tbody {
+    border: 2px solid #000000;
+}
+
+.MainBody .centralHeader {
+  text-align: center;
+  display: block;   
+  font-weight:bold;
+}

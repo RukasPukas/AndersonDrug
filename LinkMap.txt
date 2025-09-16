@@ -12,7 +12,8 @@ Index-------------------------------------------------
         Radio Report ➶
         Termination of Resuscitation ➶
         Withholding of Resuscitation ➶
-        Abdominal Pain
+        Abdominal Pain ➶
+        Agitated Patient 
     
     Medications
         Acetaminophen ➶
@@ -196,11 +197,38 @@ SOGs--------------------------------------------------
     Withholding of Resuscitation
         Anderson Pocket Medic ➶  
     Abdominal Pain
-        Universal Patient Care
+        Anderson Pocket Medic ➶  
+        Universal Patient Care➶
         Nausea Vomiting
-        Intercept Criteria
-        Nausa VomitingPain Management
+        Intercept Criteria ➶
+        Nausa Vomiting
+        Pain Management ➶
         Shock
+    Agitated or Violent Patient / Behavioral Emergences
+        Anderson Pocket Medic ➶  
+        Altered Mental Status
+        Universal Patient Care
+        capnography
+        Physical Restraints
+        Intercept Criteria 
+        Midazolam
+        Haloperidol
+        Ketamine
+        Midazolam
+        Haloperidol
+        Midazolam
+        Haloperidol
+        Lorazepam
+        Ketamine
+        Midazolam
+        Haloperidol
+        Ketamine
+        Midazolam
+        Haloperidol
+        Midazolam
+        Haloperidol
+        capnography
+
         
 
 
