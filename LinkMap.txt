@@ -13,7 +13,7 @@ Index-------------------------------------------------
         Termination of Resuscitation ➶
         Withholding of Resuscitation ➶
         Abdominal Pain ➶
-        Agitated Patient 
+        Agitated Patient ➶
     
     Medications
         Acetaminophen ➶
@@ -207,26 +207,26 @@ SOGs--------------------------------------------------
     Agitated or Violent Patient / Behavioral Emergences
         Anderson Pocket Medic ➶  
         Altered Mental Status
-        Universal Patient Care
+        Universal Patient Care ➶
         capnography
         Physical Restraints
-        Intercept Criteria 
-        Midazolam
-        Haloperidol
-        Ketamine
-        Midazolam
-        Haloperidol
-        Midazolam
-        Haloperidol
-        Lorazepam
-        Ketamine
-        Midazolam
-        Haloperidol
-        Ketamine
-        Midazolam
-        Haloperidol
-        Midazolam
-        Haloperidol
+        Intercept Criteria  ➶
+        Midazolam ➶
+        Haloperidol ➶
+        Ketamine ➶
+        Midazolam ➶
+        Haloperidol ➶
+        Midazolam ➶
+        Haloperidol ➶
+        Lorazepam ➶
+        Ketamine ➶
+        Midazolam ➶
+        Haloperidol ➶
+        Ketamine ➶
+        Midazolam ➶
+        Haloperidol ➶
+        Midazolam ➶
+        Haloperidol ➶
         capnography
 
         
