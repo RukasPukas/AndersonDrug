@@ -5,3 +5,7 @@
 <a href="PlaceHolder" class="working-link" title="PlaceHolder" >PlaceHolder</a>
 
 <span class="PlaceHolder" style="color: rgb(56, 201, 56);">
+
+$(function () {
+  $("body").hide().fadeIn(750);
+});
