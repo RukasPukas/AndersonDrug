@@ -12,11 +12,11 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   overflow: hidden;
-  width: 90%;
+  width: 70%;
 }
 
 .eyeTable td {
-  padding: 15px 25px;
+  padding: 5px;
   border: 1px solid #ccc;
   text-align: center;
   background-color: white;
@@ -56,11 +56,11 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     overflow: hidden;
-    width: 90%;
+    width: 70%;
 }
 
 .verbalTable td {
-  padding: 15px 25px;
+  padding: 5px;
   border: 1px solid #ccc;
   text-align: center;
   background-color: white;
@@ -92,11 +92,11 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     overflow: hidden;
-    width: 90%;
+    width: 70%;
 }
 
 .motorTable td {
-  padding: 15px 25px;
+  padding: 5px;
   border: 1px solid #ccc;
   text-align: center;
   background-color: white;
@@ -129,14 +129,14 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     overflow: hidden;
-    width: 80%;
+    width: 70%;
 }
 
 .totalScoreTable th{
     background-color: rgb(147, 180, 240);
     color: white;
     padding: 15px 25px;
-    font-size: 1.8em;
+    font-size: 1.5em;
     
 }
 
