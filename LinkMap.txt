@@ -14,7 +14,7 @@ Index-------------------------------------------------
         Withholding of Resuscitation ➶
         Abdominal Pain ➶
         Agitated Patient ➶
-        Allergic Reaction
+        Allergic Reaction ➶
     
     Medications
         Acetaminophen ➶
@@ -230,21 +230,22 @@ SOGs--------------------------------------------------
         Haloperidol ➶
         capnography
     Allergic Reaction / Anaphylaxis
-        Anderson Pocket Medic
-        Universal Patient Care
-        Epinephrine Autoinjector
-        Albuterol
-        Pre-Mixed IPRATROPIUMBROMIDE / ALBUTEROL
-        EPINEPHRINE 1:1000
-        ALBUTEROL
-        Pre-Mixed IPRATROPIUMBROMIDE / ALBUTEROL
-        Diphenhydramine
-        Intercept Criteria
-        Epinephrine 1:1000
-        DiphenhydramineMethylprednisolone
-        Dexamethasone
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Epinephrine Autoinjector ➶
+        Albuterol ➶
+        Pre-Mixed IPRATROPIUMBROMIDE / ALBUTEROL ➶
+        EPINEPHRINE 1:1000 ➶
+        ALBUTEROL ➶
+        Pre-Mixed IPRATROPIUMBROMIDE / ALBUTEROL ➶
+        Diphenhydramine ➶
+        Intercept Criteria ➶
+        Epinephrine 1:1000 ➶
+        Diphenhydramine ➶
+        Methylprednisolone ➶
+        Dexamethasone ➶
         waveform capnography
-        Airway Management
+        Airway Management ➶
 
 
         
