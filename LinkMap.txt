@@ -248,6 +248,7 @@ SOGs--------------------------------------------------
         waveform capnography
         Airway Management ➶
     Altered Mental Status
+        Anderson Pocket Medic ➶
         Universal Patient Care  ➶
         Diabetic Emergencies-Hypoglycemia
         FAST-ED ➶
@@ -261,6 +262,31 @@ SOGs--------------------------------------------------
         Poisoning and Overdose
         Orotracheal Intubation
         Airway Management ➶
+    Bronchospasm/Asthma/COPD
+        Anderson Pocket Medic 
+        Universal Patient Care 
+        ALBUTEROL
+        Pre-Mixed IPRATROPIUMBROMIDE / ALBUTEROL
+        INTERCEPT Criteria
+        CPAP
+        EPI 1:1000
+        Magnesium
+        Methylprednisolone
+        Dexamethasone
+        CPAP
+        orotracheal Intubation
+        epi 1:1000
+        orotracheal Intubation
+        airwaymanagement
+        Chest Pain
+        CPAP
+        CPAP
+        CPAP
+        CPAP
+        CPAP
+        BIAD
+
+
 
 
 

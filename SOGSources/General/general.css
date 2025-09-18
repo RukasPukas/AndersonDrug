@@ -181,16 +181,17 @@ footer {
   border-collapse: separate;
   border-spacing: 5px;
   table-layout: fixed;
-
 }
 
-.StartTable colgroup col { width: 33.333%; }
+.StartTable colgroup col {
+  width: 33.333%;
+}
 
 .StartTable th {
   background-color: rgb(173, 181, 177);
   color: #000;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size:.8em;
+  font-size: 0.8em;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
@@ -200,24 +201,23 @@ footer {
 }
 
 .StartTable td {
-  background-color:white;
+  background-color: white;
   padding: 8px 10px;
-  font-size: .6em;
+  font-size: 0.6em;
   width: 50%;
-  border:#000 solid 2px;
+  border: #000 solid 2px;
   border-radius: 10px;
-  text-align:left;
+  text-align: left;
 }
 
 .StartTable th,
 .StartTable td {
-   width: auto;         
+  width: auto;
   padding: 10px;
-  
 }
 
 .EndTable {
-  max-width: 100%;
+  max-width: 90%;
   margin: 10px auto;
   background-color: #cbeefd;
   border-radius: 10px;
@@ -244,10 +244,10 @@ footer {
 .EndTable td {
   background-color: #cbeefd;
   padding: 8px 10px;
-  font-size: .8em;
-  text-align:left;
+  font-size: 0.8em;
+  text-align: left;
   width: 50%;
-  border:#333 solid 2px;
+  border: #333 solid 2px;
   border-radius: 10px;
 }
 
@@ -330,12 +330,20 @@ footer {
 
 @media (min-width: 768px) {
   .header,
-  .StartTable th { font-size: 0.95em; }
-  .StartTable td { font-size: 0.85em; }
+  .StartTable th {
+    font-size: 0.95em;
+  }
+  .StartTable td {
+    font-size: 0.85em;
+  }
 
   @media (min-width: 1024px) {
-  .StartTable th { font-size: 0.95em; }
-  .StartTable td { font-size: 0.85em; }
-}
+    .StartTable th {
+      font-size: 0.95em;
+    }
+    .StartTable td {
+      font-size: 0.85em;
+    }
+  }
 }
 /* END Dimension settings Boiler Plate */
