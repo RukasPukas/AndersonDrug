@@ -17,6 +17,7 @@ Index-------------------------------------------------
         Allergic Reaction ➶
         Altered Mental Status ➶
         Bronchospasm / Asthma / COPD ➶
+        Hyperglycemia
     
     Medications
         Acetaminophen ➶
@@ -286,6 +287,14 @@ SOGs--------------------------------------------------
         CPAP
         CPAP
         BIAD
+    Hyperglycemia
+        Universal Patient Care
+        Intercept Criteria
+        Calcium Chloride 10%
+        Calcium Gluconate
+        Albuterol Sulfate
+        Sodium Bicarbonate
+        
 
 
 
