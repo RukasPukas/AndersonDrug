@@ -16,6 +16,7 @@ Index-------------------------------------------------
         Agitated Patient ➶
         Allergic Reaction ➶
         Altered Mental Status ➶
+        Bronchospasm / Asthma / COPD ➶
     
     Medications
         Acetaminophen ➶
@@ -263,21 +264,21 @@ SOGs--------------------------------------------------
         Orotracheal Intubation
         Airway Management ➶
     Bronchospasm/Asthma/COPD
-        Anderson Pocket Medic 
-        Universal Patient Care 
-        ALBUTEROL
-        Pre-Mixed IPRATROPIUMBROMIDE / ALBUTEROL
-        INTERCEPT Criteria
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        ALBUTEROL ➶
+        Pre-Mixed IPRATROPIUMBROMIDE / ALBUTEROL ➶
+        INTERCEPT Criteria ➶
         CPAP
-        EPI 1:1000
-        Magnesium
-        Methylprednisolone
-        Dexamethasone
+        EPI 1:1000 ➶
+        Magnesium ➶
+        Methylprednisolone ➶
+        Dexamethasone ➶
         CPAP
         orotracheal Intubation
-        epi 1:1000
+        epi 1:1000 ➶
         orotracheal Intubation
-        airwaymanagement
+        airwaymanagement ➶
         Chest Pain
         CPAP
         CPAP
