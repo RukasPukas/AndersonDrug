@@ -17,7 +17,7 @@ Index-------------------------------------------------
         Allergic Reaction ➶
         Altered Mental Status ➶
         Bronchospasm / Asthma / COPD ➶
-        Hyperglycemia
+        Hyperglycemia ➶
     
     Medications
         Acetaminophen ➶
@@ -279,7 +279,7 @@ SOGs--------------------------------------------------
         orotracheal Intubation
         epi 1:1000 ➶
         orotracheal Intubation
-        airwaymanagement ➶
+        airway management ➶
         Chest Pain
         CPAP
         CPAP
@@ -288,12 +288,12 @@ SOGs--------------------------------------------------
         CPAP
         BIAD
     Hyperglycemia
-        Universal Patient Care
-        Intercept Criteria
-        Calcium Chloride 10%
-        Calcium Gluconate
-        Albuterol Sulfate
-        Sodium Bicarbonate
+        Universal Patient Care ➶
+        Intercept Criteria ➶
+        Calcium Chloride 10% ➶
+        Calcium Gluconate ➶
+        Albuterol Sulfate ➶
+        Sodium Bicarbonate ➶
         
 
 
