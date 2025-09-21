@@ -18,7 +18,8 @@ Index-------------------------------------------------
         Altered Mental Status ➶
         Bronchospasm / Asthma / COPD ➶
         Hyperglycemia ➶
-        Hypoglycemia
+        Hypoglycemia ➶
+        Foreign Body Airway Obstruction
     
     Medications
         Acetaminophen ➶
@@ -302,6 +303,11 @@ SOGs--------------------------------------------------
         Dextrose 10%➶
         Dextrose 50%➶
         Thiamine➶
+    Foreign Body Airway Obstruction
+        Universal Patient Care
+        Universal Patient Care
+        Airway Management
+        Airway Management
         
         
 
