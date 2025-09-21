@@ -16,7 +16,7 @@
     </a>
 
     <div class="MainBody">
-      <h2>Foreign Body Airway Obstruction</h2>
+      <h2></h2>
 
       <div class="InitialBody">
         <table class="StartTable">

@@ -19,7 +19,7 @@ Index-------------------------------------------------
         Bronchospasm / Asthma / COPD ➶
         Hyperglycemia ➶
         Hypoglycemia ➶
-        Foreign Body Airway Obstruction
+        Foreign Body Airway Obstruction ➶
     
     Medications
         Acetaminophen ➶
@@ -304,10 +304,10 @@ SOGs--------------------------------------------------
         Dextrose 50%➶
         Thiamine➶
     Foreign Body Airway Obstruction
-        Universal Patient Care
-        Universal Patient Care
-        Airway Management
-        Airway Management
+        Universal Patient Care➶
+        Universal Patient Care➶
+        Airway Management➶
+        Airway Management➶
         
         
 
