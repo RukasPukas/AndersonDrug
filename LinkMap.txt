@@ -18,6 +18,7 @@ Index-------------------------------------------------
         Altered Mental Status ➶
         Bronchospasm / Asthma / COPD ➶
         Hyperglycemia ➶
+        Hypoglycemia
     
     Medications
         Acetaminophen ➶
@@ -294,6 +295,14 @@ SOGs--------------------------------------------------
         Calcium Gluconate ➶
         Albuterol Sulfate ➶
         Sodium Bicarbonate ➶
+    Hypoglycemia
+        Universal Patient Care
+        Oral Glucose
+        Intercept Criteria
+        Dextrose 10%
+        Dextrose 50%
+        Thiamine
+        
         
 
 

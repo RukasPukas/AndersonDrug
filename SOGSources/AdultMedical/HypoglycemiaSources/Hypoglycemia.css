@@ -1,0 +1,7 @@
+.pheader {
+  display: block; /* span takes full width of parent */
+  text-align: center; /* centers text inside the span */
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(61, 82, 243);
+}
