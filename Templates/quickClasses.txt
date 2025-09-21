@@ -14,6 +14,8 @@ $(function () {
 
 &lt; = <
 
+<span class="medcontrol"><strong>☎️ MEDICAL CONTROL ☎️</strong></span>
+
 
 Weight Div Section:
  <div class="inputBox">Enter patient weight in pounds before proceeding:

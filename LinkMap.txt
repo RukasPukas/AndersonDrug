@@ -20,6 +20,8 @@ Index-------------------------------------------------
         Hyperglycemia ➶
         Hypoglycemia ➶
         Foreign Body Airway Obstruction ➶
+        Nausea/Vomiting ➶
+        Seizure / Status Epilepticus 
     
     Medications
         Acetaminophen ➶
@@ -210,7 +212,7 @@ SOGs--------------------------------------------------
         Nausa Vomiting
         Pain Management ➶
         Shock
-    Agitated or Violent Patient / Behavioral Emergences
+    Agitated or Violent Patient / Behavioral Emergencies
         Anderson Pocket Medic ➶  
         Altered Mental Status
         Universal Patient Care ➶
@@ -297,20 +299,35 @@ SOGs--------------------------------------------------
         Albuterol Sulfate ➶
         Sodium Bicarbonate ➶
     Hypoglycemia
-        Universal Patient Care➶
-        Oral Glucose➶
-        Intercept Criteria➶
-        Dextrose 10%➶
-        Dextrose 50%➶
-        Thiamine➶
+        Universal Patient Care ➶
+        Oral Glucose ➶
+        Intercept Criteria ➶
+        Dextrose 10% ➶
+        Dextrose 50% ➶
+        Thiamine ➶
     Foreign Body Airway Obstruction
-        Universal Patient Care➶
-        Universal Patient Care➶
-        Airway Management➶
-        Airway Management➶
-        
-        
-
+        Universal Patient Care ➶
+        Universal Patient Care ➶
+        Airway Management ➶
+        Airway Management ➶
+    Nausea/Vomiting
+        Universal Patient Care ➶
+        Ondansetron ODT➶
+        Intercept Criteria ➶
+        Ondansetron ➶
+        Ondansetron ➶
+    Seizure / Status Epilepticus
+        Universal Patient Care
+        Diabeetic Emergencies Hypoglycemia
+        Intercept Criteria
+        Midazolam
+        Lorazepam
+        Midazolam
+        Diazepam
+        Lorazepam
+        Diabetic Emergencies Hypoglycemia
+        Eclapmsia-Pre Eclampsia
+        Eclapmsia-Pre Eclampsia
 
 
 

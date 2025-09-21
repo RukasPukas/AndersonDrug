@@ -289,6 +289,15 @@ footer {
   background-color: #4a90e2;
 }
 
+.medcontrol {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(250, 250, 254);
+  background-color: black;
+}
+
 /* END Main Body Styling */
 
 /* Link Styling */
