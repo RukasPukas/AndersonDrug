@@ -296,12 +296,12 @@ SOGs--------------------------------------------------
         Albuterol Sulfate ➶
         Sodium Bicarbonate ➶
     Hypoglycemia
-        Universal Patient Care
-        Oral Glucose
-        Intercept Criteria
-        Dextrose 10%
-        Dextrose 50%
-        Thiamine
+        Universal Patient Care➶
+        Oral Glucose➶
+        Intercept Criteria➶
+        Dextrose 10%➶
+        Dextrose 50%➶
+        Thiamine➶
         
         
 
