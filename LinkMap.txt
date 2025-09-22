@@ -21,7 +21,8 @@ Index-------------------------------------------------
         Hypoglycemia ➶
         Foreign Body Airway Obstruction ➶
         Nausea/Vomiting ➶
-        Seizure / Status Epilepticus 
+        Seizure / Status Epilepticus  ➶
+        Sepsis
     
     Medications
         Acetaminophen ➶
@@ -317,17 +318,28 @@ SOGs--------------------------------------------------
         Ondansetron ➶
         Ondansetron ➶
     Seizure / Status Epilepticus
+        Universal Patient Care ➶
+        Diabeetic Emergencies Hypoglycemia ➶
+        Intercept Criteria ➶
+        Midazolam ➶
+        Lorazepam ➶
+        Midazolam ➶
+        Diazepam ➶
+        Lorazepam ➶
+        Diabetic Emergencies Hypoglycemia ➶
+        Eclapmsia-Pre Eclampsia
+        Eclapmsia-Pre Eclampsia
+    Sepsis
         Universal Patient Care
-        Diabeetic Emergencies Hypoglycemia
-        Intercept Criteria
-        Midazolam
-        Lorazepam
-        Midazolam
-        Diazepam
-        Lorazepam
         Diabetic Emergencies Hypoglycemia
-        Eclapmsia-Pre Eclampsia
-        Eclapmsia-Pre Eclampsia
+        Intercept Criteria
+        Norepinephrine
+        Push Dose Epinephrine
+        Dopamine
+        Capnography
+
+
+        
 
 
 

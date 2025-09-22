@@ -1,0 +1,37 @@
+.IdealTable {
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#headerRow {
+  background-image: linear-gradient(to right, skyblue, cornflowerblue);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.IdealTable tbody {
+  text-align: center;
+  font-weight: bold;
+  color: dimgrey;
+}
+
+.IdealTable tbody td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.IdealTable tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+.IdealTable tbody tr:nth-child(even) {
+  background-color: rgb(173, 223, 252);
+}
+
+.IdealTable tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.IdealTable tbody tr:hover {
+  background-color: #dceffd;
+}
