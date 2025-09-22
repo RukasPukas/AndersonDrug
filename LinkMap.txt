@@ -24,6 +24,7 @@ Index-------------------------------------------------
         Seizure / Status Epilepticus  ➶
         Sepsis ➶
         Shock ➶
+        Stroke
     
     Medications
         Acetaminophen ➶
@@ -347,6 +348,14 @@ SOGs--------------------------------------------------
         Norepinephrine ➶
         Push Dose Epinephrine ➶
         Dopamine ➶
+    Stroke
+        Universal Patient Care
+        Diabetic Emergencies Hypoglycemia
+        Intercept Criteria
+        capnography
+        FAST-ED
+        Altered Mental Status
+        
 
 
         
