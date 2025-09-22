@@ -22,7 +22,8 @@ Index-------------------------------------------------
         Foreign Body Airway Obstruction ➶
         Nausea/Vomiting ➶
         Seizure / Status Epilepticus  ➶
-        Sepsis
+        Sepsis ➶
+        Shock
     
     Medications
         Acetaminophen ➶
@@ -330,13 +331,22 @@ SOGs--------------------------------------------------
         Eclapmsia-Pre Eclampsia
         Eclapmsia-Pre Eclampsia
     Sepsis
+        Universal Patient Care ➶
+        Diabetic Emergencies Hypoglycemia ➶
+        Intercept Criteria ➶
+        Norepinephrine ➶
+        Push Dose Epinephrine ➶
+        Dopamine ➶
+        Capnography
+    Shock
         Universal Patient Care
-        Diabetic Emergencies Hypoglycemia
+        Extremity Trauma / External Hemorrhage Management
         Intercept Criteria
+        CHF / Pulmonary Edema
+        Needle Decompression
         Norepinephrine
         Push Dose Epinephrine
         Dopamine
-        Capnography
 
 
         
