@@ -295,6 +295,7 @@ SOGs--------------------------------------------------
         CPAP
         BIAD
     Hyperglycemia
+        Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Intercept Criteria ➶
         Calcium Chloride 10% ➶
@@ -302,6 +303,7 @@ SOGs--------------------------------------------------
         Albuterol Sulfate ➶
         Sodium Bicarbonate ➶
     Hypoglycemia
+        Anderson Pocket Medic ➶    
         Universal Patient Care ➶
         Oral Glucose ➶
         Intercept Criteria ➶
@@ -309,17 +311,21 @@ SOGs--------------------------------------------------
         Dextrose 50% ➶
         Thiamine ➶
     Foreign Body Airway Obstruction
+        Anderson Pocket Medic ➶
+        Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Universal Patient Care ➶
         Airway Management ➶
         Airway Management ➶
     Nausea/Vomiting
+        Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Ondansetron ODT➶
         Intercept Criteria ➶
         Ondansetron ➶
         Ondansetron ➶
     Seizure / Status Epilepticus
+        Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Diabeetic Emergencies Hypoglycemia ➶
         Intercept Criteria ➶
@@ -332,6 +338,7 @@ SOGs--------------------------------------------------
         Eclapmsia-Pre Eclampsia
         Eclapmsia-Pre Eclampsia
     Sepsis
+        Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Diabetic Emergencies Hypoglycemia ➶
         Intercept Criteria ➶
@@ -340,6 +347,7 @@ SOGs--------------------------------------------------
         Dopamine ➶
         Capnography
     Shock
+        Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Extremity Trauma / External Hemorrhage Management
         Intercept Criteria ➶
@@ -349,12 +357,24 @@ SOGs--------------------------------------------------
         Push Dose Epinephrine ➶
         Dopamine ➶
     Stroke
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Diabetic Emergencies Hypoglycemia ➶
+        Intercept Criteria ➶
+        capnography 
+        FAST-ED ➶
+        Altered Mental Status ➶
+    Tracheostomy
+        Anderson Pocket Medic ➶
         Universal Patient Care
-        Diabetic Emergencies Hypoglycemia
+        Albuterol
+        DuoNeb
         Intercept Criteria
-        capnography
-        FAST-ED
-        Altered Mental Status
+        Needle Chest Decompression
+        Universal Patient Care
+        Intercept Criteria
+        Extremity Trauma
+
         
 
 
