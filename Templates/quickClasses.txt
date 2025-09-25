@@ -29,5 +29,5 @@ Weight Div Section:
         placeholder="Enter weight 1 - 999lbs" 
         /><br>
 
-        <p class = "weightDisplayP" style="background-color: rgba(1, 0, 75, 0.8); text-align:center;"><span id="weightSelected" style="color: whitesmoke; font-size: 1.4em; ;"></span><br><br></p>
+        <p class = "weightDisplayP" style="background-color: rgba(155, 44, 36); text-align:center;"><span id="weightSelected" style="color: whitesmoke; font-size: 1.4em; ;"></span><br><br></p>
   </div>

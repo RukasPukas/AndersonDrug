@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anderson EMS Pocket Medic</title>
+    <link rel="icon" href="../favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="../Cardiac.css" />
+    <link rel="stylesheet" href="Brady.css" />
+  </head>
+  <body>
+    <a href="../../../index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Pocket Medic</h1>
+      </div>
+    </a>
+
+    <div class="MainBody">
+      <h2>Bradycardia</h2>
+      <div class="inputBox">
+        Enter patient weight in pounds before proceeding:
+        <input
+          type="text"
+          id="weightSelect"
+          maxlength="3"
+          inputmode="numeric"
+          pattern="\d{1,3}"
+          placeholder="Enter weight 1 - 999lbs"
+        /><br />
+
+        <p
+          class="weightDisplayP"
+          style="background-color: rgba(155, 44, 36); text-align: center"
+        >
+          <span
+            id="weightSelected"
+            style="color: whitesmoke; font-size: 1.4em"
+          ></span
+          ><br /><br />
+        </p>
+      </div>
+
+      <div class="InitialBody">
+        <table class="StartTable">
+          <thead>
+            <tr>
+              <th>History</th>
+              <th>Signs and Symptoms</th>
+              <th>Differential</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                 Past medical history<br /><br />
+                 Medications (Beta-Blockers, Calcium Channel Blockers,
+                Clonidine, Digoxin)<br /><br />
+                 Pacemaker
+              </td>
+              <td>
+                 HR &lt; 60/min with:<br /><br />
+                <span class="Indention">
+                   Chest pain<br /><br />
+                   Respiratory distress<br /><br />
+                   Hypotension or Shock<br /><br />
+                   Altered mental status<br /><br />
+                   Syncope</span
+                >
+              </td>
+              <td>
+                 Acute Myocardial Infarction (MI)<br /><br />
+                 Hypoxia / Hypothermia<br /><br />
+                 Pacemaker failure<br /><br />
+                 Sinus bradycardia<br /><br />
+                 Athletic<br /><br />
+                 Head injury (elevated ICP) / Trauma<br /><br />
+                 Stroke/Spinal cord lesion<br /><br />
+                 Sick Sinus Syndrome <br /><br />
+                 AV blocks (1°, 2° or 3°)<br /><br />
+                 Overdose<br /><br />
+                 Hypoglycemia
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 class="AllLevels">EMR</h3>
+        <p>
+          1.
+          <a
+            href="../../General/UniversalSources/Universal.html"
+            class="working-link"
+            title="Universal Patient Care SOG"
+            >UNIVERSAL PATIENT CARE</a
+          >.<br /><br />
+          2. Relay information to incoming ambulance
+        </p>
+        <h3 class="EMT">EMT</h3>
+        <p>
+          1. Continue <strong>EMR TREATMENT</strong>.<br /><br />
+          2. Obtain 12-lead ECG within 10 minutes of patient contact and
+          transmit to receiving facility (if available).<br /><br />
+          3. Consider possible underlying causes of bradycardia (see
+          differentials above).<br /><br />
+          4. Relay information to incoming ambulance and/or call for intercept
+          per
+          <a
+            href="../../General/InterceptCriteriaSources/Intercept.html"
+            class="working-link"
+            title="Intercept Criteria SOG"
+            >UINTERCEPT CRITERIA</a
+          >.
+        </p>
+        <h3 class="PARAMEDIC">Paramedic/PHRN</h3>
+        <p>
+          1. Continue <strong>EMT TREATMENT</strong>.<br /><br />
+
+          2. Establish IV access.<br /><br />
+
+          3. Consider <strong>Isotonic IV fluid (500 ml)</strong> bolus to
+          maintain SBP ≥ 90 mmHg or MAP ≥ 65 mmHg. Reassess after every 500 ml
+          bolus and as long as lungs remain clear, you may repeat the bolus to
+          maintain SBP ≥ 90mmHg or MAP ≥ 65 mmHg; maximum
+          <strong>2 liters</strong>.<br /><br />
+
+          4.
+          <a
+            href="../../../DrugMaterial/AtropineFolder/Atropine.html"
+            class="working-link"
+            title="Atropine Med Page"
+            >ATROPINE</a
+          >
+          <strong>1.0 mg IV/IO</strong> every 3-5 minutes, as long as
+          symptomatic bradycardia persists, to a
+          <strong>total dose of 3mg</strong>.<br /><br />
+
+          5. If no response to
+          <a
+            href="../../../DrugMaterial/AtropineFolder/Atropine.html"
+            class="working-link"
+            title="Atropine Med Page"
+            >ATROPINE</a
+          >
+          or signs of impending hemodynamic collapse, consider
+          <a href="#" class="placeholder-link" title="Page coming soon"
+            >TRANSCUTANEOUS PACING</a
+          >.<br /><br />
+
+          <span class="Indention">
+            a. If hemodynamically unstable consider analgesia with
+            <a
+              href="../../../DrugMaterial/KetamineFolder/ketamine.html"
+              class="working-link"
+              title="Ketamine Med Page"
+              >KETAMINE</a
+            >
+            <strong
+              >0.2 mg/kg slow IV/IO/IM
+              <span
+                class="IVIOIMKetIntDose"
+                style="color: rgb(56, 201, 56)"
+              ></span>
+              or 0.5 mg/kg IN
+              <span class="INKetIntDose" style="color: rgb(56, 201, 56)"></span
+              >, max single dose 20 mg.</strong
+            >
+            <i
+              >After <strong>10 min</strong>, may repeat dose x1 from either
+              route for a maximum combined dose of <strong>50 mg</strong>.</i
+            ><br /><br />
+            <span class="Indention"> <strong>-OR-</strong> </span> <br />
+
+            a. If hemodynamically stable (systolic BP ≥ 90 mm),
+            <a
+              href="../../../DrugMaterial/MidazolamFolder/midazolam.html"
+              class="working-link"
+              title="Midazolam Med Page"
+              >MIDAZOLAM</a
+            >
+            <strong>2 mg IV/IN/IO;</strong> repeat every 5 minutes as needed to
+            maintain sedation throughout procedure </span
+          ><br />
+
+          6. If inadequate response to
+          <a
+            href="../../../DrugMaterial/AtropineFolder/Atropine.html"
+            class="working-link"
+            title="Atropine Med Page"
+            >ATROPINE</a
+          >
+          or
+          <a href="#" class="placeholder-link" title="Page coming soon"
+            >TRANSCUTANEOUS PACING</a
+          >, consider
+          <a
+            href="../../../DrugMaterial/Epi100000Folder/epi100000.html"
+            class="working-link"
+            title="Epi 1:100,000 Med Page"
+            >PUSH DOSE EPINEPHRINE</a
+          >
+          <strong>1ml (10mcg) IV/IO</strong> every 2-5 minutes to maintain SBP
+          of 90-100 mmHg or MAP &gt; 65 mmHg<br /><br />
+          <span class="Indention">
+            a. Mix 1 mL of Epinephrine <strong>1mg/10mL</strong> (1:10,000) with
+            9 ml of Normal Saline in a 10 mL syringe resulting in a
+            concentration of 10 mcg/mL.
+          </span>
+        </p>
+        <p>
+          <strong>PEARLS</strong><br /><br />
+
+           Bradycardia should be managed via the least invasive manner
+          possible, escalating care as needed<br /><br />
+          <span class="Indention">
+            a. Third-degree heart block or the denervated heart (as in cardiac
+            transplant) may not respond to atropine and in these cases, proceed
+            quickly to chronotropic agents (such as epinephrine), or
+            transcutaneous pacing.<br /><br />
+
+            b. In cases of impending hemodynamic collapse, proceed directly to
+            transcutaneous pacing<br /><br />
+          </span>
+           The major ECG rhythms classified as bradycardia include:<br /><br />
+          <span class="Indention">
+            a. Sinus bradycardia<br /><br />
+
+            b. Second-degree AV block<br /><br />
+            <span class="Indention">
+              i. Type I - Wenckebach / Mobitz I<br /><br />
+
+              ii. Type II - Mobitz II</span
+            >
+            <br />
+            c. Third-degree AV block (Complete Heart Block)<br /><br />
+
+            d. Ventricular escape rhythms (Idioventricular Rhythms)</span
+          ><br />
+
+           Observe for signs of decreased end-organ perfusion: chest pain (CP),
+          shortness of breath (SOB), decreased level of consciousness, syncope
+          or other signs of shock/hypotension.<br /><br />
+
+           Consider potential culprit medications including beta-blockers,
+          calcium channel blockers, sodium channel blockers / anti-depressants,
+          digoxin, and clonidine.<br /><br />
+
+           Consider hyperkalemia in the patient with wide complex
+          bradycardia.<br /><br />
+
+           Hypoxemia is a common cause of bradycardia; be sure to oxygenate the
+          patient.<br /><br />
+
+           Be aware of acute coronary syndrome as a cause of bradycardia in
+          adult patients.
+        </p>
+
+        <table class="EndTable">
+          <thead>
+            <tr>
+              <th><strong>KEY DOCUMENTATION ELEMENTS </strong></th>
+              <th><strong>PERTINENT ASSESSMENT FINDINGS </strong></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                 Cardiac rhythm / rate<br /><br />
+
+                 Time, dose and response of medications given<br /><br />
+                 Pacing: Time started or stopped, rate, joules, capture and
+                response<br /><br />
+                 History of event supporting treatment of underlying causes
+              </td>
+              <td> 12-Lead ECG</td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="QMTable">
+          <tr>
+            <td><strong>QUALITY METRICS</strong><br /><br /></td>
+          </tr>
+          <tr>
+            <td>
+               Correct medication and dose given for patient condition<br /><br />
+
+               Correct application and use of cardiac pacing<br /><br />
+
+               Use of sedation with cardiac pacing
+            </td>
+          </tr>
+        </table>
+
+        <p>
+          <img
+            src="sinusbrady.png"
+            alt="Sinus Bradycardia ECG"
+            style="
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              max-width: 100%;
+              height: auto;
+              float: none;
+              align-self: center;
+              justify-self: center;
+            "
+          />
+          <img
+            src="Wenckebach.png"
+            alt="Wenckebach ECG"
+            style="
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              max-width: 100%;
+              height: auto;
+              float: none;
+              align-self: center;
+              justify-self: center;
+            "
+          />
+
+          <img
+            src="Mobitz.png"
+            alt="Mobitz II ECG"
+            style="
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              max-width: 100%;
+              height: auto;
+              float: none;
+              align-self: center;
+              justify-self: center;
+            "
+          />
+
+          <img
+            src="Third.png"
+            alt="Third Degree ECG"
+            style="
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              max-width: 100%;
+              height: auto;
+              float: none;
+              align-self: center;
+              justify-self: center;
+            "
+          />
+
+          <img
+            src="idiovent.png"
+            alt="Idioventricular ECG"
+            style="
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              max-width: 100%;
+              height: auto;
+              float: none;
+              align-self: center;
+              justify-self: center;
+            "
+          />
+        </p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Brady.js"></script>
+  </body>
+  <footer class="footer">
+    <p>&copy; 2025 LukiWebSolutions. All rights reserved.</p>
+  </footer>
+</html>

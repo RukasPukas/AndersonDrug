@@ -24,7 +24,8 @@ Index-------------------------------------------------
         Seizure / Status Epilepticus  ➶
         Sepsis ➶
         Shock ➶
-        Stroke
+        Stroke ➶
+        Bradycardia
     
     Medications
         Acetaminophen ➶
@@ -374,6 +375,17 @@ SOGs--------------------------------------------------
         Universal Patient Care
         Intercept Criteria
         Extremity Trauma
+    Bradycardia
+        Universal Patient Care
+        Intercept Criteria
+        Atropine
+        TCP
+        Ketamine
+        Midazolam
+        TCP
+        Push Dose Epi
+        
+
 
         
 
