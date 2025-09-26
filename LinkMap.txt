@@ -386,14 +386,14 @@ SOGs--------------------------------------------------
         TCP
         Push Dose Epi ➶
     Cardiac Arrest
-        Anderson Pocket Medic
-        Airway Management
-        Intercept Criteria
+        Anderson Pocket Medic ➶
+        Airway Management ➶
+        Intercept Criteria ➶
         ROSC
         Asystole / PEA
         VFIB / Pulseless Vtach
         defibrillation
-        Airway Management 
+        Airway Management ➶
         ROSC
         BIAD
         BIAD
