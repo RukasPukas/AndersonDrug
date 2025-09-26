@@ -367,23 +367,39 @@ SOGs--------------------------------------------------
         Altered Mental Status ➶
     Tracheostomy
         Anderson Pocket Medic ➶
-        Universal Patient Care
-        Albuterol
-        DuoNeb
-        Intercept Criteria
+        Universal Patient Care ➶
+        Albuterol ➶
+        DuoNeb ➶
+        Intercept Criteria ➶
         Needle Chest Decompression
-        Universal Patient Care
-        Intercept Criteria
+        Universal Patient Care ➶
+        Intercept Criteria ➶
         Extremity Trauma
     Bradycardia
-        Universal Patient Care
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Intercept Criteria ➶
+        Atropine ➶
+        TCP
+        Ketamine ➶
+        Midazolam ➶
+        TCP
+        Push Dose Epi ➶
+    Cardiac Arrest
+        Anderson Pocket Medic
+        Airway Management
         Intercept Criteria
-        Atropine
-        TCP
-        Ketamine
-        Midazolam
-        TCP
-        Push Dose Epi
+        ROSC
+        Asystole / PEA
+        VFIB / Pulseless Vtach
+        defibrillation
+        Airway Management 
+        ROSC
+        BIAD
+        BIAD
+        BIAD
+        defibrillation
+        
         
 
 
