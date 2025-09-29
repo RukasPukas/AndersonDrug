@@ -410,14 +410,16 @@ SOGs--------------------------------------------------
         Calcium Gluconate ➶
         ROSC
     Cardiac Arrest -VFIB/VTACH-
-        Anderson Pocket Medic
+        Anderson Pocket Medic ➶
         Cardiac Arrest General ➶
         Defibrilate 
-        Epinephrine 1:10,000
-        Amiodarone
-        Lidocaine
-        Lidocaine
-        Magnesium Sulfate
+        Epinephrine 1:10,000 ➶
+        Amiodarone ➶
+        Amiodarone  ➶
+        Lidocaine ➶
+        Lidocaine ➶
+        Lidocaine ➶
+        Magnesium Sulfate ➶
 
         
         
