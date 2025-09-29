@@ -26,6 +26,8 @@ Index-------------------------------------------------
         Shock ➶
         Stroke ➶
         Bradycardia ➶
+        Cardiac Arrest ➶
+        Cardiac Arrest -Asystole/PEA- ➶
     
     Medications
         Acetaminophen ➶
@@ -399,6 +401,14 @@ SOGs--------------------------------------------------
         BIAD
         BIAD
         defibrillation
+    Cardiac Arrest -Asystole/PEA-
+        Anderson Pocket Medic
+        Epinephrine 1:10,000
+        Sodium Bicarbonate
+        Calcium Chloride
+        Calcium Gluconate
+        ROSC
+
         
         
 
