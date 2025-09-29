@@ -28,6 +28,7 @@ Index-------------------------------------------------
         Bradycardia ➶
         Cardiac Arrest ➶
         Cardiac Arrest -Asystole/PEA- ➶
+        Cardiac Arrest -VFIB/VTACH-
     
     Medications
         Acetaminophen ➶
@@ -408,6 +409,15 @@ SOGs--------------------------------------------------
         Calcium Chloride ➶
         Calcium Gluconate ➶
         ROSC
+    Cardiac Arrest -VFIB/VTACH-
+        Anderson Pocket Medic
+        Cardiac Arrest General ➶
+        Defibrilate 
+        Epinephrine 1:10,000
+        Amiodarone
+        Lidocaine
+        Lidocaine
+        Magnesium Sulfate
 
         
         
