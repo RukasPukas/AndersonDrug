@@ -86,7 +86,8 @@ $(function () {
     //DIAZEPAM DOSE
     let diazDose = kg * 0.1;
     if (diazDose > 5) diazDose = 5;
-    diazepamSpan.textContent = `≈ ${diazDose.toFixed(2)}mg`;
+    let diazVol = diasDoxe *.2;
+    diazepamSpan.textContent = `≈ ${diazDose.toFixed(2)}mg (${diazVol.toFixed(2)}mL at 5mg/mL) `;
   }
 
   weightInput.addEventListener("input", function () {
