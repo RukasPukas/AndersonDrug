@@ -31,7 +31,8 @@ Index-------------------------------------------------
         Cardiac Arrest -VFIB/VTACH- ➶
         Cardiac Arrest -Overview- ➶
         ACS ➶
-        CHF
+        CHF ➶
+        ROSC
     
     Medications
         Acetaminophen ➶
@@ -441,17 +442,28 @@ SOGs--------------------------------------------------
         Midazolam ➶
         Diazepam ➶
     CHF
-        Anderson Pocked Medic
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        CPAP
+        CPAP
+        Intercept Criteria ➶
+        Nitroglycerin ➶
+        Nitroglycerin ➶
+        Nitroglycerin ➶
+        Norepinephrine ➶
+        Push Dose Epinephrine ➶
+        Dopamine ➶
+    ROSC
+        Anderson Pocket Medic
         Universal Patient Care
-        CPAP
-        CPAP
+        Cardiac Arrest
         Intercept Criteria
-        Nitroglycerin
-        Nitroglycerin
-        Nitroglycerin
+        Shock
+        Airwaymanagement
         Norepinephrine
-        Push Dose Epinephrine
+        pushdose Epinephrine
         Dopamine
+        
 
 
         
