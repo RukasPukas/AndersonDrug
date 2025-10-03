@@ -30,7 +30,8 @@ Index-------------------------------------------------
         Cardiac Arrest -Asystole/PEA- ➶
         Cardiac Arrest -VFIB/VTACH- ➶
         Cardiac Arrest -Overview- ➶
-        ACS
+        ACS ➶
+        CHF
     
     Medications
         Acetaminophen ➶
@@ -423,21 +424,35 @@ SOGs--------------------------------------------------
         Lidocaine ➶
         Magnesium Sulfate ➶
     Cardiac Arrest -Overview-
-        Anderson Pocket Medic
+        Anderson Pocket Medic ➶
     ACS
+        Anderson Pocket Medic
+        Universal Patient Care ➶
+        Aspirin ➶
+        Nitroglycerin ➶
+        Nitroglycerin ➶
+        Intercept Criteria ➶
+        Nitroglycerin Paste ➶
+        Fentanyl ➶
+        Morphine Sulfate ➶
+        Ketamine ➶
+        Fentanyl ➶
+        Morphine Sulfate ➶
+        Midazolam ➶
+        Diazepam ➶
+    CHF
+        Anderson Pocked Medic
         Universal Patient Care
-        Aspirin
-        Nitroglycerin
-        Nitroglycerin
+        CPAP
+        CPAP
         Intercept Criteria
-        Nitroglycerin Paste
-        Fentanyl
-        Morphine Sulfate
-        Ketamine
-        Fentanyl
-        Morphine Sulfate
-        Midazolam
-        Diazepam
+        Nitroglycerin
+        Nitroglycerin
+        Nitroglycerin
+        Norepinephrine
+        Push Dose Epinephrine
+        Dopamine
+
 
         
         
