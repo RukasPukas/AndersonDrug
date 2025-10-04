@@ -6,7 +6,7 @@
 
 <span class="RedColor" style="color: rgb(218, 66, 46);">ALS</span>
 
-<span class="PlaceHolder" style="color: rgb(56, 201, 56);">
+<span id="PlaceHolder" style="color: rgb(56, 201, 56);"></span>
 
 $(function () {
   $("body").hide().fadeIn(750);

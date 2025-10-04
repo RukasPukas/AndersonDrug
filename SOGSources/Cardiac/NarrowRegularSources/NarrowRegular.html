@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anderson EMS Pocket Medic</title>
+    <link rel="icon" href="../favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="../Cardiac.css" />
+    <link rel="stylesheet" href="NarrowRegular.css" />
+  </head>
+  <body>
+    <a href="../../../index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Pocket Medic</h1>
+      </div>
+    </a>
+
+    <div class="MainBody">
+      <h2>Narrow Complex Tachycardia<br>
+      -Regular W/ A Pulse-</h2>
+
+      <div class="InitialBody">
+         <div class="inputBox">Enter patient weight in pounds before proceeding:
+        <input 
+        type="text" 
+        id="weightSelect" 
+        maxlength="3" 
+        inputmode="numeric" 
+        pattern="\d{1,3}" 
+        placeholder="Enter weight 1 - 999lbs" 
+        /><br>
+
+        <p class = "weightDisplayP" style="background-color: rgba(155, 44, 36); text-align:center;"><span id="weightSelected" style="color: whitesmoke; font-size: 1.4em; ;"></span><br><br></p>
+  </div>
+
+        <table class="StartTable">
+          <thead>
+            <tr>
+              <th>History</th>
+              <th>Signs and Symptoms</th>
+              <th>Differential</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>
+                    Medications<br><br>
+                   <span class="Indention">
+                  (Aminophylline, Diet pills, Thyroid
+                  supplements, Decongestants,
+                  Digoxin)</span><br>
+                     Diet (caffeine, chocolate)<br><br>
+                     Drugs (nicotine, cocaine)<br><br>
+                     Past medical history<br><br>
+                     History of palpitations / heart racing<br><br>
+                     Syncope / Near syncope
+ 
+                </td>
+                <td>
+                   Heart rate &gt; 150<br><br>
+                   Dizziness<br><br>
+                   Chest pain<br><br>
+                   Palpitations<br><br>
+                   Shortness of breath<br><br>
+                   AMS<br><br>
+                   Diaphoresis<br><br>
+                   CHF
+
+                </td>
+                <td>
+                   Heart disease (WPW, Valvular)<br><br>
+                   Myocardial infarction<br><br>
+                   Electrolyte imbalance<br><br>
+                   Fever, pain, emotional stress<br><br>
+                   Hypoxia, Hypovolemia or Anemia<br><br>
+                   Drug effect / Overdose (see HX)<br><br>
+                   Hyperthyroidism<br><br>
+                   Pulmonary embolus<br><br>
+                   Sepsis
+                </td>
+            </tr>
+          </tbody>
+        </table>
+        <h3 class="AllLevels">EMR</h3>
+        <p>
+          1.<a href="../../General/UniversalSources/Universal.html" class="working-link" title="Universal Patient Care SOG">UNIVERSAL PATIENT CARE</a>
+
+        </p>
+        <h3 class="EMT">EMT</h3>
+        <p>
+          1. Continue <strong>EMR Treatment</strong><br><br>
+          2. Obtain 12-lead ECG within 10 minutes of patient contact and transmit to receiving facility (if available).<br><br>
+          3. Relay information to incoming ambulance and/or call for intercept per <a href="../../General/InterceptCriteriaSources/Intercept.html" class="working-link"
+          title="Intercept Criteria Sog">INTERCEPT CRITERIA</a>.
+        </p>
+        <h3 class="PARAMEDIC">Paramedic/PHRN</h3>
+        <p>
+          1. <a href="../../General/UniversalSources/Universal.html" class="working-link" title="Universal Patient Care SOG">UNIVERSAL PATIENT CARE</a><br><br>
+            <span class="Indention">
+            a. Obtain 12-lead ECG within 10 minutes of patient contact and transmit to receiving facility.
+            </span><br>
+          2. Establish IV access - preferably large bore in the antecubital vein.<br><br>
+
+          3 Consider <strong>Isotonic IV fluid (500 ml)</strong> bolus to maintain SBP ≥ 90 mmHg or MAP ≥ 65 mmHg. Reassess after
+          every 500 ml bolus and as long as lungs remain clear, you may repeat the bolus to maintain SBP ≥
+          90mmHg or MAP ≥ 65 mmHg; maximum <strong>2 liters</strong>. If rhythm is <strong><u>sinus tachycardia</u></strong>, stop here. <br><span style="font-size: 2.5em;">🛑</span><br><br>
+          <strong>STABLE (SBP>100 mm.)</strong><br><br>
+
+          1. Perform vagal maneuvers.<br><br>
+
+          2. <a href="../../../DrugMaterial/AdenosineFolder/adenosine.html" class="working-link" title="Adenosine Med Page">ADENOSINE</a>
+          <strong>6 mg rapid IV/IO</strong> followed by a 10 mL NS flush.<br><br>
+
+          3. If no change in rhythm after 1-2 minutes, <a href="../../../DrugMaterial/AdenosineFolder/adenosine.html" class="working-link" title="Adenosine Med Page">ADENOSINE</a>
+           <strong>12 mg rapid IV/IO</strong> followed by a 10 mL NS flush<br><br>
+
+           <span class="medcontrol" style="font-size: 2em;">☎️ Medical Control ☎️</span><br>
+            4. <a href="../../../DrugMaterial/DiltiazemFolder/diltiazem.html" class="working-link" title="Diltiazem Med Page">DILTIAZEM</a> <strong>
+              0.25 mg/kg, max dose 25 mg over 2-5 min <span id="diltiazemAdult" style="color: rgb(56, 201, 56);"></span> if <u>Adults older than 65</u>
+               0.10 mg/kg, max dose
+            10 mg over 2-5 min <span id="diltiazemGeri" style="color: rgb(56, 201, 56);"></span></strong>. Contact medical control if necessary to administer
+             additional <a href="../../../DrugMaterial/DiltiazemFolder/diltiazem.html" class="working-link" title="Diltiazem Med Page">DILTIAZEM</a> after 15
+            minutes<br><br>
+            <span class="Indention">
+             <strong>(or)</strong>
+             </span><br>
+
+
+            5. <a href="../../../DrugMaterial/MetoprololFolder/Metoprolol.html" class="working-link" title="Metoprolol Med Page">METOPROLOL</a> <strong>5 mg IV over 1-2 min</strong>. 
+            Repeat as needed every 5 min if SBP &gt; 100mm <strong>(Max 3 doses)</strong>.<br><br>
+
+
+            <strong>UNSTABLE<u></u></strong> <i>(Hypotension, Chest Pain with evidence of ischemia, AMS, signs of shock, acute CHF)</i><br><br>
+
+            1. Immediate <a href="#" class="placeholder-link" title="placeholder-link">SYNCHRONIZED CARDIOVERSION</a> based on the manufacturer’s recommendations.<br><br>
+             <span class="Indention">
+            a. If normal LOC, consider sedation with <a href="../../../DrugMaterial/MidazolamFolder/midazolam.html" class="working-link" title="Midazolam Med Page">MIDAZOLAM</a>
+             <strong>2 mg IV/IN/IO</strong>. (If systolic BP ≥ 90mm)<br><br>
+
+            b. If normal LOC, but hemodynamically unstable, consider sedation with 
+            <a href="../../../DrugMaterial/EtomidateFolder/etomidate.html" class="working-link" title="Etomidate Med Page">
+              ETOMIDATE</a>
+             <strong>0.1 mg/kg
+            IV/IO (Max 10mg) <span id="etomidateSpot" style="color: rgb(56, 201, 56);"></span></strong>
+          </span><br>
+            2. If no response to initial energy dose, repeat <a href="#" class="placeholder-link" title="placeholder-link">SYNCHRONIZED CARDIOVERSION</a> in a stepwise fashion
+            based on the manufacturer’s recommendations. Obtain 12-Lead ECG if cardioversion is successful.
+
+
+        </p>
+
+        <table class="EndTable">
+          <thead>
+            <tr>
+              <th><strong>KEY DOCUMENTATION ELEMENTS </strong></th>
+              <th><strong>PERTINENT ASSESSMENT FINDINGS </strong></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <table class="QMTable">
+          <tr>
+            <td><strong>QUALITY METRICS</strong><br /><br /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="NarrowRegular.js"></script>
+  </body>
+  <footer class="footer">
+    <p>&copy; 2025 LukiWebSolutions. All rights reserved.</p>
+  </footer>
+</html>
+ 

@@ -33,7 +33,8 @@ Index-------------------------------------------------
         ACS ➶
         CHF ➶
         ROSC ➶
-        Syncope
+        Syncope ➶
+        Narrow Complex Reg W A pulse
     
     Medications
         Acetaminophen ➶
@@ -465,11 +466,24 @@ SOGs--------------------------------------------------
         pushdose Epinephrine ➶
         Dopamine ➶
     Syncope
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Hypoglycemia ➶
+        Shock ➶
+        Intercept Criteria ➶
+    Narrow Complex Reg W A pulse
         Anderson Pocket Medic
         Universal Patient Care
-        Hypoglycemia
-        Shock
         Intercept Criteria
+        Universal Patient Care
+        Adenosine
+        Adenosine
+        Diltiazem
+        Metoprolol
+        Synchronized Cardioversion
+        Midazolam
+        Etomidate
+        Synchronized Cardioversion
         
 
 
