@@ -32,7 +32,8 @@ Index-------------------------------------------------
         Cardiac Arrest -Overview- ➶
         ACS ➶
         CHF ➶
-        ROSC
+        ROSC ➶
+        Syncope
     
     Medications
         Acetaminophen ➶
@@ -454,15 +455,21 @@ SOGs--------------------------------------------------
         Push Dose Epinephrine ➶
         Dopamine ➶
     ROSC
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Cardiac Arrest ➶
+        Intercept Criteria ➶
+        Shock ➶
+        Airwaymanagement ➶
+        Norepinephrine ➶
+        pushdose Epinephrine ➶
+        Dopamine ➶
+    Syncope
         Anderson Pocket Medic
         Universal Patient Care
-        Cardiac Arrest
-        Intercept Criteria
+        Hypoglycemia
         Shock
-        Airwaymanagement
-        Norepinephrine
-        pushdose Epinephrine
-        Dopamine
+        Intercept Criteria
         
 
 
