@@ -35,7 +35,7 @@ Index-------------------------------------------------
         ROSC ➶
         Syncope ➶
         Narrow Complex Reg W A pulse ➶
-        Tachycardia Irregualr W A pulse
+        Tachycardia Irregualr W A pulse ➶
     
     Medications
         Acetaminophen ➶
@@ -486,16 +486,16 @@ SOGs--------------------------------------------------
         Etomidate ➶
         Synchronized Cardioversion
     Tachycardia Irregualr W A pulse
-        Anderson Pocket Medic
-        Universal Patient Care
-        Intercept Criteria
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Intercept Criteria ➶
         Synchronized Cardioversion
-        Midazolam
-        Etomidate
+        Midazolam ➶
+        Etomidate ➶
         Synchronized Cardioversion
-        Diltiazem
-        Diltiazem
-        Metropolol
+        Diltiazem ➶
+        Diltiazem ➶
+        Metropolol ➶
 
         
 

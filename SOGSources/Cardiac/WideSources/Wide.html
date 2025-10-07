@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anderson EMS Pocket Medic</title>
+    <link rel="icon" href="../favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="../Cardiac.css" />
+    <link rel="stylesheet" href="Wide.css" />
+  </head>
+  <body>
+    <a href="../../../index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Pocket Medic</h1>
+      </div>
+    </a>
+
+    <div class="MainBody">
+      <h2>
+        Wide Complex Tachycardia<br />
+        - With A Pulse-
+      </h2>
+
+      <div class="InitialBody">
+        <div class="inputBox">
+          Enter patient weight in pounds before proceeding:
+          <input
+            type="text"
+            id="weightSelect"
+            maxlength="3"
+            inputmode="numeric"
+            pattern="\d{1,3}"
+            placeholder="Enter weight 1 - 999lbs"
+          /><br />
+
+          <p
+            class="weightDisplayP"
+            style="background-color: rgba(155, 44, 36); text-align: center"
+          >
+            <span
+              id="weightSelected"
+              style="color: whitesmoke; font-size: 1.4em"
+            ></span
+            ><br /><br />
+          </p>
+        </div>
+        <table class="StartTable">
+          <thead>
+            <tr>
+              <th>History</th>
+              <th>Signs and Symptoms</th>
+              <th>Differential</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="EndTable">
+          <thead>
+            <tr>
+              <th><strong>KEY DOCUMENTATION ELEMENTS </strong></th>
+              <th><strong>PERTINENT ASSESSMENT FINDINGS </strong></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <table class="QMTable">
+          <tr>
+            <td><strong>QUALITY METRICS</strong><br /><br /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Wide.js"></script>
+  </body>
+  <footer class="footer">
+    <p>&copy; 2025 LukiWebSolutions. All rights reserved.</p>
+  </footer>
+</html>
