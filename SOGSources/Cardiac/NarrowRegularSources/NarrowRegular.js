@@ -42,7 +42,7 @@ $(function () {
     etomidateVol = etomidate / 2;
     etomidateSpan.textContent = `≈ (${etomidate.toFixed(
       2
-    )}mg ${etomidateVol.toFixed(2)}ml )`;
+    )}mg, ${etomidateVol.toFixed(2)}ml )`;
   }
 
   weightInput.addEventListener("input", function () {
