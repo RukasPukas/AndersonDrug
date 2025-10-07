@@ -34,7 +34,8 @@ Index-------------------------------------------------
         CHF ➶
         ROSC ➶
         Syncope ➶
-        Narrow Complex Reg W A pulse
+        Narrow Complex Reg W A pulse ➶
+        Tachycardia Irregualr W A pulse
     
     Medications
         Acetaminophen ➶
@@ -472,18 +473,30 @@ SOGs--------------------------------------------------
         Shock ➶
         Intercept Criteria ➶
     Narrow Complex Reg W A pulse
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Intercept Criteria ➶
+        Universal Patient Care ➶
+        Adenosine ➶
+        Adenosine ➶
+        Diltiazem ➶
+        Metoprolol ➶
+        Synchronized Cardioversion 
+        Midazolam ➶
+        Etomidate ➶
+        Synchronized Cardioversion
+    Tachycardia Irregualr W A pulse
         Anderson Pocket Medic
         Universal Patient Care
         Intercept Criteria
-        Universal Patient Care
-        Adenosine
-        Adenosine
-        Diltiazem
-        Metoprolol
         Synchronized Cardioversion
         Midazolam
         Etomidate
         Synchronized Cardioversion
+        Diltiazem
+        Diltiazem
+        Metropolol
+
         
 
 

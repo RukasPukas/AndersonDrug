@@ -3,16 +3,16 @@ $(function () {
 
   const weightInput = document.getElementById("weightSelect");
   const weightSelectedSpan = document.getElementById("weightSelected");
+  const etomidateSpan = document.getElementById("etomidateSpot");
   const diltiazemAdultSpan = document.getElementById("diltiazemAdult");
   const diltiazemGeriSpan = document.getElementById("diltiazemGeri");
-  const etomidateSpan = document.getElementById("etomidateSpot");
 
   function updateAll(weightLbs) {
     if (!weightLbs || isNaN(weightLbs)) {
       weightSelectedSpan.textContent = "";
+      etomidateSpan.textContent = "";
       diltiazemAdultSpan.textContent = "";
       diltiazemGeriSpan.textContent = "";
-      etomidateSpan.textContent = "";
       return;
     }
 
@@ -21,6 +21,14 @@ $(function () {
     weightSelectedSpan.textContent = `Selected Weight: ${weightLbs} lbs (${kg.toFixed(
       1
     )} kgs)`;
+
+    //Etomidate Dose
+    let etomidate = kg * 0.1;
+    if (etomidate > 10) etomidate = 10;
+    etomidateVol = etomidate / 2;
+    etomidateSpan.textContent = ` ≈ (${etomidate.toFixed(
+      2
+    )}mg ${etomidateVol.toFixed(2)}ml )`;
 
     //Diltiazem Adult Dose
     let diltiazemAdult = kg * 0.25;
@@ -35,14 +43,6 @@ $(function () {
     diltiazemGeriSpan.textContent = `≈ (${diltiazemGeri.toFixed(
       2
     )}mg over 2-5 minutes)`;
-
-    //Etomidate Dose
-    let etomidate = kg * 0.1;
-    if (etomidate > 10) etomidate = 10;
-    etomidateVol = etomidate / 2;
-    etomidateSpan.textContent = `≈ (${etomidate.toFixed(
-      2
-    )}mg ${etomidateVol.toFixed(2)}ml )`;
   }
 
   weightInput.addEventListener("input", function () {
