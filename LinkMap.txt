@@ -38,6 +38,7 @@ Index-------------------------------------------------
         Tachycardia Irregualr W A pulse ➶
         Tachycardia Widecomplex W A pulse ➶
         Tachycardia Overview ➶
+        LVAD
         
     Medications
         Acetaminophen ➶
@@ -517,6 +518,11 @@ SOGs--------------------------------------------------
         Magnesium Sulfate ➶
     Tachycardia Overview
         Anderson Pocket Medic ➶
+    LVAD
+        Universal Patient Care
+        ALtered mental Status
+        Intercept Criteria
+        LVAD Website
 
         
 
