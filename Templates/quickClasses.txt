@@ -31,3 +31,6 @@ Weight Div Section:
 
         <p class = "weightDisplayP" style="background-color: rgba(155, 44, 36); text-align:center;"><span id="weightSelected" style="color: whitesmoke; font-size: 1.4em; ;"></span><br><br></p>
   </div>
+
+🛑
+

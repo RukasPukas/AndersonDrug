@@ -39,7 +39,8 @@ Index-------------------------------------------------
         Tachycardia Widecomplex W A pulse ➶
         Tachycardia Overview ➶
         LVAD ➶
-        Childbirth / Labor
+        Childbirth / Labor ➶
+        Eclampsia / Pre-Eclampsia
         
     Medications
         Acetaminophen ➶
@@ -525,13 +526,24 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         LVAD Website ➶
     Childbirth / Labor
-        Universal Patient Care
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
         Newborn care / neonatal Resuscitation
-        inercept Criteria
-        cardiac Arrest
-        intercept Criteria
-        APGAR Calculator
-        
+        inercept Criteria ➶
+        cardiac Arrest ➶
+        intercept Criteria ➶
+        APGAR Calculator ➶
+    Eclampsia / Pre-Eclampsia
+        Anderson Pocket Medic
+        Universal Patient Care
+        Intercept Criteria
+        Labetalol
+        Hydralazine
+        Magnesium Sulfate
+        Magnesium Sulfate
+        Magnesium Sulfate
+        Seizure / Status Epilepticus
+        Magnesium Sulfate
 
 
         

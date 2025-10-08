@@ -60,6 +60,20 @@ footer {
   border-radius: 5px;
   margin: 20px auto;
 }
+.purpleCenter {
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(165, 13, 179);
+  font-family:monospace;
+}
+
+.center {
+display: block;
+text-align: center;
+}
+
 
 /* END HEADER AND FOOTER BOILER PLATE */
 
