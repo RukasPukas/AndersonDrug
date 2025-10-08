@@ -38,7 +38,8 @@ Index-------------------------------------------------
         Tachycardia Irregualr W A pulse ➶
         Tachycardia Widecomplex W A pulse ➶
         Tachycardia Overview ➶
-        LVAD
+        LVAD ➶
+        Childbirth / Labor
         
     Medications
         Acetaminophen ➶
@@ -519,11 +520,17 @@ SOGs--------------------------------------------------
     Tachycardia Overview
         Anderson Pocket Medic ➶
     LVAD
+        Universal Patient Care ➶
+        ALtered mental Status ➶
+        Intercept Criteria ➶
+        LVAD Website ➶
+    Childbirth / Labor
         Universal Patient Care
-        ALtered mental Status
-        Intercept Criteria
-        LVAD Website
-
+        Newborn care / neonatal Resuscitation
+        inercept Criteria
+        cardiac Arrest
+        intercept Criteria
+        APGAR Calculator
         
 
 
