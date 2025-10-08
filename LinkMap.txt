@@ -40,7 +40,8 @@ Index-------------------------------------------------
         Tachycardia Overview ➶
         LVAD ➶
         Childbirth / Labor ➶
-        Eclampsia / Pre-Eclampsia
+        Eclampsia / Pre-Eclampsia ➶
+        Newborn Care
         
     Medications
         Acetaminophen ➶
@@ -534,16 +535,18 @@ SOGs--------------------------------------------------
         intercept Criteria ➶
         APGAR Calculator ➶
     Eclampsia / Pre-Eclampsia
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Intercept Criteria ➶
+        Labetalol ➶
+        Hydralazine ➶
+        Magnesium Sulfate ➶
+        Magnesium Sulfate ➶
+        Magnesium Sulfate ➶
+        Seizure / Status Epilepticus ➶
+        Magnesium Sulfate ➶
+    Newborn Care
         Anderson Pocket Medic
-        Universal Patient Care
-        Intercept Criteria
-        Labetalol
-        Hydralazine
-        Magnesium Sulfate
-        Magnesium Sulfate
-        Magnesium Sulfate
-        Seizure / Status Epilepticus
-        Magnesium Sulfate
 
 
         
