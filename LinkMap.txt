@@ -41,8 +41,9 @@ Index-------------------------------------------------
         LVAD ➶
         Childbirth / Labor ➶
         Eclampsia / Pre-Eclampsia ➶
-        Newborn Care
-        
+        Newborn Care ➶
+        Placenta Previa/Abrupto Placenta
+
     Medications
         Acetaminophen ➶
         Adenosine ➶
@@ -546,7 +547,12 @@ SOGs--------------------------------------------------
         Seizure / Status Epilepticus ➶
         Magnesium Sulfate ➶
     Newborn Care
+        Anderson Pocket Medic ➶
+    Placenta Previa/Abrupto Placenta
         Anderson Pocket Medic
+        Universal Patient Care
+        Intercept Criteria
+        Shock
 
 
         
