@@ -72,7 +72,12 @@ footer {
   width: 90%;
   margin: 20px auto;
   padding: 20px;
-  background-color: rgb(155, 44, 36);
+  background-image: linear-gradient(
+    to right,
+    rgb(155, 44, 36),
+    rgb(213, 88, 84)
+  );
+
   border-radius: 10px;
   display: block;
   text-align: center;

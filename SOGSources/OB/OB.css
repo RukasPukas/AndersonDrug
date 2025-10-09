@@ -66,14 +66,13 @@ footer {
   font-size: 3em;
   font-weight: bold;
   color: rgb(165, 13, 179);
-  font-family:monospace;
+  font-family: monospace;
 }
 
 .center {
-display: block;
-text-align: center;
+  display: block;
+  text-align: center;
 }
-
 
 /* END HEADER AND FOOTER BOILER PLATE */
 
@@ -86,7 +85,12 @@ text-align: center;
   width: 90%;
   margin: 20px auto;
   padding: 20px;
-  background-color: rgb(133, 37, 189);
+  background-image: linear-gradient(
+    to right,
+    rgb(133, 37, 189),
+    rgb(188, 71, 198)
+  );
+
   border-radius: 10px;
   display: block;
   text-align: center;
