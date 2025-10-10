@@ -44,6 +44,7 @@ Index-------------------------------------------------
         Newborn Care ➶
         Placenta Previa/Abrupto Placenta ➶
         Initial Trauma Care ➶
+        Trauma Triage Algorithm ➶
 
     Medications
         Acetaminophen ➶
@@ -555,6 +556,7 @@ SOGs--------------------------------------------------
         Intercept Criteria
         Shock
     Initial Trauma Care
+        Anderson Pocket Medic ➶
         EXTREMITY TRAUMA / EXTERNAL HEMORRHAGE MANAGEMENT 
         Airway Management ➶
         Spinal Motion Restriction
@@ -574,6 +576,8 @@ SOGs--------------------------------------------------
         Extremity Trauma / External Hemorrahage Management
         Pain Management ➶
         Nausea / Vomiting ➶
+    Trauma Triage Algorithm
+        Anderson Pocket Medic ➶
 
 
         
