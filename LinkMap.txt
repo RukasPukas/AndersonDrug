@@ -43,7 +43,7 @@ Index-------------------------------------------------
         Eclampsia / Pre-Eclampsia ➶
         Newborn Care ➶
         Placenta Previa/Abrupto Placenta ➶
-        Initial Trauma Care
+        Initial Trauma Care ➶
 
     Medications
         Acetaminophen ➶
@@ -556,7 +556,7 @@ SOGs--------------------------------------------------
         Shock
     Initial Trauma Care
         EXTREMITY TRAUMA / EXTERNAL HEMORRHAGE MANAGEMENT 
-        Airway Management
+        Airway Management ➶
         Spinal Motion Restriction
         Region 4 Trauma Triage Algorithm
         Orotracheal Intubation
@@ -569,11 +569,11 @@ SOGs--------------------------------------------------
         Capnography
         Management of Tension Pneumothorax
         Spinal Motion Restriction
-        Universal Patient Care
+        Universal Patient Care ➶
         Spinal Motion Restriction
         Extremity Trauma / External Hemorrahage Management
-        Pain Management
-        Nausea / Vomiting
+        Pain Management ➶
+        Nausea / Vomiting ➶
 
 
         
