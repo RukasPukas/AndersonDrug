@@ -43,6 +43,7 @@ Index-------------------------------------------------
         Eclampsia / Pre-Eclampsia ➶
         Newborn Care ➶
         Placenta Previa/Abrupto Placenta ➶
+        Initial Trauma Care
 
     Medications
         Acetaminophen ➶
@@ -553,6 +554,26 @@ SOGs--------------------------------------------------
         Universal Patient Care
         Intercept Criteria
         Shock
+    Initial Trauma Care
+        EXTREMITY TRAUMA / EXTERNAL HEMORRHAGE MANAGEMENT 
+        Airway Management
+        Spinal Motion Restriction
+        Region 4 Trauma Triage Algorithm
+        Orotracheal Intubation
+        EXTREMITY TRAUMA / EXTERNAL HEMORRHAGE MANAGEMENT 
+        Spinal Motion Restriction
+        Management of Tension Pneumothorax
+        Spinal Motion Restriction
+        Management of Tension Pneumothorax
+        Capnography
+        Capnography
+        Management of Tension Pneumothorax
+        Spinal Motion Restriction
+        Universal Patient Care
+        Spinal Motion Restriction
+        Extremity Trauma / External Hemorrahage Management
+        Pain Management
+        Nausea / Vomiting
 
 
         
