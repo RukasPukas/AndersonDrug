@@ -45,6 +45,7 @@ Index-------------------------------------------------
         Placenta Previa/Abrupto Placenta ➶
         Initial Trauma Care ➶
         Trauma Triage Algorithm ➶
+        Abdominal Injuries
 
     Medications
         Acetaminophen ➶
@@ -578,6 +579,11 @@ SOGs--------------------------------------------------
         Nausea / Vomiting ➶
     Trauma Triage Algorithm
         Anderson Pocket Medic ➶
+    Abdominal Injuries
+        Anderson Pocket Medic
+        Intercept Criteria
+        Tranexamic
+        Pain Management
 
 
         
