@@ -45,7 +45,8 @@ Index-------------------------------------------------
         Placenta Previa/Abrupto Placenta ➶
         Initial Trauma Care ➶
         Trauma Triage Algorithm ➶
-        Abdominal Injuries
+        Abdominal Injuries ➶
+        Blast Injuries
 
     Medications
         Acetaminophen ➶
@@ -580,10 +581,19 @@ SOGs--------------------------------------------------
     Trauma Triage Algorithm
         Anderson Pocket Medic ➶
     Abdominal Injuries
+        Anderson Pocket Medic➶
+        Intercept Criteria➶
+        Tranexamic➶
+        Pain Management➶
+    Blast Injuries
         Anderson Pocket Medic
-        Intercept Criteria
-        Tranexamic
-        Pain Management
+        Extremity Trauma
+        Airway Management
+        Spinal Motion Restriction
+        Head Injury
+        Spinal Motion Restriction
+        Burns
+
 
 
         
