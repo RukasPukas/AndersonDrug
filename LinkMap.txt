@@ -47,7 +47,7 @@ Index-------------------------------------------------
         Trauma Triage Algorithm ➶
         Abdominal Injuries ➶
         Blast Injuries ➶
-        Burns
+        Burns ➶
 
     Medications
         Acetaminophen ➶
@@ -595,14 +595,15 @@ SOGs--------------------------------------------------
         Spinal Motion Restriction
         Burns
     Burns
-        Initial Trauma Care
-        Rule of 9s
-        Airway Management
-        Intercept Criteria
+        Anderson Pocket Medic ➶
+        Initial Trauma Care ➶
+        Rule of 9s ➶
+        Airway Management ➶
+        Intercept Criteria ➶
         Carbon Monoxide
         Cyaniade Poisoining
-        Airway Management
-        Pain Management
+        Airway Management ➶
+        Pain Management ➶
 
 
         
