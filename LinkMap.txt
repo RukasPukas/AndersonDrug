@@ -48,7 +48,8 @@ Index-------------------------------------------------
         Abdominal Injuries ➶
         Blast Injuries ➶
         Burns ➶
-        Chest Injuries
+        Chest Injuries ➶
+        Taser
 
     Medications
         Acetaminophen ➶
@@ -606,17 +607,21 @@ SOGs--------------------------------------------------
         Airway Management ➶
         Pain Management ➶
     Chest Injuries  
-        Anderson Pocket Medic
-        Intercept Criteria
+        Anderson Pocket Medic ➶
+        Intercept Criteria ➶
         Needle Decompression
-        Airway Management
+        Airway Management ➶
         CPAP
         Waveform Capnography
         Needle Decompression
-        Tranexamic Acid
-        Pain Management
-        Region 4 Trauma Triage Algorithm
-        
+        Tranexamic Acid ➶
+        Pain Management ➶
+        Region 4 Trauma Triage Algorithm ➶
+    Taser
+        Anderson Pocket Medic
+        capnograpny
+        behavioral emergencies
+
 
 
         
