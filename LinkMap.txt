@@ -618,9 +618,19 @@ SOGs--------------------------------------------------
         Pain Management ➶
         Region 4 Trauma Triage Algorithm ➶
     Taser
-        Anderson Pocket Medic
+        Anderson Pocket Medic ➶
         capnograpny
-        behavioral emergencies
+        behavioral emergencies ➶
+    Crush Injuries
+        Anderson Pocket Medic
+        Initial Trauma Care
+        Intercept Criteria
+        Pain Management
+        Albuterol Sulfate
+        Sodium Bicarbonate
+        Calcium Chloride
+        Calcium Gluconate
+
 
 
 
