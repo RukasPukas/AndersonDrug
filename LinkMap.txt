@@ -48,6 +48,7 @@ Index-------------------------------------------------
         Abdominal Injuries ➶
         Blast Injuries ➶
         Burns ➶
+        Chest Injuries
 
     Medications
         Acetaminophen ➶
@@ -604,6 +605,18 @@ SOGs--------------------------------------------------
         Cyaniade Poisoining
         Airway Management ➶
         Pain Management ➶
+    Chest Injuries  
+        Anderson Pocket Medic
+        Intercept Criteria
+        Needle Decompression
+        Airway Management
+        CPAP
+        Waveform Capnography
+        Needle Decompression
+        Tranexamic Acid
+        Pain Management
+        Region 4 Trauma Triage Algorithm
+        
 
 
         
