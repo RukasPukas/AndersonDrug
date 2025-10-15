@@ -51,6 +51,7 @@ Index-------------------------------------------------
         Chest Injuries ➶
         Taser ➶
         Extremity Trauma ➶
+        Facial Injury
 
     Medications
         Acetaminophen ➶
@@ -623,23 +624,30 @@ SOGs--------------------------------------------------
         capnograpny
         behavioral emergencies ➶
     Crush Injuries
+        Anderson Pocket Medic ➶
+        Initial Trauma Care ➶
+        Intercept Criteria ➶
+        Pain Management ➶
+        Albuterol Sulfate ➶
+        Sodium Bicarbonate ➶
+        Calcium Chloride ➶
+        Calcium Gluconate ➶ 
+    Extremity Trauma
+        Anderson Pocket Medic  ➶
+        Initial Trauma Care ➶
+        Tourniquet 
+        Hemostatic Gauze
+        Junctional Hemostatic Device
+        Tranexamic ➶
+        Pain Management ➶
+    Facial Injury
         Anderson Pocket Medic
         Initial Trauma Care
         Intercept Criteria
-        Pain Management
-        Albuterol Sulfate
-        Sodium Bicarbonate
-        Calcium Chloride
-        Calcium Gluconate
-    Extremity Trauma
-        Anderson Pocket Medic
-        Initial Trauma Care
-        Tourniquet
-        Hemostatic Gauze
-        Junctional Hemostatic Device
-        Tranexamic
-        Pain Management
-        
+        Airway Management
+        Nausea/Vomiting
+
+
 
 
 
