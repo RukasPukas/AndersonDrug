@@ -1,0 +1,155 @@
+/*======EYETABLE======*/
+
+.eyeTableWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  
+}
+
+.eyeTable {
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 70%;
+}
+
+.eyeTable td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.eyeTable td:hover:not(.eyeOpening) {
+  background-color: #7df1bb; 
+  cursor: pointer;
+}
+.score-cell.selected {
+  background-color: #7df1bb; 
+  font-weight: bold;
+}
+
+
+.eyeTable .eyeOpening {
+  background-color: #e0f7fa;
+  font-weight: bold;
+  color: #333;
+  width: 50%;
+}
+
+/*======END EYETABLE======*/
+
+/*=========Verbal Table=========*/
+
+.verbalTableWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  
+}
+
+.verbalTable{
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+}
+
+.verbalTable td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.verbalTable td:hover:not(.verbalResponse) {
+  background-color: #7df1bb; 
+  cursor: pointer;
+}
+
+.verbalTable .verbalResponse {
+  background-color: #cbf8b6;
+  font-weight: bold;
+  color: #333;
+  width: 50%;
+}
+/*=========END Verbal Table=========*/
+/*=========Motor Table=========*/
+.motorTableWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  
+}
+
+.motorTable{
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+}
+
+.motorTable td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.motorTable td:hover:not(.motorResponse) {
+  background-color: #7df1bb; 
+  cursor: pointer;
+}
+
+.motorTable .motorResponse {
+  background-color: #f7a2a0;
+  font-weight: bold;
+  color: #333;
+  width: 50%;
+}
+
+/*=========END Motor Table=========*/
+/*===========TOTAL SCORE TABLE===========*/
+.totalScoreWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  
+}
+
+.totalScoreTable{
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+}
+
+.totalScoreTable th{
+  background-image: linear-gradient(
+    to right,
+    rgb(69, 201, 139),
+    rgb(165, 209, 187)
+  );
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.5em;
+    
+}
+
+.totalScoreTable td {
+  padding: 20px;
+  border: 1px solid #ccc;
+  font-size: 2em;
+  text-align: center;
+  color:#585858;
+  font-weight:bold;
+  background-color:rgb(255, 255, 255)
+}
