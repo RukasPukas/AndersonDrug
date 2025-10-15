@@ -49,7 +49,8 @@ Index-------------------------------------------------
         Blast Injuries ➶
         Burns ➶
         Chest Injuries ➶
-        Taser
+        Taser ➶
+        Extremity Trauma ➶
 
     Medications
         Acetaminophen ➶
@@ -630,6 +631,15 @@ SOGs--------------------------------------------------
         Sodium Bicarbonate
         Calcium Chloride
         Calcium Gluconate
+    Extremity Trauma
+        Anderson Pocket Medic
+        Initial Trauma Care
+        Tourniquet
+        Hemostatic Gauze
+        Junctional Hemostatic Device
+        Tranexamic
+        Pain Management
+        
 
 
 
