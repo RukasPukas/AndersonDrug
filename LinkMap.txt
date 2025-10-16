@@ -55,6 +55,7 @@ Index-------------------------------------------------
         Head Injury ➶
         Neck Injuries/Deformity ➶
         SMR ➶
+        TXA  ➶
 
     Medications
         Acetaminophen ➶
@@ -667,6 +668,15 @@ SOGs--------------------------------------------------
         Shock ➶
     SMR 
         Anderson Pocket Medic ➶
+    TXA 
+        ANDERSON pocket Medic ➶
+        Trauma Triage Algorithm ➶
+        Initial Trauma Care ➶
+        Shock ➶
+        Extremity Hemorrhage Management ➶
+        TXA ➶
+        TXA ➶
+        TXA ➶
         
 
 
