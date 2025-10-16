@@ -52,7 +52,8 @@ Index-------------------------------------------------
         Taser ➶
         Extremity Trauma ➶
         Facial Injury ➶
-        Head Injury
+        Head Injury ➶
+        Neck Injuries/Deformity
 
     Medications
         Acetaminophen ➶
@@ -648,13 +649,22 @@ SOGs--------------------------------------------------
         Airway Management ➶
         Nausea/Vomiting ➶
     Head Injury
-        Anderson Pocket Medic
+        Anderson Pocket Medic ➶
+        Spinal Motion Restriction 
+        Altered mental Status ➶
         Spinal Motion Restriction
-        Altered mental Status
-        Spinal Motion Restriction
-        Intercept Criteria
+        Intercept Criteria ➶
         waveform capnography
-        Airway Management
+        Airway Management ➶
+    Neck Injuries/Deformity
+        Anderson Pocket Medic
+        Initial Trauma Care
+        Intercept Criteria
+        Orotracheal Intubation
+        Needle Decompression
+        Shock
+        Shock
+        
 
 
  
