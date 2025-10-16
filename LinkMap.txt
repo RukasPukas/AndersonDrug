@@ -56,6 +56,7 @@ Index-------------------------------------------------
         Neck Injuries/Deformity ➶
         SMR ➶
         TXA  ➶
+        Traumatic Arrest ➶
 
     Medications
         Acetaminophen ➶
@@ -677,6 +678,16 @@ SOGs--------------------------------------------------
         TXA ➶
         TXA ➶
         TXA ➶
+    Traumatic Arrest
+        Anderson Pocket Medic ➶
+        Withholding Resuscitation Efforts ➶
+        Hemorrhage Control ➶
+        Initial Trauma care ➶
+        Intercept Criteria ➶
+        Needle Decompression
+        Cardiac Arrest ➶
+
+
         
 
 
