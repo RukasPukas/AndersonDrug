@@ -53,7 +53,8 @@ Index-------------------------------------------------
         Extremity Trauma ➶
         Facial Injury ➶
         Head Injury ➶
-        Neck Injuries/Deformity
+        Neck Injuries/Deformity ➶
+        SMR ➶
 
     Medications
         Acetaminophen ➶
@@ -657,13 +658,15 @@ SOGs--------------------------------------------------
         waveform capnography
         Airway Management ➶
     Neck Injuries/Deformity
-        Anderson Pocket Medic
-        Initial Trauma Care
-        Intercept Criteria
+        Anderson Pocket Medic ➶
+        Initial Trauma Care ➶
+        Intercept Criteria ➶
         Orotracheal Intubation
         Needle Decompression
-        Shock
-        Shock
+        Shock ➶
+        Shock ➶
+    SMR 
+        Anderson Pocket Medic ➶
         
 
 
