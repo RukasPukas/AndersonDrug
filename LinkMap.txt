@@ -57,6 +57,7 @@ Index-------------------------------------------------
         SMR ➶
         TXA  ➶
         Traumatic Arrest ➶
+        Organophosphates
 
     Medications
         Acetaminophen ➶
@@ -686,6 +687,14 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Needle Decompression
         Cardiac Arrest ➶
+    Organophosphates
+        Universal Patient Care
+        Intercept Criteria
+        Atropine/Pralidoxime
+        Atropine
+        Atropine
+        Seizure Status Epilepticus
+        
 
 
         
