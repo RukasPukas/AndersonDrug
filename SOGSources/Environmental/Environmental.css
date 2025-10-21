@@ -74,11 +74,11 @@ footer {
   text-align: center;
 }
 
-.centerBold{
+.centerBold {
   display: block;
   text-align: center;
-  font-size:1.4em;
-  font-weight:bold;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 /* END HEADER AND FOOTER BOILER PLATE */
@@ -94,8 +94,8 @@ footer {
   padding: 20px;
   background-image: linear-gradient(
     to right,
-    rgb(168, 187, 62),
-    rgb(207, 226, 29)
+    rgb(165, 176, 103),
+    rgb(139, 145, 81)
   );
 
   border-radius: 10px;
@@ -197,7 +197,7 @@ footer {
 }
 
 .StartTable {
-  max-width: 90%;
+  width: 90%;
   margin: 10px auto;
   background-color: #ffffff;
   border-radius: 10px;
