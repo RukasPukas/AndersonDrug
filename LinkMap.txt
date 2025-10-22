@@ -59,6 +59,7 @@ Index-------------------------------------------------
         Traumatic Arrest ➶
         Organophosphates ➶
         Altitude Illness  ➶
+        Bites and Envenomation
 
     Medications
         Acetaminophen ➶
@@ -705,6 +706,12 @@ SOGs--------------------------------------------------
         Ondansetron  ➶
         Dexamethasone ➶
         Dexamethasone ➶
+    Bites and Envenomation
+        Universal Patient Care
+        Allergic Reaction
+        Intercept Criteria
+        Pain Management
+        
 
          
 
