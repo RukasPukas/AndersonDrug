@@ -61,6 +61,7 @@ Index-------------------------------------------------
         Altitude Illness  ➶
         Bites and Envenomation ➶
         Carbon Monoxide / Smoke Inhalation ➶
+        Cyaniade Poisoning ➶
 
     Medications
         Acetaminophen ➶
@@ -714,13 +715,19 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Pain Management ➶
     Carbon Monoxide / Smoke Inhalation
-        Anderson Pocket Medic
-        Universal Patient Care
-        Intercept Criteria
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Intercept Criteria ➶
         CPAP
-        Intercept Criteria
-        Airway Management
+        Intercept Criteria ➶
+        Airway Management ➶
         Cyanide Poisoning
+    Cyaniade Poisoning
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Intercept Criteria ➶
+        Hydroxcobalamin ➶
+        
         
         
 
