@@ -59,7 +59,8 @@ Index-------------------------------------------------
         Traumatic Arrest ➶
         Organophosphates ➶
         Altitude Illness  ➶
-        Bites and Envenomation
+        Bites and Envenomation ➶
+        Carbon Monoxide / Smoke Inhalation ➶
 
     Medications
         Acetaminophen ➶
@@ -706,11 +707,21 @@ SOGs--------------------------------------------------
         Ondansetron  ➶
         Dexamethasone ➶
         Dexamethasone ➶
-    Bites and Envenomation
+    Bites and Envenomation 
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Allergic Reaction ➶ 
+        Intercept Criteria ➶
+        Pain Management ➶
+    Carbon Monoxide / Smoke Inhalation
+        Anderson Pocket Medic
         Universal Patient Care
-        Allergic Reaction
         Intercept Criteria
-        Pain Management
+        CPAP
+        Intercept Criteria
+        Airway Management
+        Cyanide Poisoning
+        
         
 
          
