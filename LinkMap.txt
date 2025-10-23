@@ -63,7 +63,8 @@ Index-------------------------------------------------
         Carbon Monoxide / Smoke Inhalation ➶
         Cyaniade Poisoning ➶
         Dive Injury Accidents ➶
-        Drowning/Submersion
+        Drowning/Submersion ➶
+        Environmental Hyperthermia 
 
     Medications
         Acetaminophen ➶
@@ -741,16 +742,26 @@ SOGs--------------------------------------------------
         CPAP
         Airway Management ➶
     Drowning/Submersion
-        Anderson Pocket Medic
-        SMR
-        Universal Patient Care
-        Cardiac Arrest
-        Environmental Hypothermia
-        Dive SCUBA Injury / Accidents
-        Intercept Criteria
+        Anderson Pocket Medic ➶
+        SMR ➶
+        Universal Patient Care ➶
+        Cardiac Arrest ➶
+        Environmental Hypothermia ➶
+        Dive SCUBA Injury / Accidents ➶
+        Intercept Criteria ➶
         CPAP
+        Intercept Criteria ➶
+        Airway management ➶
+        CPAP
+    Environmental Hyperthermia
+        Universal Patient Care
         Intercept Criteria
-        Airway management
+        Universal Patient care
+        Airway Management
+        Emergencies Hypoglycemia
+        Midazolam
+        Diazepam
+        Seizure / Status Epilepticus
         
         
 
