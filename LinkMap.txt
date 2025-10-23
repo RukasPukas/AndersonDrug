@@ -62,7 +62,8 @@ Index-------------------------------------------------
         Bites and Envenomation ➶
         Carbon Monoxide / Smoke Inhalation ➶
         Cyaniade Poisoning ➶
-        Dive Injury Accidents
+        Dive Injury Accidents ➶
+        Drowning/Submersion
 
     Medications
         Acetaminophen ➶
@@ -729,16 +730,27 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Hydroxcobalamin 
     Dive Injury Accidents
-        Anderson Pocket Medic
-        Universal Patient Care
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
         Drowning / Submersion
-        Environmental Hypothermia
-        Inte3rcept Criteria
+        Environmental Hypothermia 
+        Intercept Criteria ➶
         CPAP
+        Intercept Criteria ➶
+        CPAP
+        CPAP
+        Airway Management ➶
+    Drowning/Submersion
+        Anderson Pocket Medic
+        SMR
+        Universal Patient Care
+        Cardiac Arrest
+        Environmental Hypothermia
+        Dive SCUBA Injury / Accidents
         Intercept Criteria
         CPAP
-        CPAP
-        Airway Management
+        Intercept Criteria
+        Airway management
         
         
 
