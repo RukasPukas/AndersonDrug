@@ -17,7 +17,7 @@ $(function () {
 &#47; = /
 
 •
-
+•
 
 <span class="medcontrol"><strong>☎️ MEDICAL CONTROL ☎️</strong></span>
 
