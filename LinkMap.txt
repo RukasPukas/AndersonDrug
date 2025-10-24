@@ -65,7 +65,8 @@ Index-------------------------------------------------
         Dive Injury Accidents ➶
         Drowning/Submersion ➶
         Environmental Hyperthermia  ➶
-        Environmental Hypthermia / Frostbite
+        Environmental Hypthermia / Frostbite ➶
+        Lightning
 
     Medications
         Acetaminophen ➶
@@ -765,15 +766,23 @@ SOGs--------------------------------------------------
         Diazepam ➶
         Seizure / Status Epilepticus ➶
     Environmental Hypothermia / Frostbite
+        Universal Patient Care ➶
+        Hypothermic Cardiac Arrest ➶
+        Airway Management ➶
+        Intercept Criteria ➶
+        Universal Patient Care ➶
+        Cardiac Arrest ➶
+        Airway Management ➶
+        Intercept Criteria ➶
+    Lightning
+        Anderson Pocket Medic
         Universal Patient Care
-        Hypothermic Cardiac Arrest
         Airway Management
-        Intercept Criteria
-        Universal Patient Care
         Cardiac Arrest
-        Airway Management
+        Burns
         Intercept Criteria
-
+        Airway Management
+        Pain Management
         
         
 
