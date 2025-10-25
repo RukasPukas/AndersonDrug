@@ -66,7 +66,8 @@ Index-------------------------------------------------
         Drowning/Submersion ➶
         Environmental Hyperthermia  ➶
         Environmental Hypthermia / Frostbite ➶
-        Lightning
+        Lightning ➶
+        Poisoning and Overdose
 
     Medications
         Acetaminophen ➶
@@ -775,14 +776,31 @@ SOGs--------------------------------------------------
         Airway Management ➶
         Intercept Criteria ➶
     Lightning
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Airway Management ➶
+        Cardiac Arrest ➶
+        Burns ➶
+        Intercept Criteria ➶
+        Airway Management ➶
+        Pain Management ➶
+    Poisoning and Overdose
         Anderson Pocket Medic
         Universal Patient Care
-        Airway Management
-        Cardiac Arrest
-        Burns
+        Diabetic Emergencies = Hypoglycemia
+        Naloxone
         Intercept Criteria
-        Airway Management
-        Pain Management
+        Organophosphates Exposure
+        Bradycardia
+        Ondansetron
+        Glucagon
+        Calcium Gluconate
+        Calcium Chloride
+        Naloxone
+        Chest Pain
+        Behavioral Emergencies
+        Sodium Bicarbonate
+        
         
         
 
