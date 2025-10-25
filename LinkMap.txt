@@ -67,7 +67,8 @@ Index-------------------------------------------------
         Environmental Hyperthermia  ➶
         Environmental Hypthermia / Frostbite ➶
         Lightning ➶
-        Poisoning and Overdose
+        Poisoning and Overdose ➶
+        Radiation Exposure
 
     Medications
         Acetaminophen ➶
@@ -785,21 +786,31 @@ SOGs--------------------------------------------------
         Airway Management ➶
         Pain Management ➶
     Poisoning and Overdose
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Diabetic Emergencies = Hypoglycemia ➶
+        Naloxone ➶
+        Intercept Criteria ➶
+        Organophosphates Exposure ➶
+        Bradycardia ➶
+        Ondansetron ➶
+        Glucagon ➶
+        Calcium Gluconate ➶
+        Calcium Chloride ➶
+        Naloxone ➶
+        Chest Pain ➶
+        Behavioral Emergencies ➶
+        Sodium Bicarbonate ➶
+    Radiation Exposure
         Anderson Pocket Medic
         Universal Patient Care
-        Diabetic Emergencies = Hypoglycemia
-        Naloxone
+        Burns
+        Nausea / Vomiting
+        Seizure
         Intercept Criteria
-        Organophosphates Exposure
-        Bradycardia
-        Ondansetron
-        Glucagon
-        Calcium Gluconate
-        Calcium Chloride
-        Naloxone
-        Chest Pain
-        Behavioral Emergencies
-        Sodium Bicarbonate
+        Nausea / Vomiting
+        Seizure
+
         
         
         
