@@ -84,6 +84,7 @@ body {
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.9s ease;
   text-align: center;
+   padding-bottom: 20px; 
 }
 
 .spinner-toggle button:hover {
