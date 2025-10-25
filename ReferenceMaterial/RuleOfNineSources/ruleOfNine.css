@@ -95,20 +95,7 @@ p {
   }
 }
 
-footer.footer {
-  background-image: linear-gradient(to right, skyblue, cornflowerblue);
-  color: white;
-  text-align: center;
-  padding: 15px 10px;
-  margin-top: auto;
-  width: 100%;
-}
-footer.footer p {
-  margin: 0;
-  padding: 0;
-  background: transparent;
-  color: inherit;
-}
+
 
 .AdultorInfantToggle {
   margin: 16px auto 8px;
@@ -296,4 +283,19 @@ button {
   align-items: center;
   flex-direction: column;
     gap: 15px;
+}
+
+footer.footer {
+  background-image: linear-gradient(to right, skyblue, cornflowerblue);
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: auto;
+  width: 100%;
+}
+footer.footer p {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
 }
