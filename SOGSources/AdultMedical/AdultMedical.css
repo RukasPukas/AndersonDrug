@@ -305,6 +305,18 @@ footer.footer p {
   background-color: black;
 }
 
+.pearlsFormat {
+  background-color: rgb(49, 8, 211);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
 /* END Main Body Styling */
 
 /* Link Styling */
