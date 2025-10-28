@@ -66,13 +66,25 @@ footer.footer p {
   background: transparent;
   color: inherit;
 }
+.pearlsFormat {
+  background-color: rgb(197, 195, 43);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
 .yellowCenter {
   display: block;
   text-align: center;
   font-size: 3em;
   font-weight: bold;
   color: rgb(182, 216, 60);
-  font-family: monospace;
+  font-family:'Franklin Gothic Medium';
 }
 
 .center {

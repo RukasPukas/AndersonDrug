@@ -67,6 +67,27 @@ footer.footer p {
   color: inherit;
 }
 
+.pearlsFormat {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.blackCenter {
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-family:'Franklin Gothic Medium';
+}
+
 /* END HEADER AND FOOTER BOILER PLATE */
 
 /* END GENERIC BOILER PLATE */

@@ -72,7 +72,19 @@ footer.footer p {
   font-size: 3em;
   font-weight: bold;
   color: rgb(165, 13, 179);
-  font-family: monospace;
+  font-family:'Franklin Gothic Medium';
+}
+
+.pearlsFormat {
+  background-color: rgb(170, 40, 221);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
 }
 
 .center {
