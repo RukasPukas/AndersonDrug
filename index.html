@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anderson EMS Pocket Medic</title>
     <link rel="icon" href="indexSources/Images/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="indexSources/ScrollNews.css" />
     <link rel="stylesheet" href="indexSources/style.css" />
     <link rel="stylesheet" href="indexSources/sog.css" />
   </head>
@@ -27,6 +28,7 @@
           autocorrect="off"
           spellcheck="false"
         />
+
         <button
           id="searchButton"
           class="search-btn"
@@ -37,11 +39,72 @@
         </button>
       </div>
 
+
+
       <div
         id="searchResults"
         class="search-results"
         style="display: none"
       ></div>
+
+</head>
+<body>
+
+  <!-- BEGIN NEWS BULLETIN SECTION-->
+      <div style="
+        display: inline-block;
+        text-align: center;
+        background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
+        border: 1px solid rgb(170, 186, 200);
+        border-radius: 16px;
+        padding: 18px 22px;
+        box-shadow: 0 10px 24px rgba(17, 24, 39, 0.12);
+        font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+        color: #5a6b7a;
+        width: min(560px, 92vw);
+      ">
+        <!-- subtle top accent bar -->
+        <div style="
+          height: 4px;
+          background: linear-gradient(90deg, #3b82f6, #06b6d4);
+          border-radius: 999px;
+          margin-bottom: 12px;
+        "></div>
+
+        <img
+          src="indexSources/Images/DualLogo.png"
+          alt="LukiSoft + Anderson Hospital"
+          style="
+            display: block;
+            margin: 0 auto 12px auto;
+            width: min(320px, 70vw);
+            height: auto;
+            border-radius: 12px;
+            filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.12));
+          "
+        />
+
+        <h2 style="
+          margin: 6px 0 4px 0;
+          font-size: 1.25rem;
+          letter-spacing: 0.2px;
+          color: #3c4a55;
+        ">
+          Anderson EMS Pocket Medic
+        </h2>
+
+        <p style="
+          margin: 0 0 12px 0;
+          font-weight: 600;
+          color: #64748b;
+        ">
+          Official release coming soon
+        </p>
+      </div>
+
+      <!-- END NEWS BULLETIN SECTION-->
+      
+
 
       <!--Begin SOG  Section-->
       <div class="spinner-toggle">
@@ -947,6 +1010,7 @@
       </div>
       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
       <script src="indexSources/indexjs.js"></script>
+
     </main>
     <div id="disclaimer-modal" class="modal">
       <div class="modal-content">
