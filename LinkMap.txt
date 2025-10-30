@@ -120,6 +120,7 @@ Index-------------------------------------------------
         APGAR Scoring ➶
         BIAD  ➶
         CPAP ➶
+        cricothyroidotomy ➶
         EKG Placement ➶
         FAST-ED ➶
         Firefighter Rehabilitation ➶
@@ -129,6 +130,7 @@ Index-------------------------------------------------
         Needle Chest Decompression
         Orotracheal Intubation ➶
         Pediatric Normal Vitals Ranges ➶
+        Physical Restraints
         Richmond Agitation-Sedation Scale ➶
         Rule of 9's / Parkland Formula ➶
         Waveform Capnography ➶
@@ -145,6 +147,11 @@ Reference Materials-----------------------------------
         Anderson Pocket Medic  ➶
         orotracheal intubation 
         waveform capnography ➶
+
+    cricothyroidotomy
+        Anderson Pocket Medic ➶
+        waveform capnography ➶
+        vimeo link ➶
 
     EKG Sources
         Anderson Pocket Medic ➶
@@ -173,6 +180,10 @@ Reference Materials-----------------------------------
 
     Pediatric Vitals
         Anderson Pocket Medic ➶
+
+    Physical Restraints
+        Anderson Pocket Medic  ➶
+        Agitated / Violent Patients ➶
 
     Richmond Agitation
         Anderson Pocket Medic ➶
