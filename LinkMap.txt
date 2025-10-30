@@ -118,6 +118,7 @@ Index-------------------------------------------------
     
     Reference Material
         APGAR Scoring ➶
+        BIAD
         CPAP ➶
         EKG Placement ➶
         FAST-ED ➶
@@ -133,8 +134,14 @@ Index-------------------------------------------------
 Reference Materials-----------------------------------
     Apgar Sources
         Anderson Pocket Medic ➶
+
+    BIAD   
+        Anderson Pocket Medic
+        waveform capnography
+
     CPAP
         Anderson Pocket Medic  ➶
+        orotracheal intubation 
         waveform capnography ➶
 
     EKG Sources
