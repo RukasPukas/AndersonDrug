@@ -127,12 +127,13 @@ Index-------------------------------------------------
         Glascow Coma Score (Adult) ➶
         Glascow Coma Score (Pediatric) ➶
         Ideal Body Weight ➶
-        Needle Chest Decompression
+        Needle Chest Decompression ➶
         Orotracheal Intubation ➶
         Pediatric Normal Vitals Ranges ➶
-        Physical Restraints
+        Physical Restraints ➶
         Richmond Agitation-Sedation Scale ➶
         Rule of 9's / Parkland Formula ➶
+        TCP
         Waveform Capnography ➶
 
 Reference Materials-----------------------------------
@@ -197,6 +198,9 @@ Reference Materials-----------------------------------
 
     RuleOfNines
         Anderson Pocket Medic ➶
+
+    TCP
+        Anderson Pocket Medic
   
    Waveform Capnography
         Anderson Pocket Medic ➶
