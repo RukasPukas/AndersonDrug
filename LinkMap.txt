@@ -118,7 +118,7 @@ Index-------------------------------------------------
     
     Reference Material
         APGAR Scoring ➶
-        BIAD
+        BIAD  ➶
         CPAP ➶
         EKG Placement ➶
         FAST-ED ➶
@@ -126,6 +126,7 @@ Index-------------------------------------------------
         Glascow Coma Score (Adult) ➶
         Glascow Coma Score (Pediatric) ➶
         Ideal Body Weight ➶
+        Orotracheal Intubation
         Pediatric Normal Vitals Ranges ➶
         Richmond Agitation-Sedation Scale ➶
         Rule of 9's / Parkland Formula ➶
@@ -161,6 +162,10 @@ Reference Materials-----------------------------------
 
     Ideal Body Weight
         Anderson Pocket Medic ➶
+
+    Orotracheal Intubation
+        Anderson Pocket Medic
+        waveform capnography
 
     Pediatric Vitals
         Anderson Pocket Medic ➶
