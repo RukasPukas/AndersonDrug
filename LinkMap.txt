@@ -118,6 +118,7 @@ Index-------------------------------------------------
     
     Reference Material
         APGAR Scoring ➶
+        CPAP ➶
         EKG Placement ➶
         FAST-ED ➶
         Firefighter Rehabilitation ➶
@@ -127,10 +128,14 @@ Index-------------------------------------------------
         Pediatric Normal Vitals Ranges ➶
         Richmond Agitation-Sedation Scale ➶
         Rule of 9's / Parkland Formula ➶
+        Waveform Capnography ➶
 
 Reference Materials-----------------------------------
     Apgar Sources
         Anderson Pocket Medic ➶
+    CPAP
+        Anderson Pocket Medic  ➶
+        waveform capnography ➶
 
     EKG Sources
         Anderson Pocket Medic ➶
@@ -165,6 +170,10 @@ Reference Materials-----------------------------------
 
     RuleOfNines
         Anderson Pocket Medic ➶
+  
+   Waveform Capnography
+        Anderson Pocket Medic ➶
+
 
 
 SOGs--------------------------------------------------
