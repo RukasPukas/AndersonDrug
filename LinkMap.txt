@@ -126,7 +126,8 @@ Index-------------------------------------------------
         Glascow Coma Score (Adult) ➶
         Glascow Coma Score (Pediatric) ➶
         Ideal Body Weight ➶
-        Orotracheal Intubation
+        Needle Chest Decompression
+        Orotracheal Intubation ➶
         Pediatric Normal Vitals Ranges ➶
         Richmond Agitation-Sedation Scale ➶
         Rule of 9's / Parkland Formula ➶
@@ -163,9 +164,12 @@ Reference Materials-----------------------------------
     Ideal Body Weight
         Anderson Pocket Medic ➶
 
-    Orotracheal Intubation
+    Needle Chest Decompression 
         Anderson Pocket Medic
-        waveform capnography
+
+    Orotracheal Intubation
+        Anderson Pocket Medic ➶
+        waveform capnography ➶
 
     Pediatric Vitals
         Anderson Pocket Medic ➶
