@@ -133,7 +133,8 @@ Index-------------------------------------------------
         Physical Restraints ➶
         Richmond Agitation-Sedation Scale ➶
         Rule of 9's / Parkland Formula ➶
-        TCP
+        Synchronized Cardioversion
+        TCP ➶
         Waveform Capnography ➶
 
 Reference Materials-----------------------------------
@@ -198,6 +199,10 @@ Reference Materials-----------------------------------
 
     RuleOfNines
         Anderson Pocket Medic ➶
+
+    Synchronized Cardioversion
+        Anderson Pocket Medic v
+        Defibrillation 
 
     TCP
         Anderson Pocket Medic
