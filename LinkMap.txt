@@ -291,15 +291,20 @@ SOGs--------------------------------------------------
      
     Patient Refusal
         Anderson Pocket Medic ➶ 
+
     Radio Report
         Anderson Pocket Medic ➶
+
     Special Needs Populations
         Anderson Pocket Medic ➶   
+
     Termination of Resuscitation
         Anderson Pocket Medic ➶  
         Cardiac Arrest
+        
     Withholding of Resuscitation
         Anderson Pocket Medic ➶  
+
     Abdominal Pain
         Anderson Pocket Medic ➶  
         Universal Patient Care➶
@@ -308,6 +313,7 @@ SOGs--------------------------------------------------
         Nausa Vomiting
         Pain Management ➶
         Shock
+
     Agitated or Violent Patient / Behavioral Emergencies
         Anderson Pocket Medic ➶  
         Altered Mental Status
@@ -332,6 +338,7 @@ SOGs--------------------------------------------------
         Midazolam ➶
         Haloperidol ➶
         capnography
+
     Allergic Reaction / Anaphylaxis
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -349,6 +356,7 @@ SOGs--------------------------------------------------
         Dexamethasone ➶
         waveform capnography
         Airway Management ➶
+
     Altered Mental Status
         Anderson Pocket Medic ➶
         Universal Patient Care  ➶
@@ -364,6 +372,7 @@ SOGs--------------------------------------------------
         Poisoning and Overdose
         Orotracheal Intubation
         Airway Management ➶
+
     Bronchospasm/Asthma/COPD
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -387,6 +396,7 @@ SOGs--------------------------------------------------
         CPAP
         CPAP
         BIAD
+
     Hyperglycemia
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -395,6 +405,7 @@ SOGs--------------------------------------------------
         Calcium Gluconate ➶
         Albuterol Sulfate ➶
         Sodium Bicarbonate ➶
+        
     Hypoglycemia
         Anderson Pocket Medic ➶    
         Universal Patient Care ➶
