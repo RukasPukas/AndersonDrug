@@ -550,19 +550,22 @@ SOGs--------------------------------------------------
         Morphine Sulfate ➶
         Midazolam ➶
         Diazepam ➶
-        
+
     CHF
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
-        CPAP
-        CPAP
+        CPAP ➶
+        CPAP ➶
         Intercept Criteria ➶
         Nitroglycerin ➶
         Nitroglycerin ➶
         Nitroglycerin ➶
+        CPAP ➶
+        CPAP ➶
         Norepinephrine ➶
         Push Dose Epinephrine ➶
         Dopamine ➶
+
     ROSC
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -573,12 +576,14 @@ SOGs--------------------------------------------------
         Norepinephrine ➶
         pushdose Epinephrine ➶
         Dopamine ➶
+
     Syncope
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Hypoglycemia ➶
         Shock ➶
         Intercept Criteria ➶
+
     Narrow Complex Reg W A pulse
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -592,6 +597,7 @@ SOGs--------------------------------------------------
         Midazolam ➶
         Etomidate ➶
         Synchronized Cardioversion
+        
     Tachycardia Irregualr W A pulse
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
