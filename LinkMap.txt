@@ -360,17 +360,17 @@ SOGs--------------------------------------------------
     Altered Mental Status
         Anderson Pocket Medic ➶
         Universal Patient Care  ➶
-        Diabetic Emergencies-Hypoglycemia
+        Diabetic Emergencies-Hypoglycemia ➶
         FAST-ED ➶
-        Poisoning And Overdose
+        Poisoning And Overdose ➶
         Intercept Criteria  ➶
         Dextrose 10%  ➶
         Dextrose 50%  ➶
-        Diabetic Emergencies Hypoglycemia
+        Diabetic Emergencies Hypoglycemia ➶
         Glucagon ➶
         Thiamine ➶
-        Poisoning and Overdose
-        Orotracheal Intubation
+        Poisoning and Overdose ➶
+        Orotracheal Intubation ➶
         Airway Management ➶
 
     Bronchospasm/Asthma/COPD
