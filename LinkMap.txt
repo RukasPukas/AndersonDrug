@@ -253,9 +253,9 @@ SOGs--------------------------------------------------
     Assisted (Medication)Intubation
         Anderson Pocket Medic ➶
         AIRWAY Management ➶
-        BIAD 
+        BIAD  ➶
         Airway Management ➶
-        OROTRACHEAL Intubation
+        OROTRACHEAL Intubation ➶
         Etomidate ➶
         Ketamine ➶
         Airway Management ➶
@@ -264,8 +264,8 @@ SOGs--------------------------------------------------
         Fentanyl ➶
         Midazolam ➶
         Ketamine ➶
-        capnography
-
+        capnography ➶
+ 
     Human Trafficking
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -286,9 +286,9 @@ SOGs--------------------------------------------------
         Morphine Sulfate ➶
         Fentanyl ➶
         Ketamine ➶
-        capnography
-        capnography
-    
+        capnography ➶
+        capnography ➶
+     
     Patient Refusal
         Anderson Pocket Medic ➶ 
     Radio Report
