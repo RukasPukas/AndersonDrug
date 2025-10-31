@@ -602,14 +602,14 @@ SOGs--------------------------------------------------
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Intercept Criteria ➶
-        Synchronized Cardioversion
+        Synchronized Cardioversion ➶
         Midazolam ➶
         Etomidate ➶
-        Synchronized Cardioversion
+        Synchronized Cardioversion ➶
         Diltiazem ➶
         Diltiazem ➶
         Metropolol ➶
-        
+
     Tachycardia Widecomplex W A pulse
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -627,6 +627,7 @@ SOGs--------------------------------------------------
         Cardiac Arrest ➶
         Pulseless ventricular Tachycardia ➶
         Magnesium Sulfate ➶
+        
     Tachycardia Overview
         Anderson Pocket Medic ➶
     LVAD
