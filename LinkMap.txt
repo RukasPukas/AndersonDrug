@@ -620,21 +620,23 @@ SOGs--------------------------------------------------
         Lidocaine ➶
         Lidocaine ➶
         Lidocaine ➶
-        Synchronized Cardioversion 
+        Synchronized Cardioversion  ➶
         Midazolam ➶
         Etomidate ➶
-        Synchronized Cardioversion
+        Synchronized Cardioversion ➶
         Cardiac Arrest ➶
         Pulseless ventricular Tachycardia ➶
         Magnesium Sulfate ➶
-        
+
     Tachycardia Overview
         Anderson Pocket Medic ➶
+
     LVAD
         Universal Patient Care ➶
         ALtered mental Status ➶
         Intercept Criteria ➶
         LVAD Website ➶
+        
     Childbirth / Labor
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
