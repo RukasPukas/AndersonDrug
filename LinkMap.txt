@@ -501,17 +501,17 @@ SOGs--------------------------------------------------
         Anderson Pocket Medic ➶
         Airway Management ➶
         Intercept Criteria ➶
-        ROSC
-        Asystole / PEA
-        VFIB / Pulseless Vtach
-        defibrillation
+        ROSC ➶
+        Asystole / PEA ➶
+        VFIB / Pulseless Vtach ➶
+        defibrillation ➶
         Airway Management ➶
-        ROSC
-        BIAD
-        BIAD
-        BIAD
-        defibrillation
-        
+        ROSC ➶
+        BIAD ➶
+        BIAD ➶
+        BIAD ➶
+        defibrillation ➶
+
     Cardiac Arrest -Asystole/PEA-
         Anderson Pocket Medic ➶
         Epinephrine 1:10,000 ➶
@@ -519,6 +519,7 @@ SOGs--------------------------------------------------
         Calcium Chloride ➶
         Calcium Gluconate ➶
         ROSC
+        
     Cardiac Arrest -VFIB/VTACH-
         Anderson Pocket Medic ➶
         Cardiac Arrest General ➶
