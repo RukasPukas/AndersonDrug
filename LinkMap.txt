@@ -593,11 +593,11 @@ SOGs--------------------------------------------------
         Adenosine ➶
         Diltiazem ➶
         Metoprolol ➶
-        Synchronized Cardioversion 
+        Synchronized Cardioversion  ➶
         Midazolam ➶
         Etomidate ➶
-        Synchronized Cardioversion
-        
+        Synchronized Cardioversion ➶
+
     Tachycardia Irregualr W A pulse
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -609,6 +609,7 @@ SOGs--------------------------------------------------
         Diltiazem ➶
         Diltiazem ➶
         Metropolol ➶
+        
     Tachycardia Widecomplex W A pulse
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
