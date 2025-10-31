@@ -238,22 +238,22 @@ SOGs--------------------------------------------------
         Universal Patient Care ➶
         Spinal Motion Restriction ➶
         Foreign Body Airway Obstruction ➶
-        Tracheostomy Tube Complications
-        BIAD
-        CPAP
-        Bronchospasm/Asthma/COPD
-        BIAD
-        Orotracheal Intubation
-        waveform capnography
+        Tracheostomy Tube Complications ➶
+        BIAD ➶
+        CPAP ➶
+        Bronchospasm/Asthma/COPD ➶
+        BIAD ➶
+        Orotracheal Intubation ➶
+        waveform capnography ➶
         Assisted (medication) Intubation ➶
-        capnography
-        capnography
-        cricothyroidotomy
+        capnography ➶
+        capnography ➶
+        cricothyroidotomy ➶
 
     Assisted (Medication)Intubation
         Anderson Pocket Medic ➶
         AIRWAY Management ➶
-        BIAD
+        BIAD 
         Airway Management ➶
         OROTRACHEAL Intubation
         Etomidate ➶
