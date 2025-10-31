@@ -640,7 +640,7 @@ SOGs--------------------------------------------------
     Childbirth / Labor
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
-        Newborn care / neonatal Resuscitation
+        Newborn care / neonatal Resuscitation ➶
         inercept Criteria ➶
         cardiac Arrest ➶
         intercept Criteria ➶
@@ -657,13 +657,16 @@ SOGs--------------------------------------------------
         Magnesium Sulfate ➶
         Seizure / Status Epilepticus ➶
         Magnesium Sulfate ➶
+
     Newborn Care
         Anderson Pocket Medic ➶
+
     Placenta Previa/Abrupto Placenta
-        Anderson Pocket Medic
-        Universal Patient Care
-        Intercept Criteria
-        Shock
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Intercept Criteria ➶
+        Shock ➶
+        
     Initial Trauma Care
         Anderson Pocket Medic ➶
         EXTREMITY TRAUMA / EXTERNAL HEMORRHAGE MANAGEMENT 
