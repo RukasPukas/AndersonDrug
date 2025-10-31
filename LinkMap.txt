@@ -465,15 +465,16 @@ SOGs--------------------------------------------------
         Norepinephrine ➶
         Push Dose Epinephrine ➶
         Dopamine ➶
-        
+
     Stroke
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Diabetic Emergencies Hypoglycemia ➶
         Intercept Criteria ➶
-        capnography 
+        capnography  ➶
         FAST-ED ➶
         Altered Mental Status ➶
+
     Tracheostomy
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -484,6 +485,7 @@ SOGs--------------------------------------------------
         Universal Patient Care ➶
         Intercept Criteria ➶
         Extremity Trauma
+        
     Bradycardia
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
