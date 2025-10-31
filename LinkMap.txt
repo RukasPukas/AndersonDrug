@@ -491,12 +491,12 @@ SOGs--------------------------------------------------
         Universal Patient Care ➶
         Intercept Criteria ➶
         Atropine ➶
-        TCP
+        TCP ➶
         Ketamine ➶
         Midazolam ➶
-        TCP
+        TCP ➶
         Push Dose Epi ➶
-        
+
     Cardiac Arrest
         Anderson Pocket Medic ➶
         Airway Management ➶
@@ -511,6 +511,7 @@ SOGs--------------------------------------------------
         BIAD
         BIAD
         defibrillation
+        
     Cardiac Arrest -Asystole/PEA-
         Anderson Pocket Medic ➶
         Epinephrine 1:10,000 ➶
