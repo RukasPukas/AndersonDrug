@@ -316,10 +316,10 @@ SOGs--------------------------------------------------
 
     Agitated or Violent Patient / Behavioral Emergencies
         Anderson Pocket Medic ➶  
-        Altered Mental Status
+        Altered Mental Status ➶
         Universal Patient Care ➶
-        capnography
-        Physical Restraints
+        capnography ➶
+        Physical Restraints ➶
         Intercept Criteria  ➶
         Midazolam ➶
         Haloperidol ➶
@@ -337,7 +337,7 @@ SOGs--------------------------------------------------
         Haloperidol ➶
         Midazolam ➶
         Haloperidol ➶
-        capnography
+        capnography ➶
 
     Allergic Reaction / Anaphylaxis
         Anderson Pocket Medic ➶
