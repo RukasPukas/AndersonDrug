@@ -143,12 +143,12 @@ Reference Materials-----------------------------------
         Anderson Pocket Medic ➶
 
     BIAD   
-        Anderson Pocket Medic
-        waveform capnography
+        Anderson Pocket Medic ➶
+        waveform capnography ➶
 
     CPAP
         Anderson Pocket Medic  ➶
-        orotracheal intubation 
+        orotracheal intubation  ➶
         waveform capnography ➶
 
     cricothyroidotomy
@@ -205,11 +205,11 @@ Reference Materials-----------------------------------
         Anderson Pocket Medic ➶
 
     Synchronized Cardioversion
-        Anderson Pocket Medic v
-        Defibrillation 
+        Anderson Pocket Medic ➶
+        Defibrillation ➶
 
     TCP
-        Anderson Pocket Medic
+        Anderson Pocket Medic ➶
   
    Waveform Capnography
         Anderson Pocket Medic ➶
@@ -220,19 +220,19 @@ SOGs--------------------------------------------------
     Universal Patient Care
         Anderson Pocket Medic ➶
         Airway Management ➶
-        Spinal Motion Restriction
-        ACS
-        Cardiac Arrest
+        Spinal Motion Restriction ➶
+        ACS ➶
+        Cardiac Arrest ➶
         Airway Management ➶
-        Extremity Trauma / External Hemorrhage Management
-        Cardiac Arrest
-        Altered Mental Status
-        Stroke
-        Intercept Criteria
-        Spinal Motion Restriction
-        waveform capnography
-        Altered Mental Status
-        waveform capnography
+        Extremity Trauma / External Hemorrhage Management ➶
+        Cardiac Arrest ➶
+        Altered Mental Status ➶
+        Stroke ➶
+        Intercept Criteria ➶
+        Spinal Motion Restriction ➶
+        waveform capnography ➶
+        Altered Mental Status ➶
+        waveform capnography ➶
     Airway Management
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
