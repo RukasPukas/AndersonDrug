@@ -442,9 +442,9 @@ SOGs--------------------------------------------------
         Diazepam ➶
         Lorazepam ➶
         Diabetic Emergencies Hypoglycemia ➶
-        Eclapmsia-Pre Eclampsia
-        Eclapmsia-Pre Eclampsia
-        
+        Eclapmsia-Pre Eclampsia ➶
+        Eclapmsia-Pre Eclampsia ➶
+
     Sepsis
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -454,6 +454,7 @@ SOGs--------------------------------------------------
         Push Dose Epinephrine ➶
         Dopamine ➶
         Capnography
+        
     Shock
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
