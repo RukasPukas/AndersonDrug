@@ -458,13 +458,14 @@ SOGs--------------------------------------------------
     Shock
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
-        Extremity Trauma / External Hemorrhage Management
+        Extremity Trauma / External Hemorrhage Management ➶
         Intercept Criteria ➶
-        CHF / Pulmonary Edema
-        Needle Decompression
+        CHF / Pulmonary Edema ➶
+        Needle Decompression ➶
         Norepinephrine ➶
         Push Dose Epinephrine ➶
         Dopamine ➶
+        
     Stroke
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
