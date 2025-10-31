@@ -518,8 +518,8 @@ SOGs--------------------------------------------------
         Sodium Bicarbonate ➶
         Calcium Chloride ➶
         Calcium Gluconate ➶
-        ROSC
-        
+        ROSC ➶
+
     Cardiac Arrest -VFIB/VTACH-
         Anderson Pocket Medic ➶
         Cardiac Arrest General ➶
@@ -531,6 +531,7 @@ SOGs--------------------------------------------------
         Lidocaine ➶
         Lidocaine ➶
         Magnesium Sulfate ➶
+        
     Cardiac Arrest -Overview-
         Anderson Pocket Medic ➶
     ACS
