@@ -300,19 +300,19 @@ SOGs--------------------------------------------------
 
     Termination of Resuscitation
         Anderson Pocket Medic ➶  
-        Cardiac Arrest
+        Cardiac Arrest ➶
         
     Withholding of Resuscitation
         Anderson Pocket Medic ➶  
 
     Abdominal Pain
         Anderson Pocket Medic ➶  
-        Universal Patient Care➶
-        Nausea Vomiting
+        Universal Patient Care ➶
+        Nausea Vomiting ➶
         Intercept Criteria ➶
-        Nausa Vomiting
+        Nausa Vomiting ➶
         Pain Management ➶
-        Shock
+        Shock ➶
 
     Agitated or Violent Patient / Behavioral Emergencies
         Anderson Pocket Medic ➶  
@@ -405,7 +405,7 @@ SOGs--------------------------------------------------
         Calcium Gluconate ➶
         Albuterol Sulfate ➶
         Sodium Bicarbonate ➶
-        
+
     Hypoglycemia
         Anderson Pocket Medic ➶    
         Universal Patient Care ➶
