@@ -236,8 +236,8 @@ SOGs--------------------------------------------------
     Airway Management
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
-        Spinal Motion Restriction
-        Foreign Body Airway Obstruction
+        Spinal Motion Restriction ➶
+        Foreign Body Airway Obstruction ➶
         Tracheostomy Tube Complications
         BIAD
         CPAP
