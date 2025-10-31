@@ -481,11 +481,11 @@ SOGs--------------------------------------------------
         Albuterol ➶
         DuoNeb ➶
         Intercept Criteria ➶
-        Needle Chest Decompression
+        Needle Chest Decompression ➶
         Universal Patient Care ➶
         Intercept Criteria ➶
-        Extremity Trauma
-        
+        Extremity Trauma ➶
+
     Bradycardia
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -496,6 +496,7 @@ SOGs--------------------------------------------------
         Midazolam ➶
         TCP
         Push Dose Epi ➶
+        
     Cardiac Arrest
         Anderson Pocket Medic ➶
         Airway Management ➶
