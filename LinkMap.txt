@@ -379,24 +379,24 @@ SOGs--------------------------------------------------
         ALBUTEROL ➶
         Pre-Mixed IPRATROPIUMBROMIDE / ALBUTEROL ➶
         INTERCEPT Criteria ➶
-        CPAP
+        CPAP ➶
         EPI 1:1000 ➶
         Magnesium ➶
         Methylprednisolone ➶
         Dexamethasone ➶
-        CPAP
-        orotracheal Intubation
+        CPAP ➶
+        orotracheal Intubation ➶
         epi 1:1000 ➶
-        orotracheal Intubation
+        orotracheal Intubation ➶
         airway management ➶
-        Chest Pain
-        CPAP
-        CPAP
-        CPAP
-        CPAP
-        CPAP
-        BIAD
-
+        Chest Pain ➶
+        CPAP ➶
+        CPAP ➶
+        CPAP ➶
+        CPAP ➶
+        CPAP ➶
+        BIAD ➶
+ 
     Hyperglycemia
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -414,6 +414,7 @@ SOGs--------------------------------------------------
         Dextrose 10% ➶
         Dextrose 50% ➶
         Thiamine ➶
+
     Foreign Body Airway Obstruction
         Anderson Pocket Medic ➶
         Anderson Pocket Medic ➶
@@ -421,6 +422,7 @@ SOGs--------------------------------------------------
         Universal Patient Care ➶
         Airway Management ➶
         Airway Management ➶
+
     Nausea/Vomiting
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -428,6 +430,7 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Ondansetron ➶
         Ondansetron ➶
+
     Seizure / Status Epilepticus
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -441,6 +444,7 @@ SOGs--------------------------------------------------
         Diabetic Emergencies Hypoglycemia ➶
         Eclapmsia-Pre Eclampsia
         Eclapmsia-Pre Eclampsia
+        
     Sepsis
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
