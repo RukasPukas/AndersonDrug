@@ -453,8 +453,8 @@ SOGs--------------------------------------------------
         Norepinephrine ➶
         Push Dose Epinephrine ➶
         Dopamine ➶
-        Capnography
-        
+        Capnography ➶
+
     Shock
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
