@@ -39,72 +39,98 @@
         </button>
       </div>
 
-
-
       <div
         id="searchResults"
         class="search-results"
         style="display: none"
       ></div>
 
-</head>
-<body>
+      <!-- BEGIN NEWS BULLETIN SECTION -->
+      <div
+        class="news-bulletin-carousel"
+        role="region"
+        aria-label="News bulletin"
+      >
+        <button
+          class="news-bulletin-btn news-bulletin-btn-prev"
+          type="button"
+          aria-label="Previous card"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path
+              d="M15 19L8 12l7-7"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
 
-  <!-- BEGIN NEWS BULLETIN SECTION-->
-      <div style="
-        display: inline-block;
-        text-align: center;
-        background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
-        border: 1px solid rgb(170, 186, 200);
-        border-radius: 16px;
-        padding: 18px 22px;
-        box-shadow: 0 10px 24px rgba(17, 24, 39, 0.12);
-        font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
-        color: #5a6b7a;
-        width: min(560px, 92vw);
-      ">
-        <!-- subtle top accent bar -->
-        <div style="
-          height: 4px;
-          background: linear-gradient(90deg, #3b82f6, #06b6d4);
-          border-radius: 999px;
-          margin-bottom: 12px;
-        "></div>
+        <!-- NEW: stage holds all cards -->
+        <div class="news-bulletin-stage">
+          <!-- CARD 1 -->
+          <div class="news-bulletin-container">
+            <div class="news-bulletin-accent"></div>
+            <!-- NEW: fixed-height media area -->
+            <div class="news-bulletin-media">
+              <img
+                src="indexSources/Images/DualLogo.png"
+                alt="LukiSoft + Anderson Hospital"
+                class="news-bulletin-logo"
+              />
+            </div>
+            <h2 class="news-bulletin-title">Anderson EMS Pocket Medic</h2>
+            <p class="news-bulletin-subtitle">Official release coming soon</p>
+          </div>
 
-        <img
-          src="indexSources/Images/DualLogo.png"
-          alt="LukiSoft + Anderson Hospital"
-          style="
-            display: block;
-            margin: 0 auto 12px auto;
-            width: min(320px, 70vw);
-            height: auto;
-            border-radius: 12px;
-            filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.12));
-          "
-        />
+          <!-- CARD 2 (example) -->
+          <div class="news-bulletin-container">
+            <div class="news-bulletin-accent"></div>
+            <!-- NEW: fixed-height media area -->
+            <div class="news-bulletin-media">
+              <div class="news-bulletin-media">
+                <a
+                  class="news-bulletin-link"
+                  href="https://www.canva.com/design/DAG19RTfbJc/Yp1AJy6lODUHg1Cvn9eg0A/view?utm_content=DAG19RTfbJc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2570a08010#1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Open PSRM design in Canva"
+                >
+                  <img
+                    src="indexSources/Images/PSRM.png"
+                    alt="LukiSoft + Anderson Hospital"
+                    class="news-bulletin-logo"
+                  />
+                </a>
+              </div>
+            </div>
+            <h2 class="news-bulletin-title">November 2025 PSRM</h2>
+            <p class="news-bulletin-subtitle">
+              Have you done your November PSRM?<br /><br />Get it done here!
+            </p>
+          </div>
+        </div>
 
-        <h2 style="
-          margin: 6px 0 4px 0;
-          font-size: 1.25rem;
-          letter-spacing: 0.2px;
-          color: #3c4a55;
-        ">
-          Anderson EMS Pocket Medic
-        </h2>
-
-        <p style="
-          margin: 0 0 12px 0;
-          font-weight: 600;
-          color: #64748b;
-        ">
-          Official release coming soon
-        </p>
+        <button
+          class="news-bulletin-btn news-bulletin-btn-next"
+          type="button"
+          aria-label="Next card"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path
+              d="M9 5l7 7-7 7"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
       </div>
-
-      <!-- END NEWS BULLETIN SECTION-->
-      
-
+      <!-- END NEWS BULLETIN SECTION -->
 
       <!--Begin SOG  Section-->
       <div class="spinner-toggle">
@@ -495,7 +521,7 @@
         >
           Conducted Electrical Weapon Injury<br />
           (Taser®)
-        </button>    
+        </button>
 
         <button
           onclick="location.href='/SOGSources/Trauma/CrushInjuries/Crush.html'"
@@ -563,8 +589,6 @@
           (Organophosphates / Nerve Agents)
         </button>
 
-  
-
         <button
           onclick="location.href='/SOGSources/Environmental/AltitudeIllness/Altitude.html'"
           data-alias="Decompression Sickness, Bends, Scuba Diving, Helicopter Emergencies, Mountain Rescue"
@@ -576,73 +600,71 @@
           onclick="location.href='/SOGSources/Environmental/Bites/Bites.html'"
           data-alias="Bites, Stings, Animals, Insects, Spiders, Snakes"
         >
-        Bites / Envnomation
-        </button>      
+          Bites / Envnomation
+        </button>
 
         <button
           onclick="location.href='/SOGSources/Environmental/COSmoke/COSmoke.html'"
           data-alias=" Carbon Monoxide, Smoke Inhalation, Fire, Burns"
         >
-        Carbon Monoxide / Smoke Inhalation
-        </button> 
-        
+          Carbon Monoxide / Smoke Inhalation
+        </button>
+
         <button
           onclick="location.href='/SOGSources/Environmental/Cyanide/Cyanide.html'"
           data-alias="Cyanide, Poisoning, Smoke Inhalation, Fire, Burns"
         >
-       Cyanide Poisoning
-        </button>           
+          Cyanide Poisoning
+        </button>
 
         <button
           onclick="location.href='/SOGSources/Environmental/DiveInjuries/DiveInjuries.html'"
           data-alias="Scuba, Diving, DCS, Decompression Sickness"
         >
-       Dive (SCUBA) Injury / Accidents
+          Dive (SCUBA) Injury / Accidents
         </button>
-        
+
         <button
           onclick="location.href='/SOGSources/Environmental/Drowning/Drowning.html'"
           data-alias="Drowning, Submersion, Near Drowning"
         >
-       Drowning / Submersion Injury
-        </button>  
-        
-        
+          Drowning / Submersion Injury
+        </button>
+
         <button
           onclick="location.href='/SOGSources/Environmental/Hyperthermia/Hyperthermia.html'"
           data-alias="Heat STroke, Hyperthermia, Heat Exhaustion"
         >
-       Environmental Hyperthermia
-        </button> 
-        
+          Environmental Hyperthermia
+        </button>
+
         <button
           onclick="location.href='/SOGSources/Environmental/Hypothermia/Hypothermia.html'"
           data-alias="Hypothermia, Frostbite, Cold Injury, Freezing, Cold Exposure"
         >
-       Environmental Hypothermia / Frostbite
-        </button>      
+          Environmental Hypothermia / Frostbite
+        </button>
 
         <button
           onclick="location.href='/SOGSources/Environmental/Lightning/Lightning.html'"
           data-alias="Storm, Lightning, Lightning Strike, Electrical Injury"
         >
-       Lightning / Lightning Strike Injury 
-        </button>    
+          Lightning / Lightning Strike Injury
+        </button>
 
         <button
           onclick="location.href='/SOGSources/Environmental/Overdose/Overdose.html'"
           data-alias="Drugs, Overdose, Poisoning, Substance Abuse"
         >
-       Poisoning and Overdose 
-        </button> 
+          Poisoning and Overdose
+        </button>
 
         <button
           onclick="location.href='/SOGSources/Environmental/Radiation/Radiation.html'"
           data-alias="Terrorism, Dirty Bomb, Nuclear, Fallout"
         >
-       Radiation Exposure 
-        </button>         
-
+          Radiation Exposure
+        </button>
       </div>
 
       <!--Begin Drugs Section-->
@@ -958,28 +980,27 @@
           onclick="location.href='/ReferenceMaterial/BIADSources/biad.html'"
         >
           BIAD
-        </button>          
+        </button>
 
         <button
           onclick="location.href='/ReferenceMaterial/CPAPSources/cpap.html'"
         >
           CPAP
-        </button>        
-
+        </button>
 
         <button
           onclick="location.href='/ReferenceMaterial/Cricothyrotomy/Cricothyrotomy.html'"
           data-alias="Surgical Airway, Emergency Airway"
         >
-        Cricothyrotomy
+          Cricothyrotomy
         </button>
-        
+
         <button
           onclick="location.href='/ReferenceMaterial/Defib/Defib.html'"
           data-alias="Defibrillation, DSD, Shocking, "
         >
-        Defibrillation / Double Sequential Defibrillation
-        </button>        
+          Defibrillation / Double Sequential Defibrillation
+        </button>
 
         <button
           onclick="location.href='/ReferenceMaterial/EKGSources/ekg.html'"
@@ -1015,7 +1036,6 @@
           onclick="location.href='/ReferenceMaterial/HemorrhageControl/HemorrhageControl.html'"
         >
           Hemorrhage Control Devices<br />
-          
         </button>
 
         <button
@@ -1028,12 +1048,12 @@
           onclick="location.href='/ReferenceMaterial/NeedleDecompression/NeedleDecompression.html'"
         >
           Needle Chest Decompression
-        </button>        
+        </button>
 
         <button
           onclick="location.href='/ReferenceMaterial/IntubationSources/Intubation.html'"
         >
-          Orotracheal Intubation 
+          Orotracheal Intubation
         </button>
 
         <button
@@ -1046,8 +1066,8 @@
           onclick="location.href='/ReferenceMaterial/Restraints/Restraints.html'"
           data-alias="Combative patients, Police, Tie down"
         >
-        Physical Restraints
-        </button>                
+          Physical Restraints
+        </button>
 
         <button
           onclick="location.href='/ReferenceMaterial/RichmondSources/richmond.html'"
@@ -1064,25 +1084,22 @@
         <button
           onclick="location.href='/ReferenceMaterial/Synchronized/Synchronized.html'"
         >
-          Synchronized Cardioversion 
-        </button>         
+          Synchronized Cardioversion
+        </button>
 
-        <button
-          onclick="location.href='/ReferenceMaterial/TCP/TCP.html'"
-        >
+        <button onclick="location.href='/ReferenceMaterial/TCP/TCP.html'">
           Transcutaneous Pacing
-        </button>        
-        
+        </button>
+
         <button
           onclick="location.href='/ReferenceMaterial/Capnography/capnography.html'"
         >
           Waveform Capnography
         </button>
-
       </div>
       <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
       <script src="indexSources/indexjs.js"></script>
-
+      <script src="indexSources/newsBulletin.js"></script>
     </main>
     <div id="disclaimer-modal" class="modal">
       <div class="modal-content">
@@ -1140,12 +1157,12 @@
           display: block;
           margin-left: auto;
           margin-right: auto;
-          width: 100px; 
+          width: 100px;
           height: auto;
           border-radius: 15px;
         "
       />
-      
+
       &copy; 2025 LukiSoft. All rights reserved.
     </p>
   </footer>
