@@ -760,15 +760,16 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Airway Management ➶
         Nausea/Vomiting ➶
-        
+
     Head Injury
         Anderson Pocket Medic ➶
         Spinal Motion Restriction 
         Altered mental Status ➶
-        Spinal Motion Restriction
+        Spinal Motion Restriction ➶
         Intercept Criteria ➶
-        waveform capnography
+        waveform capnography ➶
         Airway Management ➶
+
     Neck Injuries/Deformity
         Anderson Pocket Medic ➶
         Initial Trauma Care ➶
@@ -777,6 +778,7 @@ SOGs--------------------------------------------------
         Needle Decompression
         Shock ➶
         Shock ➶
+        
     SMR 
         Anderson Pocket Medic ➶
     TXA 
