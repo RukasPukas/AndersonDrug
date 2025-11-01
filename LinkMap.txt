@@ -862,11 +862,11 @@ SOGs--------------------------------------------------
         Environmental Hypothermia ➶
         Dive SCUBA Injury / Accidents ➶
         Intercept Criteria ➶
-        CPAP
+        CPAP ➶
         Intercept Criteria ➶
         Airway management ➶
-        CPAP
-        
+        CPAP ➶
+
     Environmental Hyperthermia
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -877,6 +877,7 @@ SOGs--------------------------------------------------
         Midazolam ➶
         Diazepam ➶
         Seizure / Status Epilepticus ➶
+
     Environmental Hypothermia / Frostbite
         Universal Patient Care ➶
         Hypothermic Cardiac Arrest ➶
@@ -886,6 +887,7 @@ SOGs--------------------------------------------------
         Cardiac Arrest ➶
         Airway Management ➶
         Intercept Criteria ➶
+
     Lightning
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -895,6 +897,7 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Airway Management ➶
         Pain Management ➶
+
     Poisoning and Overdose
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -911,16 +914,17 @@ SOGs--------------------------------------------------
         Chest Pain ➶
         Behavioral Emergencies ➶
         Sodium Bicarbonate ➶
-    Radiation Exposure
-        Anderson Pocket Medic
-        Universal Patient Care
-        Burns
-        Nausea / Vomiting
-        Seizure
-        Intercept Criteria
-        Nausea / Vomiting
-        Seizure
 
+    Radiation Exposure
+        Anderson Pocket Medic ➶
+        Universal Patient Care ➶
+        Burns ➶
+        Nausea / Vomiting ➶
+        Seizure ➶
+        Intercept Criteria ➶
+        Nausea / Vomiting ➶
+        Seizure ➶
+ 
         
         
         
