@@ -123,10 +123,27 @@ footer.footer p {
 }
 
 .MainBody h2 {
-  color: white;
-  margin-top: 0;
+  color: #ffffff;
+  margin: 0 auto 20px auto; /* centers horizontally */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 40px;
+  font-weight: 800;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  display: block;
+  width: 90%;
+
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.05)
+  );
+  padding: 14px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .AllLevels {
