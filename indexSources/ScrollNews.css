@@ -1,6 +1,57 @@
-/* BEGIN NEWS BULLETIN STYLES */
+/* ===========================
+   NEWS BULLETIN — COMPLETE CSS
+   =========================== */
+
+/* Vars: single source of truth */
+:root {
+  --nb-width: min(560px, 94vw); /* overall max width */
+  --nb-height: 280px; /* fixed card height */
+  --nb-media-height: 110px; /* reserved image area height */
+}
+
+/* Wrapper around the card so buttons can overlay/align */
+.news-bulletin-carousel {
+  position: relative;
+  width: 100%;
+  max-width: var(--nb-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible; /* allow buttons to show fully */
+  box-sizing: border-box;
+  padding: 0 8px; /* a little gutter on tiny screens */
+}
+
+/* Stage holds all cards */
+.news-bulletin-stage {
+  position: relative;
+  width: 100%;
+  max-width: var(--nb-width);
+  margin: 0 auto;
+}
+
+/* Show one card at a time (JS controls visibility) */
+.news-bulletin-stage > .news-bulletin-container {
+  display: none;
+}
+/* First card visible if JS is disabled */
+.news-bulletin-stage > .news-bulletin-container:first-child {
+  display: block;
+}
+
+/* The card itself */
 .news-bulletin-container {
-  display: inline-block;
+  width: 100%;
+  height: var(--nb-height);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden; /* protect against oversized media */
+  box-sizing: border-box;
+
+  /* visual styles from your original */
   text-align: center;
   background: linear-gradient(180deg, #ffffff 0%, #f7fafc 100%);
   border: 1px solid rgb(170, 186, 200);
@@ -9,24 +60,49 @@
   box-shadow: 0 10px 24px rgba(17, 24, 39, 0.12);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #5a6b7a;
-  width: min(560px, 92vw);
 }
 
 /* Subtle top accent bar */
 .news-bulletin-accent {
   height: 4px;
+  width: 100%;
   background: linear-gradient(90deg, #3b82f6, #06b6d4);
   border-radius: 999px;
   margin-bottom: 12px;
 }
 
-/* Logo styling */
-.news-bulletin-logo {
-  display: block;
-  margin: 0 auto 12px auto;
+/* Fixed-height media box that centers images/links */
+.news-bulletin-media {
+  height: var(--nb-media-height);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+/* Link fills the media box and centers its contents */
+.news-bulletin-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  line-height: 0; /* removes inline gap around img */
+}
+
+/* Image shrinks to fit the media area */
+.news-bulletin-media .news-bulletin-logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
   height: auto;
+  object-fit: contain; /* preserve aspect, no crop */
+  display: block;
   border-radius: 12px;
   filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.12));
+  margin: 0;
 }
 
 /* Title text */
@@ -42,21 +118,6 @@
   margin: 0 0 12px 0;
   font-weight: 600;
   color: #64748b;
-}
-/* END NEWS BULLETIN STYLES */
-
-/* Wrapper around the card so buttons can overlay/align */
-.news-bulletin-carousel {
-  position: relative;
-  width: 100%;
-  max-width: var(--nb-width);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden; /* keeps things contained */
-  box-sizing: border-box;
-  padding: 0 6px; /* adds breathing room on tiny screens */
 }
 
 /* Nav buttons (shared) */
@@ -94,50 +155,12 @@
   outline-offset: 2px;
 }
 
-/* Left/Right positions */
+/* Left/Right positions (keep inside edges) */
 .news-bulletin-btn-prev {
-  left: -12px;
+  left: 4px;
 }
 .news-bulletin-btn-next {
-  right: -12px;
-}
-
-/* Optional: hide buttons on super-small viewports so they don't overlap weirdly */
-@media (max-width: 360px) {
-  .news-bulletin-btn {
-    height: 36px;
-    width: 36px;
-  }
-  .news-bulletin-btn-prev {
-    left: -8px;
-  }
-  .news-bulletin-btn-next {
-    right: -8px;
-  }
-}
-
-/* Respect reduced motion users */
-@media (prefers-reduced-motion: reduce) {
-  .news-bulletin-btn {
-    transition: none;
-  }
-}
-
-/* Stage that holds all cards */
-.news-bulletin-stage {
-  position: relative;
-  width: min(560px, 92vw);
-  margin: 0 auto;
-}
-
-/* We'll show one card at a time via JS (fade) */
-.news-bulletin-stage > .news-bulletin-container {
-  display: none; /* JS will show the active one */
-}
-
-/* First-card visible if JS is disabled */
-.news-bulletin-stage > .news-bulletin-container:first-child {
-  display: block;
+  right: 4px;
 }
 
 /* Disabled state for nav buttons (e.g., only one card) */
@@ -147,104 +170,46 @@
   pointer-events: none;
 }
 
-/* --- Fixed dimensions (tweak numbers as you like) --- */
-:root {
-  --nb-width: min(520px, 92vw);
-  --nb-height: 280px;
-  --nb-media-height: 110px;
-}
-
-.news-bulletin-stage {
-  width: var(--nb-width);
-  margin: 0 auto;
-}
-
-/* Make every card the same height and prevent layout shift */
-.news-bulletin-container {
-  height: var(--nb-height);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  overflow: hidden; /* in case an image tries to overflow during load */
-}
-
-/* Fixed-height media box that centers images */
-.news-bulletin-media {
-  height: var(--nb-media-height);
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 12px;
-}
-
-/* Images shrink-to-fit the box while keeping aspect ratio */
-.news-bulletin-media .news-bulletin-logo {
-  max-height: 100%;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain; /* ensures no cropping */
-  display: block;
-  border-radius: 12px;
-  filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.12));
-  margin: 0; /* override any previous auto margins */
-}
-
-/* Optional: responsive adjustments for tiny screens */
-@media (max-width: 380px) {
-  :root {
-    --nb-height: 320px;
-    --nb-media-height: 120px;
+/* Respect reduced motion users */
+@media (prefers-reduced-motion: reduce) {
+  .news-bulletin-btn {
+    transition: none;
   }
 }
 
-/* Link fills the media box and centers its contents */
-.news-bulletin-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  line-height: 0; /* remove extra inline spacing around img */
-}
-
-/* Image shrinks to fit the media area */
-.news-bulletin-media .news-bulletin-logo {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
- 0;
-}
-
+/* ---------- Responsive Tweaks ---------- */
 @media (max-width: 480px) {
   :root {
-    --nb-width: 94vw;
+    --nb-width: 95vw;
     --nb-height: 250px;
     --nb-media-height: 100px;
   }
 
   .news-bulletin-container {
-    padding: 14px 16px;
+    padding: 14px 14px;
   }
-
   .news-bulletin-title {
     font-size: 1.1rem;
   }
-
   .news-bulletin-subtitle {
-    font-size: 0.9rem;
+    font-size: 0.92rem;
   }
 
+  .news-bulletin-btn {
+    height: 40px;
+    width: 40px;
+  }
   .news-bulletin-btn-prev {
-    left: -4px;
+    left: 2px;
   }
   .news-bulletin-btn-next {
-    right: -4px;
+    right: 2px;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --nb-height: 240px;
+    --nb-media-height: 90px;
   }
 }
