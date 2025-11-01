@@ -666,35 +666,38 @@ SOGs--------------------------------------------------
         Universal Patient Care ➶
         Intercept Criteria ➶
         Shock ➶
-        
+
     Initial Trauma Care
         Anderson Pocket Medic ➶
-        EXTREMITY TRAUMA / EXTERNAL HEMORRHAGE MANAGEMENT 
+        EXTREMITY TRAUMA / EXTERNAL HEMORRHAGE MANAGEMENT ➶
         Airway Management ➶
-        Spinal Motion Restriction
-        Region 4 Trauma Triage Algorithm
-        Orotracheal Intubation
-        EXTREMITY TRAUMA / EXTERNAL HEMORRHAGE MANAGEMENT 
-        Spinal Motion Restriction
-        Management of Tension Pneumothorax
-        Spinal Motion Restriction
-        Management of Tension Pneumothorax
-        Capnography
-        Capnography
-        Management of Tension Pneumothorax
-        Spinal Motion Restriction
+        Spinal Motion Restriction ➶
+        Region 4 Trauma Triage Algorithm ➶
+        Orotracheal Intubation ➶
+        EXTREMITY TRAUMA / EXTERNAL HEMORRHAGE MANAGEMENT  ➶
+        Spinal Motion Restriction ➶
+        Management of Tension Pneumothorax ➶
+        Spinal Motion Restriction ➶
+        Management of Tension Pneumothorax ➶
+        Capnography ➶
+        Capnography ➶
+        Management of Tension Pneumothorax ➶
+        Spinal Motion Restriction ➶
         Universal Patient Care ➶
-        Spinal Motion Restriction
-        Extremity Trauma / External Hemorrahage Management
+        Spinal Motion Restriction ➶
+        Extremity Trauma / External Hemorrahage Management ➶
         Pain Management ➶
         Nausea / Vomiting ➶
+
     Trauma Triage Algorithm
         Anderson Pocket Medic ➶
+
     Abdominal Injuries
         Anderson Pocket Medic ➶
         Intercept Criteria ➶
         Tranexamic ➶
         Pain Management ➶
+
     Blast Injuries
         Anderson Pocket Medic ➶
         Extremity Trauma
@@ -703,6 +706,7 @@ SOGs--------------------------------------------------
         Head Injury
         Spinal Motion Restriction
         Burns
+        
     Burns
         Anderson Pocket Medic ➶
         Initial Trauma Care ➶
