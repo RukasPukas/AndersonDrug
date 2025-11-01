@@ -700,13 +700,13 @@ SOGs--------------------------------------------------
 
     Blast Injuries
         Anderson Pocket Medic ➶
-        Extremity Trauma
+        Extremity Trauma ➶
         Airway Management ➶
-        Spinal Motion Restriction
-        Head Injury
-        Spinal Motion Restriction
-        Burns
-        
+        Spinal Motion Restriction ➶
+        Head Injury ➶
+        Spinal Motion Restriction ➶
+        Burns ➶
+
     Burns
         Anderson Pocket Medic ➶
         Initial Trauma Care ➶
@@ -717,6 +717,7 @@ SOGs--------------------------------------------------
         Cyaniade Poisoining
         Airway Management ➶
         Pain Management ➶
+        
     Chest Injuries  
         Anderson Pocket Medic ➶
         Intercept Criteria ➶
