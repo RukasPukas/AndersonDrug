@@ -278,43 +278,64 @@ footer.footer p {
 
 .StartTable {
   width: 90%;
-  margin: 10px auto;
-  background-color: #ffffff;
-  border-radius: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
+  margin: 16px auto;
   border-collapse: separate;
-  border-spacing: 5px;
+  border-spacing: 0;
   table-layout: fixed;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Source Sans Pro", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-size: 0.95em;
 }
 
+/* Header cells */
 .StartTable th {
-  background-color: rgb(173, 181, 177);
-  color: #000;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.8em;
-  padding: 10px;
-  border-radius: 10px;
+  background: linear-gradient(to bottom, #e0e0e0, #cfcfcf);
+  color: #222;
+  font-weight: 700;
+  padding: 12px 14px;
   text-align: center;
-  vertical-align: middle;
-  border-collapse: collapse;
-  width: 50%;
+  border-bottom: 2px solid #bbb;
+  letter-spacing: 0.5px;
+  font-size: 0.9em;
 }
 
+/* Table body cells */
 .StartTable td {
-  background-color: white;
-  padding: 8px 10px;
-  font-size: 0.6em;
-
-  border: #000 solid 2px;
-  border-radius: 10px;
+  background-color: #ffffff;
+  color: #111;
+  padding: 10px 14px;
   text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 0.9em;
+  line-height: 1.5;
 }
 
-.StartTable th,
-.StartTable td {
-  width: auto;
-  padding: 10px;
+/* Row hover for gentle interactivity */
+.StartTable tr:hover td {
+  background-color: #f8faff;
+}
+
+/* Optional subtle row separation */
+.StartTable tr:not(:last-child) td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Rounded corners on first/last row */
+.StartTable tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+.StartTable tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+.StartTable tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+.StartTable tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
 }
 
 .EndTable {
