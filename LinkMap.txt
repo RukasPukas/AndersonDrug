@@ -732,9 +732,9 @@ SOGs--------------------------------------------------
 
     Taser
         Anderson Pocket Medic ➶
-        capnograpny
+        capnograpny ➶
         behavioral emergencies ➶
-        
+
     Crush Injuries
         Anderson Pocket Medic ➶
         Initial Trauma Care ➶
@@ -744,6 +744,7 @@ SOGs--------------------------------------------------
         Sodium Bicarbonate ➶
         Calcium Chloride ➶
         Calcium Gluconate ➶ 
+        
     Extremity Trauma
         Anderson Pocket Medic  ➶
         Initial Trauma Care ➶
