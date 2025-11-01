@@ -1,70 +1,50 @@
-#AdultGeneral {
-  background-color: #000000;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
+/* ======= Unified Header Style Template ======= */
+#AdultGeneral,
+#GenMed,
+#Cardiac,
+#OB,
+#Trauma,
+#Toxin {
+  font-family: "Montserrat", "Source Sans Pro", "Segoe UI", Tahoma, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
   text-align: center;
-  border: 5px solid rgb(0, 0, 0);
-  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  padding: 14px 0;
+  border-radius: 10px;
+  margin: 0 auto 22px auto;
+  width: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 1.5rem; /* clean, bold header size */
+}
+
+/* ======= Category-Specific Gradients ======= */
+#AdultGeneral {
+  background: linear-gradient(to bottom right, #000000, #1a1a1a);
 }
 
 #GenMed {
-  background-color: #120b75;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-  text-align: center;
-  border: 5px solid rgb(38, 28, 139);
-  color: white;
+  background: linear-gradient(to bottom right, #120b75, #1d18a8);
 }
 
 #Cardiac {
-  background-color: #df1616;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(234, 9, 9, 0.1);
-  font-family: Arial, sans-serif;
-  text-align: center;
-  border: 5px solid rgb(230, 18, 18);
-  color: white;
+  background: linear-gradient(to bottom right, #df1616, #f85151);
 }
+
 #OB {
-  background-color: #7114e4;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(111, 23, 219, 0.1);
-  font-family: Arial, sans-serif;
-  text-align: center;
-  border: 5px solid rgb(116, 17, 182);
-  color: white;
+  background: linear-gradient(to bottom right, #7114e4, #9a5cf1);
 }
 
 #Trauma {
-  background-color: #158711;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(15, 144, 60, 0.1);
-  font-family: Arial, sans-serif;
-  text-align: center;
-  border: 5px solid rgb(13, 112, 43);
-  color: white;
+  background: linear-gradient(to bottom right, #158711, #25c11e);
 }
 
 #Toxin {
-  background-color: #e5e529;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(198, 228, 27, 0.1);
-  font-family: Arial, sans-serif;
-  text-align: center;
-  border: 5px solid rgb(190, 226, 72);
-  color: white;
+  background: linear-gradient(to bottom right, #e5e529, #f6f68b);
+  color: #222;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.6);
 }
