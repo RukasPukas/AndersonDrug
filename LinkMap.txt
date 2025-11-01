@@ -717,7 +717,7 @@ SOGs--------------------------------------------------
         Cyaniade Poisoining
         Airway Management ➶
         Pain Management ➶
-        
+
     Chest Injuries  
         Anderson Pocket Medic ➶
         Intercept Criteria ➶
@@ -729,6 +729,7 @@ SOGs--------------------------------------------------
         Tranexamic Acid ➶
         Pain Management ➶
         Region 4 Trauma Triage Algorithm ➶
+        
     Taser
         Anderson Pocket Medic ➶
         capnograpny
