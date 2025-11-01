@@ -774,13 +774,14 @@ SOGs--------------------------------------------------
         Anderson Pocket Medic ➶
         Initial Trauma Care ➶
         Intercept Criteria ➶
-        Orotracheal Intubation
-        Needle Decompression
+        Orotracheal Intubation ➶
+        Needle Decompression ➶
         Shock ➶
         Shock ➶
-        
+
     SMR 
         Anderson Pocket Medic ➶
+
     TXA 
         ANDERSON pocket Medic ➶
         Trauma Triage Algorithm ➶
@@ -790,6 +791,7 @@ SOGs--------------------------------------------------
         TXA ➶
         TXA ➶
         TXA ➶
+
     Traumatic Arrest
         Anderson Pocket Medic ➶
         Withholding Resuscitation Efforts ➶
@@ -798,6 +800,7 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Needle Decompression
         Cardiac Arrest ➶
+
     Organophosphates
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -806,6 +809,7 @@ SOGs--------------------------------------------------
         Atropine ➶
         Atropine ➶
         Seizure Status Epilepticus ➶
+
     Altitude Illness
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -815,6 +819,7 @@ SOGs--------------------------------------------------
         Ondansetron  ➶
         Dexamethasone ➶
         Dexamethasone ➶
+        
     Bites and Envenomation 
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
