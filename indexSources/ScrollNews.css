@@ -48,11 +48,15 @@
 /* Wrapper around the card so buttons can overlay/align */
 .news-bulletin-carousel {
   position: relative;
-  width: min(620px, 96vw);
+  width: 100%;
+  max-width: var(--nb-width);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden; /* keeps things contained */
+  box-sizing: border-box;
+  padding: 0 6px; /* adds breathing room on tiny screens */
 }
 
 /* Nav buttons (shared) */
@@ -145,9 +149,9 @@
 
 /* --- Fixed dimensions (tweak numbers as you like) --- */
 :root {
-  --nb-width: min(560px, 70vw);
-  --nb-height: 300px; /* total card height stays the same */
-  --nb-media-height: 140px; /* reserved space for the image area */
+  --nb-width: min(520px, 92vw);
+  --nb-height: 280px;
+  --nb-media-height: 110px;
 }
 
 .news-bulletin-stage {
@@ -214,8 +218,33 @@
   width: auto;
   height: auto;
   object-fit: contain;
-  display: block;
-  border-radius: 12px;
-  filter: drop-shadow(0 4px 10px rgba(15, 23, 42, 0.12));
-  margin: 0;
+}
+ 0;
+}
+
+@media (max-width: 480px) {
+  :root {
+    --nb-width: 94vw;
+    --nb-height: 250px;
+    --nb-media-height: 100px;
+  }
+
+  .news-bulletin-container {
+    padding: 14px 16px;
+  }
+
+  .news-bulletin-title {
+    font-size: 1.1rem;
+  }
+
+  .news-bulletin-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .news-bulletin-btn-prev {
+    left: -4px;
+  }
+  .news-bulletin-btn-next {
+    right: -4px;
+  }
 }
