@@ -748,17 +748,19 @@ SOGs--------------------------------------------------
     Extremity Trauma
         Anderson Pocket Medic  ➶
         Initial Trauma Care ➶
-        Tourniquet 
-        Hemostatic Gauze
-        Junctional Hemostatic Device
+        Tourniquet ➶
+        Hemostatic Gauze ➶
+        Junctional Hemostatic Device ➶
         Tranexamic ➶
         Pain Management ➶
+
     Facial Injury
         Anderson Pocket Medic ➶
         Initial Trauma Care ➶
         Intercept Criteria ➶
         Airway Management ➶
         Nausea/Vomiting ➶
+        
     Head Injury
         Anderson Pocket Medic ➶
         Spinal Motion Restriction 
