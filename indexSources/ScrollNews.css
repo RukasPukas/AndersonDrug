@@ -213,3 +213,51 @@
     --nb-media-height: 90px;
   }
 }
+
+/* --- DESKTOP CLIP HOT-FIX --- */
+
+/* Ensure nothing in the chain clips the card/buttons */
+.news-bulletin-carousel,
+.news-bulletin-stage,
+.news-bulletin-container {
+  overflow: visible !important;
+}
+
+/* Make the stage the positioning context and keep buttons INSIDE the card */
+.news-bulletin-stage {
+  position: relative;
+}
+.news-bulletin-btn {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.news-bulletin-btn-prev {
+  left: 8px;
+}
+.news-bulletin-btn-next {
+  right: 8px;
+}
+
+/* Allow the card to grow on environments where fonts render taller */
+.news-bulletin-container {
+  min-height: var(--nb-height) !important;
+  height: auto !important;
+}
+
+/* Reserve image area height without stretching the card */
+.news-bulletin-media {
+  flex: 0 0 var(--nb-media-height);
+  height: var(--nb-media-height);
+}
+
+/* Guard against a global border-radius/overflow on an ancestor */
+.news-bulletin-carousel {
+  clip-path: inset(0 round 0) !important;
+}
+
+/* If the card sits inside a flex/grid parent, avoid overflow quirks */
+.news-bulletin-carousel {
+  min-width: 0;
+}
