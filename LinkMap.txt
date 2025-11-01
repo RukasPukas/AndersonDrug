@@ -831,16 +831,17 @@ SOGs--------------------------------------------------
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Intercept Criteria ➶
-        CPAP
+        CPAP ➶
         Intercept Criteria ➶
         Airway Management ➶
-        Cyanide Poisoning
-        
+        Cyanide Poisoning ➶
+
     Cyaniade Poisoning
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Intercept Criteria ➶
         Hydroxcobalamin 
+        
     Dive Injury Accidents
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
