@@ -68,15 +68,20 @@ footer.footer p {
 }
 
 .pearlsFormat {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  border-radius: 10px;
-  padding: 10px;
-  margin-top: 20px;
-  width: 100%;
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: #f9f9f9;
+  border-left: 6px solid #00bcd4; /* teal-blue accent bar */
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 24px auto;
+  width: 90%;
+  font-family: "Montserrat", "Source Sans Pro", Arial, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  position: relative;
 }
 
 .blackCenter {
@@ -220,18 +225,29 @@ footer.footer p {
 }
 
 .MainBody p {
-  font-size: 15px;
   width: 90%;
-  margin: 0 auto;
-
-  text-align: left;
+  margin: 12px auto;
+  padding: 16px 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #f9f9f9 100%);
+  color: #111;
   border-radius: 10px;
-  background-color: white;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+
+  font-family: "Source Sans Pro", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  text-align: left;
+
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.MainBody p:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 
 .Indention {
