@@ -723,17 +723,18 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Needle Decompression
         Airway Management ➶
-        CPAP
-        Waveform Capnography
-        Needle Decompression
+        CPAP ➶
+        Waveform Capnography ➶
+        Needle Decompression ➶
         Tranexamic Acid ➶
         Pain Management ➶
         Region 4 Trauma Triage Algorithm ➶
-        
+
     Taser
         Anderson Pocket Medic ➶
         capnograpny
         behavioral emergencies ➶
+        
     Crush Injuries
         Anderson Pocket Medic ➶
         Initial Trauma Care ➶
