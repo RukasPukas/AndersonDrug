@@ -841,18 +841,19 @@ SOGs--------------------------------------------------
         Universal Patient Care ➶
         Intercept Criteria ➶
         Hydroxcobalamin 
-        
+
     Dive Injury Accidents
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
-        Drowning / Submersion
-        Environmental Hypothermia 
+        Drowning / Submersion ➶
+        Environmental Hypothermia  ➶
         Intercept Criteria ➶
-        CPAP
+        CPAP ➶
         Intercept Criteria ➶
-        CPAP
-        CPAP
+        CPAP ➶
+        CPAP ➶
         Airway Management ➶
+
     Drowning/Submersion
         Anderson Pocket Medic ➶
         SMR ➶
@@ -865,6 +866,7 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Airway management ➶
         CPAP
+        
     Environmental Hyperthermia
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
