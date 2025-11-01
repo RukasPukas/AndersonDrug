@@ -813,19 +813,20 @@ SOGs--------------------------------------------------
     Altitude Illness
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
-        CPAP
+        CPAP ➶
         Ibuprofen ➶
         Acetaminophen ➶
         Ondansetron  ➶
         Dexamethasone ➶
         Dexamethasone ➶
-        
+
     Bites and Envenomation 
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
         Allergic Reaction ➶ 
         Intercept Criteria ➶
         Pain Management ➶
+
     Carbon Monoxide / Smoke Inhalation
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
@@ -834,6 +835,7 @@ SOGs--------------------------------------------------
         Intercept Criteria ➶
         Airway Management ➶
         Cyanide Poisoning
+        
     Cyaniade Poisoning
         Anderson Pocket Medic ➶
         Universal Patient Care ➶
