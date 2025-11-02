@@ -304,78 +304,67 @@ footer.footer p {
 }
 
 .EndTable {
-  max-width: 90%;
+  width: 90%;
   margin: 16px auto;
   table-layout: fixed;
   border-collapse: separate;
-  border-spacing: 0; /* tighter, cleaner */
-  background: #cbeefd; /* keep your base blue */
+  border-spacing: 0;
+  background: #cbeefd;
   border-radius: 12px;
-  overflow: hidden; /* rounds header corners cleanly */
+  overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   font-family: "Source Sans Pro", "Segoe UI", Tahoma, Arial, sans-serif;
-  font-size: 0.95em; /* slight readability bump */
-}
-
-/* Header */
-.EndTable th {
-  background: linear-gradient(
-    to bottom,
-    #d1d7d5,
-    #bfc6c3
-  ); /* refine your rgb(173,181,177) */
-  color: #111;
-  font-weight: 700;
-  font-size: 1em; /* was 1.2 (missing unit) -> normalized */
-  text-align: center;
-  padding: 12px 14px;
-  letter-spacing: 0.3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
-}
-
-/* Body cells */
-.EndTable td {
-  background: #e9f6ff; /* lighter tint of your blue for contrast */
-  color: #111;
-  padding: 12px 14px;
   font-size: 0.95em;
-  line-height: 1.55;
-  text-align: left;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  /* remove heavy borders & per-cell radii for a cleaner slab */
+  color: #111;
+  text-align: left; /* ensures baseline alignment */
 }
 
-/* Subtle zebra to aid scanning (keeps palette) */
-.EndTable tr:nth-child(even) td {
-  background: #dff1fe;
-}
-
-/* Row hover – gentle, modern */
-.EndTable tbody tr:hover td {
-  background: #f7fbff;
-}
-
-/* First/last column padding polish (optional) */
-.EndTable td:first-child,
-.EndTable th:first-child {
-  padding-left: 18px;
-}
-.EndTable td:last-child,
-.EndTable th:last-child {
-  padding-right: 18px;
-}
-
-/* Optional: compact header caps for visual hierarchy */
+/* Headers */
 .EndTable th {
-  text-transform: uppercase;
+  background: linear-gradient(to bottom, #d1d7d5, #bfc6c3);
+  color: #222;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 14px 16px;
+  text-align: center; /* centered header titles */
+  vertical-align: middle;
+  letter-spacing: 0.4px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  line-height: 1.4;
 }
 
-/* Optional small caption styling if you use <caption> */
-.EndTable caption {
-  caption-side: top;
-  padding: 10px 0;
-  font-weight: 700;
-  color: #0b3a60;
+/* Data cells */
+.EndTable td {
+  background-color: #e9f6ff;
+  color: #111;
+  padding: 14px 18px;
+  line-height: 1.6; /* improves readability */
+  vertical-align: top; /* keeps multi-line cells aligned nicely */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Optional subtle zebra pattern */
+.EndTable tr:nth-child(even) td {
+  background-color: #dff1fe;
+}
+
+/* Hover highlight */
+.EndTable tr:hover td {
+  background-color: #f7fbff;
+}
+
+/* Rounded corners cleanup */
+.EndTable tr:first-child th:first-child {
+  border-top-left-radius: 12px;
+}
+.EndTable tr:first-child th:last-child {
+  border-top-right-radius: 12px;
+}
+.EndTable tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+.EndTable tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
 }
 
 .QMTable {
