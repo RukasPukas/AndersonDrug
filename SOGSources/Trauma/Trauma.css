@@ -418,15 +418,66 @@ footer.footer p {
 
 .QMTable {
   width: 90%;
-  margin: 10px auto;
-  background-color: #f4e195;
-  border-radius: 10px;
-  padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
+  margin: 16px auto;
   border-collapse: separate;
-  border-spacing: 10px;
+  border-spacing: 0;
+  background: linear-gradient(180deg, #f6e9aa 0%, #f4e195 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-family: "Source Sans Pro", "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 0.95em;
+  color: #2b2b2b;
 }
+
+/* Table headers */
+.QMTable th {
+  background: linear-gradient(to bottom, #f1d867, #eac44d);
+  color: #222;
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  padding: 12px 14px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+/* Table cells */
+.QMTable td {
+  background-color: #fffdf3;
+  color: #111;
+  padding: 12px 14px;
+  line-height: 1.6;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Subtle row striping */
+.QMTable tr:nth-child(even) td {
+  background-color: #fff8dc;
+}
+
+/* Hover highlight */
+.QMTable tr:hover td {
+  background-color: #fffbe8;
+}
+
+/* Rounded corners for first/last rows */
+.QMTable tr:first-child th:first-child {
+  border-top-left-radius: 12px;
+}
+.QMTable tr:first-child th:last-child {
+  border-top-right-radius: 12px;
+}
+.QMTable tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+.QMTable tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
 #weightSelect {
   width: 200px;
   padding: 8px 12px;
