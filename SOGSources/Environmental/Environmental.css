@@ -367,7 +367,6 @@ footer.footer p {
   font-weight: 700;
   font-size: 1em;
   padding: 14px 16px;
-  text-align: center; /* centered header titles */
   vertical-align: middle;
   letter-spacing: 0.4px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.08);
