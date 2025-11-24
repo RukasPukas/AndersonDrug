@@ -8,124 +8,125 @@
     />
 
     <title>FireFighter Rehabilitation</title>
-    <link rel="icon" href="favicon.ico" type="image/png" />
+    <link rel="icon" href="../../Images/favicon.ico" type="image/png" />
     <link rel="stylesheet" href="FireRehab.css" />
   </head>
   <body>
-
     <a href="/index.html" class="header-link">
       <div class="header">
         <h1>Anderson EMS Pocket Medic</h1>
       </div>
     </a>
-  <h1>Firefighter Rehabilitation</h1>
+    <h1>Firefighter Rehabilitation</h1>
 
- <div class="flowchart">
-
-    
-    <div class="box green">Initial Actions
+    <div class="flowchart">
+      <div class="box green">
+        Initial Actions
         <p>1. Establish a Rehab Sector</p>
         <p>2. Remove PPE from Firefighter</p>
-        <p>3. Establish Baseline Assessment
-            <br>-Mental Status
-            <br>-Skin Condition
-            <br>-Baseline Vitals</p>
-        
-    </div>
-    <div class="arrow down"></div>
+        <p>
+          3. Establish Baseline Assessment <br />-Mental Status <br />-Skin
+          Condition <br />-Baseline Vitals
+        </p>
+      </div>
+      <div class="arrow down"></div>
 
-    <!-- Step 2: Medical Assessment -->
-    <div class="box yellow">Medical Assessment
+      <!-- Step 2: Medical Assessment -->
+      <div class="box yellow">
+        Medical Assessment
         <p>1. Normal Mental Status</p>
-        <p>2. Heart Rate  &lt; 110</p>
-        <p>3. Systolic Blood Pressure  &lt; 150</p>
-        <p>4. Diastolic Blood Pressure  &lt; 100</p>
-        <p>5. Temperature  &lt; 100.6 F</p>
-    </div>
-    <div class="arrow down"></div>
+        <p>2. Heart Rate &lt; 110</p>
+        <p>3. Systolic Blood Pressure &lt; 150</p>
+        <p>4. Diastolic Blood Pressure &lt; 100</p>
+        <p>5. Temperature &lt; 100.6 F</p>
+      </div>
+      <div class="arrow down"></div>
 
-   
-<div class="decision">
-  <div class="decision-option">
-    <div class="arrow-label">Yes</div>
-    <div class="arrow down"></div>
-  </div>
-  <div class="decision-option">
-    <div class="arrow-label">No</div>
-    <div class="arrow down"></div>
-  </div>
-</div>
-
-    <div class="branches">
-      <div class="branch">
-        <div class="box red">Standard Rehab
-            <p>1. Hydrate orally with 16 oz of fluids</p>
-            <p>2. Implement passive cooling measures with sensitivity to environment/shelter</p>
-            <p>3. Rest for 10 minutes</p>
-            <p>4. If medical assessment remains within normal limits as listed above, release from rehab after 10 minutes, if not refer to MEDICAL REHAB</p>
+      <div class="decision">
+        <div class="decision-option">
+          <div class="arrow-label">Yes</div>
+          <div class="arrow down"></div>
         </div>
-        <div class="arrow down"></div>
-        <div class="box gold">Return to Staging</div>
+        <div class="decision-option">
+          <div class="arrow-label">No</div>
+          <div class="arrow down"></div>
+        </div>
       </div>
 
-      <!-- Right path: Medical Rehab -->
-      <div class="branch">
-        <div class="box blue">Medical Rehab
+      <div class="branches">
+        <div class="branch">
+          <div class="box red">
+            Standard Rehab
+            <p>1. Hydrate orally with 16 oz of fluids</p>
+            <p>
+              2. Implement passive cooling measures with sensitivity to
+              environment/shelter
+            </p>
+            <p>3. Rest for 10 minutes</p>
+            <p>
+              4. If medical assessment remains within normal limits as listed
+              above, release from rehab after 10 minutes, if not refer to
+              MEDICAL REHAB
+            </p>
+          </div>
+          <div class="arrow down"></div>
+          <div class="box gold">Return to Staging</div>
+        </div>
+
+        <!-- Right path: Medical Rehab -->
+        <div class="branch">
+          <div class="box blue">
+            Medical Rehab
             <p>1. Consider move to Ambulance for further treatment</p>
             <p>2. Implement active cooling (wet towels and ice)</p>
             <p>3. Hydrate orally 32 oz. of fluids</p>
             <p>4. Remain in Rehab for 15 to 20 minutes</p>
             <p>5. Reassess medically every 5 minutes</p>
-
-        </div>
+          </div>
           <div class="arrow down"></div>
           <div class="boxfusica">Return to normal?</div>
           <div class="arrow down"></div>
         </div>
-        
-    </div>
-<div class="decision">
-  <div class="decision-option">
-    <div class="arrow-label">Yes</div>
-    <div class="arrow down"></div>
-  </div>
-  <div class="decision-option">
-    <div class="arrow-label">No</div>
-    <div class="arrow down"></div>
-  </div>
-  
-</div>
-<div class="branches">
-  <div class="branch">
-    <div class="box gold">Return to Staging</div>
-  </div>
-  <div class="branch">
-    <div class="box gray">Consider Transport to ED</div>
-  </div>
-</div>
-
+      </div>
+      <div class="decision">
+        <div class="decision-option">
+          <div class="arrow-label">Yes</div>
+          <div class="arrow down"></div>
+        </div>
+        <div class="decision-option">
+          <div class="arrow-label">No</div>
+          <div class="arrow down"></div>
+        </div>
+      </div>
+      <div class="branches">
+        <div class="branch">
+          <div class="box gold">Return to Staging</div>
+        </div>
+        <div class="branch">
+          <div class="box gray">Consider Transport to ED</div>
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="FireRehab.js"></script>
-      <footer class="footer">
-    <p>
-      <img
-        src="../../LukiSoftLogo.png"
-        alt="Field Triage Algorithm"
-        style="
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width: 100px; 
-          height: auto;
-          border-radius: 15px;
-        "
-      />
-      
-      &copy; 2025 LukiSoft. All rights reserved.
-    </p>
-  </footer>
-  </body>
+    <footer class="footer">
+      <p>
+        <img
+          src="../../LukiSoftLogo.png"
+          alt="Field Triage Algorithm"
+          style="
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100px;
+            height: auto;
+            border-radius: 15px;
+          "
+        />
 
+        &copy; 2025 LukiSoft. All rights reserved.
+      </p>
+    </footer>
+  </body>
 </html>
