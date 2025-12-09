@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anderson EMS Pocket Medic</title>
+    <link
+      rel="icon"
+      href="../Images/GeneralImages/favicon.ico"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="BugReporter.css" />
+  </head>
+  <body>
+    <a href="../index.html" class="header-link">
+      <div class="header">
+        <h1>Anderson EMS Pocket Medic</h1>
+      </div>
+    </a>
+
+    <div class="MainBody">
+      <h2>Bug Reporter</h2>
+      <form id="bug-report-form">
+        <label for="bug-description"
+          >Select Section the issue was found in:</label
+        ><br />
+        <select id="section-select" name="section-select">
+          <option value="" disabled selected hidden>Make a selection...</option>
+          <option value="HomePage">Home Page</option>
+          <option value="Medications">Medications</option>
+          <option value="Reference">Reference Material</option>
+          <option value="SOGs">SOGs</option>
+        </select>
+
+        <label for="bug-description">Describe the issue you encountered:</label
+        ><br />
+        <textarea
+          id="bug-description"
+          name="bug-description"
+          rows="10"
+          cols="50"
+          placeholder="Please provide a detailed description of the bug you encountered..."
+        ></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit Bug Report" />
+      </form>
+
+      <div class="InitialBody"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="BugReporter.js"></script>
+  </body>
+  <footer class="footer">
+    <img
+      src="../Images/GeneralImages/LukiSoftLogo.png"
+      alt="Field Triage Algorithm"
+      style="
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: auto;
+        border-radius: 15px;
+      "
+    />
+    <p>&copy; 2025 LukiSoft. All rights reserved.</p>
+  </footer>
+</html>
