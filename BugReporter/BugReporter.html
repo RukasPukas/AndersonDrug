@@ -32,6 +32,12 @@
           <option value="SOGs">SOGs</option>
         </select>
 
+        <div id="subsection-wrapper" style="display: none">
+          <select id="subsection-select" name="subsection-select">
+            <option value="" disabled selected hidden>Select Subsection</option>
+          </select>
+        </div>
+
         <label for="bug-description">Describe the issue you encountered:</label
         ><br />
         <textarea
@@ -43,7 +49,7 @@
         ></textarea
         ><br /><br />
 
-        <input type="submit" value="Submit Bug Report" />
+        <input type="submit" id="SubmitButton" value="Submit Bug Report" />
       </form>
 
       <div class="InitialBody"></div>

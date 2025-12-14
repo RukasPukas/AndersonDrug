@@ -212,7 +212,7 @@ label {
   margin: 10px auto;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 18px;
-  color: #999595;
+  color: #c9c4c4;
 }
 
 #bug-report-form textarea {
@@ -229,13 +229,14 @@ select {
   font-size: 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #052e16;
-  background: linear-gradient(135deg, #3cb8e6, #0a88db);
+  background: linear-gradient(#7bcce9, #0a88db);
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4),
     0 4px 10px rgba(0, 0, 0, 0.18);
   cursor: pointer;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  background-size: 14px;
 }
 
 select:hover,
@@ -250,6 +251,38 @@ select option[disabled] {
   font-style: italic;
 }
 
-select {
+subsection-select {
+  width: 90%;
+  padding: 12px 16px;
+  font: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #052e16;
+  background: linear-gradient(#7bcce9, #0a88db);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 4px 10px rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   background-size: 14px;
+}
+
+#subsection-wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#SubmitButton {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  border-width: 3px;
+  border-radius: 8px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+#SubmitButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
