@@ -164,4 +164,73 @@ $(function () {
       $wrapper.show();
     }
   });
+
+  $("#bug-report-form").on("submit", function (e) {
+    e.preventDefault();
+    const section = $("#section-select").val();
+    const subsectionVisible = $("#subsection-wrapper").is(":visible");
+    const subsection = $("#subsection-select").val();
+    const description = $("#bug-description").val().trim();
+
+    if (!section) {
+      alert("Please select a section.");
+
+      return;
+    }
+
+    if (subsectionVisible && !subsection) {
+      alert("Please select a subsection.");
+
+      return;
+    }
+
+    if (description.length < 20) {
+      alert(
+        "Please provide a more detailed description (at least 20 characters)."
+      );
+
+      return;
+    }
+
+    console.log(
+      "Bug Report: \n\n Section: " +
+        section +
+        "\n\n Subsection: " +
+        subsection +
+        "\n\n Description: " +
+        description
+    );
+
+    const EmailTo = "AndersonPocketMedic@gmail.com";
+    const subject = `Bug Report - ${section}${
+      subsectionVisible ? " - " + subsection : ""
+    }`;
+
+    const body = [
+      "Anderson EMS Pocket Medic - Bug Report",
+      "------------------------------------",
+      `Section: ${section}`,
+      `Subsection: ${subsectionVisible ? subsection : "(none)"}`,
+      "",
+      "Description:",
+      description,
+      "",
+      `Submitted: ${new Date().toLocaleString()}`,
+    ].join("\n");
+
+    const mailtoUrl =
+      `mailto:${encodeURIComponent(EmailTo)}` +
+      `?subject=${encodeURIComponent(subject)}` +
+      `&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoUrl;
+
+    alert(
+      "Your email app should open with the bug report pre-filled. Please press Send to submit."
+    );
+
+    setTimeout(() => {
+      window.location.href = "../index.html";
+    }, 800);
+  });
 });
