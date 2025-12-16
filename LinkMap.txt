@@ -72,30 +72,116 @@ Index-------------------------------------------------
 
     Medications
         Acetaminophen ➶
+            Anderson Pocket Medic ➶
+            Pain Management ➶
+            Altitude Illness ➶
         Adenosine ➶
+            Anderson Pocket Medic ➶        
+            Narrow complex Tachcardia (regular) ➶
+            Wide complex Tachycardia ➶
         Albuterol ➶
+            Anderson Pocket Medic ➶
+            Allergic Reaction / Anaphylaxis; ➶
+            Bronchospasm / Asthma / COPD; ➶
+            Tracheostomy Tube-Respiratory Distress/Ventilator; ➶
+            Crush Injuries; ➶
+            Diabetic Emergencies-Hyperglycemia; ➶
         Amiodarone ➶
+            Anderson Pocket Medic ➶
+            Tachycardia (with a Pulse)-Wide Complex; ➶
+            Cardiac Arrest (VFib / Pulseless VTach); ➶
         Aspirin ➶
+            Anderson Pocket Medic ➶
+            ChestPain/Acute Coronary Syndrome/STEMI ➶
         Atropine Sulfate ➶
+            Anderson Pocket Medic ➶
+            Bradycardia ➶
+            Acetylcholinesterase Inhibitors ➶
         Calcium Chloride ➶
+            Anderson Pocket Medic ➶
+            Diabetic Emergencies-Hyperglycemia; ➶
+            Crush Injuries; ➶
+            Poisoning and Overdose; ➶
+            Cardiac Arrest - Asystole/PEA; ➶
         Calcium Gluconate ➶
+            Anderson Pocket Medic ➶
+            Diabetic Emergencies-Hyperglycemia; ➶
+            Crush Injuries; ➶
+            Poisoning and Overdose ➶
+            Cardiac Arrest - Asystole/PEA ➶
         Dexamethasone ➶
+            Anderson Pocket Medic ➶
+            Allergic Reaction/Anaphylaxis; ➶
+            Bronchospasm/Asthma/COPD; ➶
+            Altitude Illness-AMS/HACE ➶
         Dextrose 10% ➶
+            Anderson Pocket Medic ➶
+            Altered Mental Status; ➶
+            Diabetic Emergencies-Hypoglycemia; ➶
         Dextrose 50% ➶
+            Anderson Pocket Medic ➶
+            Altered Mental Status; ➶
+            Diabetic Emergencies-Hypoglycemia; ➶           
         Diazepam ➶
+            Anderson Pocket Medic ➶
+            Seizure ➶
+            ACS ➶
+            Hyperthermia ➶
         Diltiazem ➶
+            Anderson Pocket Medic ➶
+            Tachycardia (with a Pulse)-Narrow Complex-Irregular Rhythm ➶
         Diphenhydramine ➶
+            Anderson Pocket Medic ➶
+            Allergic Reaction/Anaphylaxis ➶
         Dopamine ➶
+            Anderson Pocket Medic ➶
+            CHF/Pulmonary Edema;
+            ROSC;
+            Shock
         DuoNeb ➶
+            Anderson Pocket Medic ➶
+            Allergic Reaction / Anaphylaxis; ➶
+            Bronchospasm / Asthma / COPD; ➶
+            Tracheostomy Tube-Respiratory Distress/Ventilator; ➶
         Epinephrine 1:1,000 ➶
+            Anderson Pocket Medic ➶
+            Allergic Reaction / Anaphylaxis;
+            Bronchospasm / Asthma / COPD;
+            Pediatric Respiratory Distress;
         Epinephrine 1:10,000 ➶
+            Anderson Pocket Medic ➶
+            Cardiac Arrest General ➶
         Epinephrine 1:100,000 ➶
+            Anderson Pocket Medic ➶
+            Bradycardia; ➶
+            CHF / Pulmonary Edema; ➶
+            ROSC; ➶
+            Sepsis; ➶
+            Shock; ➶
         Epinephrine Racemic ➶
+            Anderson Pocket Medic ➶
         Etomidate ➶
+            Anderson Pocket Medic ➶
+            Assisted (Medication) Intubation; ➶
+            Tachycardia (synchronized cardioversion); ➶
         Fentanyl ➶
+            Anderson Pocket Medic ➶
+            Pain Management; ➶
+            Assisted (Medication) Intubation-post intubation; ➶
+            Chest Pain; ➶
         Glucagon ➶
+            Anderson Pocket Medic ➶
+            Altered Mental Status; ➶
+            Diabetic Emergencies; ➶
+            Poisoning and Overdose (Beta Blocker and Calcium Channel Blocker) ➶
         Haloperidol ➶
+            Anderson Pocket Medic ➶
+            Agitated or Violent Patient/Behavioral Emergencies ➶
+            Midazolam ➶
+            Richmond Agitation-Sedation Scale ➶
         Hydralazine ➶
+            Anderson Pocket Medic ➶
+            Eclampsia/ Pre-Eclampsia  ➶
         Ibueprofen ➶
         Ketamine ➶
         Ketorolac ➶

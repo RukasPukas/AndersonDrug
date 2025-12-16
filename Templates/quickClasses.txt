@@ -38,3 +38,19 @@ Weight Div Section:
 
 🛑
 
+.working-link {
+  color: rgb(72, 129, 235);
+  text-decoration: underline;
+  cursor: pointer;
+  pointer-events: auto;
+  font-weight: bold;
+}
+
+.working-link visited {
+  color: rgb(72, 129, 235);
+}
+.working-link:hover {
+  color: rgb(26, 84, 245);
+  font-weight: bolder;
+}
+..
