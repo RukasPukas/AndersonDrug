@@ -81,20 +81,18 @@ p {
   border-radius: 5px;
 }
 
-a{
+a {
   color: cornflowerblue;
   text-decoration: none;
   font-weight: bold;
   display: inline-block;
-  transition: transform 0.2s ease, color 0.2s ease; 
-  
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
-a:hover{
-  color: deepskyblue; 
-  transition: transform 0.2s ease, color 0.2s ease; 
+a:hover {
+  color: deepskyblue;
+  transition: transform 0.2s ease, color 0.2s ease;
   transform: scale(1.1);
-  
 }
 /* ========== Responsive Layout ========== */
 @media (max-width: 500px) {
@@ -148,4 +146,19 @@ button:active {
 button:focus {
   outline: none;
   box-shadow: 0 0 5px deepskyblue;
+}
+.working-link {
+  color: rgb(72, 129, 235);
+  text-decoration: underline;
+  cursor: pointer;
+  pointer-events: auto;
+  font-weight: bold;
+}
+
+.working-link visited {
+  color: rgb(72, 129, 235);
+}
+.working-link:hover {
+  color: rgb(26, 84, 245);
+  font-weight: bolder;
 }

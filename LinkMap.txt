@@ -183,24 +183,89 @@ Index-------------------------------------------------
             Anderson Pocket Medic ➶
             Eclampsia/ Pre-Eclampsia  ➶
         Ibueprofen ➶
+            Anderson Pocket Medic ➶
+            Pain Management ➶
+            Altitude Illness ➶
         Ketamine ➶
+            Anderson Pocket Medic ➶
+            Agitated or Violent Patient/Behavioral Emergencies;
+            Pain Management;
+            Assisted (Medication) Intubation;
+            Post-Intubation;
+            Richmond Agitation Scale ➶
         Ketorolac ➶
+            Anderson Pocket Medic ➶
+            Pain Management ➶
         Labetalol ➶
+            Anderson Pocket Medic ➶
+            Eclampsia ➶
+            Eclampsia ➶
         Lidocaine ➶
+            Anderson Pocket Medic ➶
+            Tachycardia (with a Pulse) - Wide Complex; ➶
+            Cardiac Arrest - (VFib / Pulseless V-Tach); ➶
         Lorazepam ➶
-        Magnesium Sulfate ➶
-        Methylprednisolone ➶
+            Anderson Pocket Medic ➶
+            Agitated or Violent Patient/Behavioral Emergencies; ➶
+            Pain Management; ➶
+            Seizures/Status Epilepticus; ➶
+        Magnesium Sulfate ➶ 
+            Anderson Pocket Medic ➶
+            Bronchospasm / Asthma / COPD; ➶
+            Eclampsia / Pre-Eclapmsia; ➶
+            Tachycardia (with a Pulse)-Wide Complex (Torsades); ➶
+            Cardiac Arrest-(V-Fib/Pulseless V-Tach)(Torsades); ➶
+        Methylprednisolone ➶ 
+            Anderson Pocket Medic ➶
+            Allergic Reaction / Anaphylaxis; ➶
+            Bronchospasm / Asthma / COPD; ➶
         Metropolol ➶
+            Anderson Pocket Medic ➶
+            Tachycardia (Symptomatic with a pulse);
         Midazolam ➶ 
+            Anderson Pocket Medic ➶
+            Agitated or Violent Patient/Behavioral Emergencies; ➶
+            Bradycardia; ➶
+            Tachycardia-Narrow Complex (Regular); ➶
+            Tachycardia-Narrow Complex (Irregular);  ➶
+            Tachycardia-Wide Complex; ➶
+            Chest Pain/ACS/STEMI; ➶
+            Environmental Hyperthermia ➶
+            Assisted (Medication) Intubation; ➶
+            Seizure / Status Epilepticus; ➶
         Morphine Sulfate ➶
+            Anderson Pocket Medic ➶
+            Pain Management
         Naloxone ➶
+            Anderson Pocket Medic ➶
+            Poisoning and Overdose; ➶
         Nitroglycerin ➶
+            Anderson Pocket Medic ➶
+            Chest Pain / Acute Coronary Syndrome / STEMI; ➶
+            CHF / Pulmonary Edema; ➶
         Norepinephrine ➶
+            Anderson Pocket Medic ➶
+            CHF / Pulmonary Edema; ➶
+            ROSC; ➶
+            Sepsis; ➶
+            Shock; ➶
         Ondansetron ➶
+            Anderson Pocket Medic  ➶
+            Nausea/Vomiting ➶
         Oral Glucose ➶
+            Anderson Pocket Medic ➶
+            Diabetic Hypoglycemia  ➶
         Sodium Bicarbonate ➶
+            Anderson Pocket Medic ➶
+            Cardiac Arrest-(Asystole / PEA); ➶
+            Poisoning and Overdose (Tricyclic Antidepressants); ➶
+            Diabetic Emergencies Hyperglycemia (Hyperkalemia); ➶
+            Crush Injuries; ➶
         Thiamine / Vitamin B1 ➶
+            Anderson Pocket Medic ➶
+            AMS ➶
         Tranexamic Acid ➶
+            Anderson Pocket Medic
     
     Reference Material
         APGAR Scoring ➶
